@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">  
+  <bean id="sysUserService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysUserServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysUsergroupService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysUsergroupServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysUsergroupMenusService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysUsergroupMenusServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysUsergroupUserService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysUsergroupUserServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="ywCompanyService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.YwCompanyServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="ywRegionService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.YwRegionServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysMenuService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysMenuServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysActionService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysActionServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysActionItemService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysActionItemServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysUsergroupActionService" parent="baseTransactionProxy"> 
+    <property name="target"> 
+      <bean class="com.yf.base.service.SysUsergroupActionServiceImpl"> 
+        <property name="daoHandler"> 
+          <ref bean="daoHandler"/> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="sysDictionaryService" parent="baseTransactionProxy">
+    <property name="target">
+      <bean class="com.yf.base.service.SysDictionaryServiceImpl">
+        <property name="daoHandler">
+          <ref bean="daoHandler"/>
+        </property>
+      </bean>
+    </property>
+  </bean>
+</beans>

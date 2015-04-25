@@ -1,0 +1,89 @@
+<chart palette='5' caption='Product Sales' xAxisName='Month'
+	yAxisName='Sales' numberPrefix='$' rotateValues='1'
+	placeValuesInside='1' forceYAxisValueDecimals='1'
+	yAxisValueDecimals='2'>
+	<categories>
+		<category label='12' />
+		<category label='机架设备' />
+		<category label='无线设备' />
+		<category label='WIFI设备' />
+		<category label='接入设备' />
+		<category label='移动设备' />
+		<category label='宽带设备' />
+		<category label='固话设备' />
+		<category label='宏基站设备' />
+		<category label='基站设备' />
+		<category label='用房管理设备' />
+		<category label='节能设备' />
+		<category label='硬件设备' />
+		<category label='改造设备' />
+		<category label='新建设备' />
+		<category label='天然气设备' />
+		<category label='本地网设备' />
+		<category label='监控设备' />
+		<category label='数据设备' />
+		<category label='室处机柜设备' />
+		<category label='增值设备' />
+		<category label='采购设备' />
+		<category label='1' />
+		<category label='5' />
+		<category label='2' />
+		<category label='1' />
+	</categories>
+	<dataset seriesname='expected' color='F0807F' showValues='1'>
+		<set value='836.0' />
+		<set value='240.0' />
+		<set value='900.0' />
+		<set value='420.0' />
+		<set value='820.0' />
+		<set value='900.0' />
+		<set value='2840.0' />
+		<set value='1140.0' />
+		<set value='420.0' />
+		<set value='2480.0' />
+		<set value='420.0' />
+		<set value='240.0' />
+		<set value='280.0' />
+		<set value='240.0' />
+		<set value='280.0' />
+		<set value='280.0' />
+		<set value='840.0' />
+		<set value='440.0' />
+		<set value='280.0' />
+		<set value='280.0' />
+		<set value='280.0' />
+		<set value='500.0' />
+		<set value='76.0' />
+		<set value='228.0' />
+		<set value='-21.0' />
+		<set value='-14.0' />
+	</dataset>
+	<dataset seriesname='actual' color='F1C7D2' showValues='1'>
+		<set value='2.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+		<set value='21.0' />
+		<set value='14.0' />
+		<set value='141.0' />
+		<set value='21.0' />
+		<set value='21.0' />
+		<set value='21.0' />
+		<set value='12.0' />
+		<set value='0.0' />
+		<set value='1.0' />
+		<set value='0.0' />
+		<set value='0.0' />
+	</dataset>
+</chart>

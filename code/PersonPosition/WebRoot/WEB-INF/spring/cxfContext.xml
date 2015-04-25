@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="   
+        http://www.springframework.org/schema/beans    
+	        http://www.springframework.org/schema/beans/spring-beans-2.0.xsd   
+	        http://cxf.apache.org/jaxws    
+        http://cxf.apache.org/schemas/jaxws.xsd">
+
+	<!--导入与CXF框架有关的xml-->
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+
+	<!--发布WebService接口-->
+	<jaxws:endpoint id="service" implementor="com.yf.ws.DataBaseServiceImpl"
+		address="/Service">
+
+	</jaxws:endpoint>
+</beans>  

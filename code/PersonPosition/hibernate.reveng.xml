@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="DICTIONARY_TBL" schema="JNGH"></table>
+	<table name="GH_PURCHASE_TBL" schema="JNGH"></table>
+	<table name="GH_DATA_CENTER_TBL" schema="JNGH"></table>
+	<table name="MAP_POSITION_TBL" schema="CCFLOW"></table>
+	<table name="SYS_MENU_TBL" schema="CVMSDB2"></table>
+</hibernate-reverse-engineering>

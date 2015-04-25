@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:sec="http://www.springframework.org/schema/security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+              http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.xsd">
+<!-- http://wenku.baidu.com/view/95c1d7f9941ea76e58fa043c.html  spring security 资料 -->
+	<sec:http auto-config="false" session-fixation-protection="newSession"  >
+		
+		<sec:intercept-url pattern="/upLoadServlet" 
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/upload/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/TruTalkService.asmx/RequestPhoneData" 
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/remoting/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/ws/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/before-login.action"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/login.action"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/validateCode.gif"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/hr/**"
+			access="ROLE_USER" />
+		<sec:intercept-url pattern="/adapter/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+
+		<sec:intercept-url pattern="/script/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/file/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/css/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/resources/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/img/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+		<sec:intercept-url pattern="/images/**"
+			access="ROLE_ANONYMOUS,ROLE_USER" />
+			
+		<sec:intercept-url pattern="/charts/**"
+		access="ROLE_ANONYMOUS,ROLE_USER" />
+			
+		<sec:intercept-url pattern="/**" access="ROLE_USER"/>
+		<sec:intercept-url pattern="/*" access="ROLE_USER"  />
+		
+		
+		<sec:form-login login-page="/login.action"     
+		     authentication-failure-url="/login.action?error=1"	     
+			default-target-url="/main.action" />
+			<!--  expired-url="/login.action?error=2"  -->
+		<sec:concurrent-session-control max-sessions="3" 
+		     exception-if-maximum-exceeded="false"/>	
+		     
+		<sec:anonymous />
+		<sec:logout logout-success-url="/login.action"  invalidate-session="true" />
+		<sec:remember-me  />
+		<!-- http://whp0731.iteye.com/blog/454478  一个帐号同时只能先登录 -->
+	</sec:http>
+	<bean id="loggerListener"
+		class="org.springframework.security.event.authentication.LoggerListener" />
+		
+	<sec:authentication-provider
+		user-service-ref="userDetailService">
+		<sec:password-encoder ref="passwordEncoder">
+			<sec:salt-source user-property="username" />
+		</sec:password-encoder>
+	</sec:authentication-provider>
+
+	<bean id="passwordEncoder"
+		class="org.springframework.security.providers.encoding.ShaPasswordEncoder">
+	</bean>
+	<bean id="userDetailService" class="com.yf.base.auth.SystemUserDetailService">
+		<property name="daoHandler" ref="daoHandler" />
+	</bean>
+   <bean class="com.yf.servlet.filter.WebServiceCheckFilter">
+		<sec:custom-filter before="CHANNEL_FILTER" />
+		<property name="allowIps">
+			<list>
+				<value>192.168.1</value>
+				<value>127.0.0.1</value>
+			</list>
+		</property>
+		<property name="webServiceUrl" value="/ws" />
+		<property name="failRedirectUrl" value="/login.action?error=1" ></property>
+	</bean>
+	<bean class="com.yf.servlet.filter.CheckFilter">
+	 	<property name="sysUserService">                    
+	        <ref bean="sysUserService"/>
+	    </property>
+	    <property name="sysActionItemService">                    
+	        <ref bean="sysActionItemService"/>
+	    </property>
+		<sec:custom-filter after="LAST" />
+	</bean>
+	<!--<sec:authentication-manager alias="authenticationManager" />-->
+</beans>
+
+

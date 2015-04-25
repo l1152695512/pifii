@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trades>
+	<!-- 系统业务 -->
+	<trade>
+		<tradeCode>1000</tradeCode>
+		<className>com.yf.base.actions.phone.DetailRoom</className>
+		<methodName>getDetailRoomJSON</methodName>
+		<description>系统登陆</description>
+	</trade>
+	<trade>
+		<tradeCode>1001</tradeCode>
+		<className>com.yf.base.actions.phone.DetailRoom</className>
+		<methodName>getDetailRoomJSON1</methodName>
+		<description>系统退出</description>
+	</trade>
+
+</trades>

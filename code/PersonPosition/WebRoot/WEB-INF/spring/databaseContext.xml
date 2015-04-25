@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">  
+  <context:property-placeholder location="/WEB-INF/config/jdbc.properties"/>  
+  <bean id="mainDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close"> 
+    <!-- 各种数据库连接例子   http://windgjh.blog.sohu.com/9401426.html -->  
+    <!--<property name="driverClassName" value="net.sourceforge.jtds.jdbc.Driver"/>   -->  
+    <!--<property name="driverClassName" value="com.microsoft.jdbc.sqlserver.SQLServerDriver"/>  -->  
+    <property name="driverClassName" value="${jdbc.driverClassName}"/>  
+    <!-- 
+    <property name="url" value="${jdbc.url}"/>  
+    <property name="username" value="${jdbc.username}"/>  
+    <property name="password" value="${jdbc.password}"/>    
+    <property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+     -->  
+    <!--<property name="url" value="jdbc:oracle:thin:@113.105.224.39:1521:orcl"/>  
+    <property name="username" value="jngh"/>  
+    <property name="password" value="jngh"/>-->  
+    <!-- <property name="url" value="jdbc:oracle:thin:@localhost:1521:jlgl"/>  
+    <property name="username" value="jnghtest"/>  
+    <property name="password" value="jnghtest"/>  -->  
+    <property name="url" value="${jdbc.url}"/>  
+    <property name="username" value="${jdbc.username}"/>  
+    <property name="password" value="${jdbc.password}"/> 
+  </bean>  
+  <!-- 生产环境下的参数设置，要根据实际情况
+  <bean id="mainDataSource" class="com.jolbox.bonecp.BoneCPDataSource" destroy-method="close">
+    <property name="driverClass" value="oracle.jdbc.OracleDriver"/>
+    <property name="jdbcUrl" value="jdbc:oracle:thin:@192.168.3.96:1521:prtic"/>
+    <property name="username" value="prthr"/>
+    <property name="password" value="prthr"/>
+    <property name="idleConnectionTestPeriod" value="60"/>
+    <property name="idleMaxAge" value="240"/>
+    <property name="maxConnectionsPerPartition" value="60"/>
+    <property name="minConnectionsPerPartition" value="20"/>
+    <property name="partitionCount" value="3"/>
+    <property name="acquireIncrement" value="10"/>
+    <property name="statementsCacheSize" value="50"/>
+    <property name="releaseHelperThreads" value="3"/>
+  </bean>
+   -->  
+  <bean id="dataSource" class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy"> 
+    <property name="targetDataSource"> 
+      <ref local="mainDataSource"/> 
+    </property> 
+  </bean>  
+  <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"> 
+    <property name="dataSource"> 
+      <ref bean="dataSource"/> 
+    </property>  
+    <property name="hibernateProperties"> 
+      <props> 
+        <!-- <prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop> 
+       -->  
+        <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>  
+        <!-- hibernate 3.3以下版本 -->  
+        <!--<prop key="hibernate.cache.provider_class">net.sf.ehcache.hibernate.EhCacheProvider</prop>  -->  
+        <!-- hibernate 3.3以上版本 -->  
+        <prop key="hibernate.cache.region.factory_class">net.sf.ehcache.hibernate.EhCacheRegionFactory</prop>  
+        <!-- <prop key="hibernate.show_sql">${hibernate.showsql}</prop>    -->  
+        <prop key="hibernate.show_sql">false</prop>  
+        <prop key="hibernate.cache.use_query_cache">true</prop>  
+        <prop key="hibernate.generate_statistics">true</prop>  
+        <prop key="hibernate.jdbc.batch_size">15</prop> 
+      </props> 
+    </property>  
+    <!--    <property name="collectionCacheStrategies">-->  
+    <!--    	<props>-->  
+    <!--    	</props>-->  
+    <!--    </property>-->  
+    <property name="mappingDirectoryLocations"> 
+      <list> 
+        <!--<value>classpath:com/yf/${project.name}/db/vo/</value>  -->  
+        <value>classpath:com/yf/base/db/vo/</value> 
+      </list> 
+    </property>  
+    <property name="entityInterceptor"> 
+      <bean class="com.yf.util.ImageDeleteInterceptor"> 
+        <property name="fileStore"> 
+          <ref bean="fileStore"/> 
+        </property>  
+        <property name="imageClassNames"> 
+          <list> 
+            <value>com.yf.base.db.vo.Employee</value> 
+          </list> 
+        </property>  
+        <property name="imageProperties"> 
+          <list> 
+            <value>photoPath</value> 
+          </list> 
+        </property> 
+      </bean> 
+    </property> 
+  </bean>  
+  <bean id="baseTransactionProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean" abstract="true" lazy-init="default" autowire="default" dependency-check="default"> 
+    <property name="transactionManager"> 
+      <ref bean="transactionManager"/> 
+    </property>  
+    <property name="transactionAttributes"> 
+      <props> 
+        <prop key="find*">PROPAGATION_REQUIRED,readOnly</prop>  
+        <prop key="get*">PROPAGATION_REQUIRED,readOnly</prop>  
+        <prop key="add*">PROPAGATION_REQUIRED</prop>  
+        <prop key="update*">PROPAGATION_REQUIRED</prop>  
+        <prop key="delete*">PROPAGATION_REQUIRED</prop>  
+        <prop key="set*">PROPAGATION_REQUIRED</prop>  
+        <prop key="initObject*">PROPAGATION_REQUIRED</prop>  
+        <prop key="save*">PROPAGATION_REQUIRED</prop>  
+        <prop key="doJob*">PROPAGATION_REQUIRED</prop>  
+        <prop key="fetch*">PROPAGATION_REQUIRED</prop>  
+        <prop key="exec*">PROPAGATION_REQUIRED</prop>  
+        <prop key="run*">PROPAGATION_REQUIRED</prop>  
+        <prop key="*">PROPAGATION_REQUIRED,readOnly</prop>  
+        <!-- 生产环境下，下这行去掉   -->  
+        <!-- <prop key="_*">PROPAGATION_REQUIRED</prop> --> 
+      </props> 
+    </property> 
+  </bean>  
+  <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager" lazy-init="default" autowire="default" dependency-check="default"> 
+    <property name="sessionFactory"> 
+      <ref bean="sessionFactory"/> 
+    </property> 
+  </bean>  
+  <!-- 作用于特定URL的Interceptor -->  
+  <!-- 列出的url在一次 http请求与应答过程中，session都是打开的，不会出现session is closed 异常 -->  
+  <bean id="openSessionInViewFilterDelegate" class="com.yf.servlet.filter.OpenSessionInViewFilterDelegate"> 
+    <property name="mappings"> 
+      <list> 
+        <!--        <value>/**/*.action</value> --> 
+      </list> 
+    </property> 
+  </bean>  
+  <bean id="daoHandler" class="com.yf.base.db.handler.DaoHandler" init-method="init" autowire="byName"/>  
+  <bean id="commonDAO" class="com.yf.data.base.CommonDAO">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysActionDAO" class="com.yf.base.db.dao.SysActionDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysActionItemDAO" class="com.yf.base.db.dao.SysActionItemDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysDictionaryDAO" class="com.yf.base.db.dao.SysDictionaryDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysMenuDAO" class="com.yf.base.db.dao.SysMenuDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysUserDAO" class="com.yf.base.db.dao.SysUserDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysUsergroupActionDAO" class="com.yf.base.db.dao.SysUsergroupActionDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysUsergroupDAO" class="com.yf.base.db.dao.SysUsergroupDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysUsergroupMenusDAO" class="com.yf.base.db.dao.SysUsergroupMenusDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="sysUsergroupUserDAO" class="com.yf.base.db.dao.SysUsergroupUserDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="ywCompanyDAO" class="com.yf.base.db.dao.YwCompanyDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+  <bean id="ywRegionDAO" class="com.yf.base.db.dao.YwRegionDAOImpl">
+    <property name="sessionFactory">
+      <ref bean="sessionFactory"/>
+    </property>
+  </bean>
+</beans>

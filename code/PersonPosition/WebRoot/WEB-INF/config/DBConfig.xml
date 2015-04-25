@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db-config>
+	<pool>
+		<name>yfbizdb2</name>
+		<type>oracle</type>
+		<driver>oracle.jdbc.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@192.168.1.110:1521:orcl</url>
+		<username>cvmsdb2</username>
+		<password>cvmsdb2</password>
+		<maxconn>500</maxconn>
+	</pool>
+	
+	<pool>
+		<name>yfbizdb</name>
+		<type>mysql</type>
+		<driver>com.mysql.jdbc.Driver</driver>
+		<url>jdbc:mysql://localhost:3306/person_position?useUnicode=true&amp;characterEncoding=utf8</url>
+	<!-- 	<url>jdbc:mysql://113.106.98.60:3306/person_position?useUnicode=true&amp;characterEncoding=utf8</url> -->
+		<username>root</username>
+		<password></password>
+		<maxconn>500</maxconn>
+	</pool>
+</db-config>

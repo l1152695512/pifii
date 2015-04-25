@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ds-config>
+
+	<service>
+		<description>服务器地址</description>
+		<serveradd>http://192.168.1.110:8088/GreenEnergySys</serveradd>
+	</service>
+	
+	<ccflow>
+		<description>ccflow工作流服务器地址</description>
+		<enginehostname>127.0.0.1</enginehostname>
+	</ccflow>
+	
+	<tcp>
+		<description>tcp服务器地址</description>
+		<enginehostname>127.0.0.1</enginehostname>
+	</tcp>
+	
+	<uploadPath>
+		<description>上传图片到文件服务器路径</description>
+		<upLoadImagePath>/upload/Image/</upLoadImagePath>
+		<description>上传文件到文件服务器路径</description>
+		<upLoadFilePath>/upload/File/</upLoadFilePath>
+	</uploadPath>
+
+	<downloadPath>
+		<description>下载文件的文件服务器路径</description>
+		<downLoadPath>/home/fsserver/fsdown/</downLoadPath>
+		<description>文件存放本地路径</description>
+		<savePath>file/waitupload/</savePath>
+	</downloadPath>
+	
+	<map>
+		<description>这个目录一定要在WebRoot的第一级目录下</description>
+		<defaultPath>maps</defaultPath>
+	</map>
+	<location>
+		<description>手机数据上传的时间间隔(毫秒)</description>
+		<uploadInterval>300000</uploadInterval>
+		<description>设置人员消失的最大时间间隔(秒)</description>
+		<hidePersonInterval>120</hidePersonInterval>
+	</location>
+</ds-config>

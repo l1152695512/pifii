@@ -1,0 +1,3 @@
+[
+{"strXml":"<chart palette='4' caption='年度告警分析统计表' showValues='0' showBorder='1' numberSuffix='次' forceYAxisValueDecimals='1' bgcolor='ECF5FF' bgalpha='70' bordercolor='C6D2DF' basefontcolor='2F2F2F' yAxisValueDecimals='2'><set label='1月' value='3' /><set label='2月' value='4' /><set label='3月' value='1' /><set label='4月' value='3' /><set label='5月' value='7' /><set label='6月' value='4' /><set label='7月' value='9' /><set label='8月' value='3' /><set label='9月' value='3' /><set label='10月' value='4' /><set label='11月' value='5' /><set label='12月' value='6' /></chart>"}
+]

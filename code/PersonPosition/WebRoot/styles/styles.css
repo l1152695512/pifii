@@ -1,0 +1,143 @@
+@font-face
+{
+    src: url("../WebRoot/assets/MyriadWebPro.ttf");
+    font-family: myriad;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+    src: url("../WebRoot/assets/MyriadWebPro-Bold.ttf");
+    font-family: myriad;
+    font-style: normal;
+    font-weight: bold;
+}
+
+Application {
+	background-color:#535353;
+	paddingTop:0;
+	paddingBottom:0;
+	paddingLeft:0;
+	paddingRight:0;
+	vertical-gap:0;
+}
+
+ApplicationControlBar {
+	border-style: none;
+	corner-radius: 0;
+	color: #EEEEEE;
+}
+
+Button {
+	corner-radius: 0;	
+}
+
+TabNavigator {
+	cornerRadius: 0;
+	tabStyleName: "myTabs";
+	firstTabStyleName: "myTabs";
+	lastTabStyleName: "myTabs";
+	selectedTabTextStyleName: "mySelectedTabs";
+}
+
+.myTabs {
+   cornerRadius: 0;
+}
+
+.mySelectedTabs {
+}
+
+.panelFarme{
+    margin-top:20px;
+
+}
+ComboBox {
+	corner-radius: 0;
+	open-duration: 0;
+	close-duration: 0;
+} 
+
+.panelIcon{
+
+	background-image:url(../WebRoot/assets/icon_home.png) ! important;
+
+}
+
+.leftNavBox {
+/*
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-thickness: 1;
+*/	
+}
+
+
+.menuBarButton {
+	corner-radius:2;
+    font-family: myriad; 
+	label-gap:0;
+}
+
+.title
+{
+	color:#535353;	
+    font-family: myriad; 
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.logo
+{
+	color:#FFFFFF;	
+    font-family: myriad; 
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+
+HSlider {
+	showTrackHighlight: true;
+}
+
+VSlider {
+	showTrackHighlight: true;
+}
+
+Panel {
+	roundedBottomCorners: true;
+	title-style-name: panelTitle;
+	borderColor: #ffffff;
+	borderAlpha: 1;
+	headerHeight: 36;
+	headerColors: #666666, #666666;   
+	border-thickness-left:4;	
+	border-thickness-right:4;	
+}
+
+.panelTitle
+{
+	color:#CCCCCC;	
+    font-family: myriad; 
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.taskBarButton {
+	corner-radius: 2;	
+}
+
+.navbarBox {
+	 borderStyle: solid;
+	 borderColor: #888888;
+	 vertical-gap: 0;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;	
+}
+
+LinkButton {
+	padding-left: 0;	
+	padding-right: 0;	
+}

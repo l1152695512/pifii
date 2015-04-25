@@ -1,0 +1,40 @@
+.play{   
+background-image:url(../img/icons/clock_play.png);  
+}  
+.stop{   
+background-image:url(../img/icons/clock_stop.png);  
+}  
+.add{   
+background-image:url(../img/icons/clock_add.png);
+}
+.delete{   
+background-image:url(../img/icons/clock_delete.png); 
+}
+.x-icon-combo-icon {  
+    background-repeat: no-repeat;  
+    background-position: 0 50%;  
+    width: 18px;  
+    height: 14px;  
+  
+    }  
+  
+.x-icon-combo-input {   
+  
+padding-right: 200px;   
+  
+}   
+.x-select-field-text{
+  float: left; 
+  font-size: 12px; 
+  text-align:center;
+  
+  
+
+}  
+.x-form-field-wrap .x-icon-combo-icon {   
+  
+top: 3px;   
+  
+left: 40px;   
+  
+}  

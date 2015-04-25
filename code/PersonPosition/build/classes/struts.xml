@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- Configuration for the default package. -->
+	<package name="default" extends="convention-default">
+		<result-types>
+		    <result-type name="jasper" class="org.apache.struts2.views.jasperreports.JasperReportsResult"/>
+		</result-types>
+
+		<interceptors>
+		 <interceptor name="monitoring" class="net.bull.javamelody.StrutsInterceptor"/>
+
+		 <interceptor-stack name="extStack">
+		 		<interceptor-ref name="monitoring"/>
+                <interceptor-ref name="exception">
+                  <param name="logEnabled">true</param>
+                  <param name="logCategory">com.yf.exception</param>
+                  <param name="logLevel">WARN</param>
+                </interceptor-ref>
+<!--                <interceptor-ref name="alias"/>-->
+                <interceptor-ref name="servletConfig"/>
+<!--                <interceptor-ref name="i18n"/>-->
+                <interceptor-ref name="prepare"/>
+                <interceptor-ref name="chain"/>
+                <!-- 生产环境下去掉 -->
+<!--                <interceptor-ref name="debugging"/>-->
+                <!-- 待定，如果有Model需要放session的需求 -->
+<!--                <interceptor-ref name="scopedModelDriven"/>-->
+                <interceptor-ref name="modelDriven"/>
+                 <!-- fileupload 建议采用异步方式 -->
+<!--                <interceptor-ref name="fileUpload"/>-->
+<!--                <interceptor-ref name="checkbox"/>-->
+				<!-- 待定，根据EXT处理多值的优化 -->
+<!--                <interceptor-ref name="multiselect"/>-->
+<!--                <interceptor-ref name="staticParams"/>-->
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="params">
+                  <param name="excludeParams">dojo\..*,^struts\..*,.*\\.*,.*\(.*,.*\).*,.*@.*</param>
+                </interceptor-ref>
+                 <!-- 客户端或者AJAX校验，不需要知道出错信息，直接用浏览器DEBUG -->
+<!--                <interceptor-ref name="conversionError"/>-->
+                <!-- 客户端或者AJAX校验，去掉 -->
+<!--                <interceptor-ref name="validation">-->
+<!--                    <param name="excludeMethods">input,back,cancel,browse</param>-->
+<!--                </interceptor-ref>-->
+<!--                <interceptor-ref name="workflow">-->
+<!--                    <param name="excludeMethods">input,back,cancel,browse</param>-->
+<!--                </interceptor-ref>-->
+            </interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="extStack"/>
+		<default-action-ref name="main"></default-action-ref>
+
+		<global-results>
+
+			<result name="successReload">/WEB-INF/content/commons/successReload.jsp</result>
+			<result name="success">/WEB-INF/content/commons/success.jsp</result>
+			<result name="failure">/WEB-INF/content/commons/failure.jsp</result>
+			<result name="data">/WEB-INF/content/commons/data.jsp</result>
+			<result name="formData">/WEB-INF/content/commons/formData.jsp</result>
+			<result name="comboData">/WEB-INF/content/commons/comboData.jsp</result>
+			<result name="tjfxData">/WEB-INF/content/commons/tjfxData.jsp</result>
+			<result name="downLoadFailure">/WEB-INF/content/commons/down-load-failure.jsp</result>
+		</global-results>
+
+	</package>
+	<constant name="struts.convention.default.parent.package" value="default"/>
+	<!-- 生产环境下设为false-->
+	<constant name="struts.devMode" value="true" />
+	<!-- 生产环境下去掉 -->
+	<constant name="struts.ui.theme" value="css_xhtml" />
+	<constant name="struts.freemarker.templatesCache" value="true" />
+	
+     <!-- 文件大小上传限制 -->
+	<constant name="struts.multipart.maxSize" value="204900000"/>
+	 <!-- 为CXF放行-->
+	<package name="CXFServlet" extends="struts-default" namespace="/ws">
+    	<action name="*">
+        	<result>{1}</result>
+    	</action>
+	</package>
+	<!-- 为Phone放行-->
+	<package name="PhoneServlet" extends="struts-default" namespace="/TruTalkService.asmx">
+    	<action name="*">
+        	<result>{1}</result>
+    	</action>
+	</package>
+	<!-- 为UpLoad放行-->
+	<package name="UpLoadServlet" extends="struts-default" namespace="/*">
+    	<action name="upLoadServlet">
+        	<result>upLoadServlet</result>
+    	</action>
+	</package>
+
+</struts>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-lazy-init="true">
+	<description>Quartz定时器专用</description>
+	<!-- Quartz集成工厂 -->
+	<bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false">
+		<!-- Triggers集成 -->
+		<property name="triggers">
+			<list>
+				<!-- 生成基础数据
+				<ref bean="makeDataTrigger" />	 -->
+<!--				<ref bean="insertPositionTrigger" />-->
+			</list>
+		</property>
+<!--		定时器延时60执行，避免数据源还没启动时，定时任务就已经开始执行，造成服务器启动失败-->
+		<property name="startupDelay" value="60"/>
+	</bean>
+	
+	
+	<!-- Cron式Trigger定义 -->
+	<bean id="makeDataTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="makeDataJob" />
+		<property name="cronExpression" value="0 0/1 0/1 * * ?" />
+	</bean>
+	<!-- Cron Job -->
+	<bean id="makeDataJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="makeDataQuartzTask" />
+		<property name="targetMethod" value="makeData" />
+		<property name="concurrent" value="false" />
+	</bean>
+	<!-- 被执行的业务类 -->
+	<bean id="makeDataQuartzTask" class="com.yf.timing.MakeDataQuartzTask"  />
+	
+	
+	<bean id="insertPositionJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="makeDataQuartzTask" />
+		<property name="targetMethod" value="makeData" />
+	</bean>
+	<bean id="insertPositionTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail" ref="insertPositionJob" />
+		<!--		5分钟执行一次-->
+		<property name="cronExpression" value="0 0/5 * * * ?" />
+		<!--		半分钟执行一次-->
+<!--		<property name="cronExpression" value="0/30 * * * * ?" />-->
+	</bean>
+</beans>

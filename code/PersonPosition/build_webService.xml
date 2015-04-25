@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="wsclient_01" basedir=".">
+	<property file="build_webService.properties" />
+	<path id="cxf.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<target name="cxfWSDLToJava">
+			<java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+				<arg value="-client" />
+				<arg value="-d" />
+				<arg value="src" />
+				<arg value="${wsdl.path}" />
+				<classpath>
+					<path refid="cxf.classpath" />
+				</classpath>
+			</java>
+		</target>
+	<target name="cxfWSDLToJava1">
+		<java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+			<arg value="-client" />
+			<arg value="-d" />
+			<arg value="src" />
+			<arg value="${wsdl.dir}" />
+			<classpath>
+				<path refid="cxf.classpath" />
+			</classpath>
+		</java>
+	</target>
+	<target name="cxfWSDLToJava2">
+		<java classname="org.apache.cxf.tools.wsdlto.WSDLToJava" fork="true">
+			<arg value="-client" />
+			<arg value="-d" />
+			<arg value="src" />
+			<arg value="${wsdl.dir1}" />
+			<classpath>
+				<path refid="cxf.classpath" />
+			</classpath>
+		</java>
+	</target>
+</project>

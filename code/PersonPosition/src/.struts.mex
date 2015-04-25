@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="default" location="0,0" size="0,0" />
+  <package name="CXFServlet" location="0,0" size="0,0">
+    <action name="*" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+  <package name="PhoneServlet" location="0,0" size="0,0">
+    <action name="phoneServlet" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+  <package name="UpLoadServlet" location="0,0" size="0,0">
+    <action name="upLoadServlet" location="0,0" size="0,0">
+      <result name="success" />
+    </action>
+  </package>
+</Struts2Diagram>
+

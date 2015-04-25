@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="clean">
+
+
+	<target name="clean">
+		<delete quiet="true" dir="c:\tomcat-618\webapps\prthr" />
+	</target>
+
+
+</project>

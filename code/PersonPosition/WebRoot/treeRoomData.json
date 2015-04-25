@@ -1,0 +1,28 @@
+[{
+    id: 1,
+    text: '天河区',
+    longitude:113.35825,
+	latitude:23.12435,
+	level: 1,
+    children:[{
+	    id: 11,
+	    text: '汇景新城',
+	    longitude:113.35825,
+		latitude:23.12435,
+		level: 2,
+	    leaf : true
+	},{
+	    id: 12,
+	    text: '半山御景园',
+	    longitude:113.384832,
+		latitude:23.132991,
+		level: 2,
+	    leaf : true
+	}]
+},{
+    id: 2,
+    text: '白云区',
+    longitude:113.35825,
+	latitude:23.12435,
+	level: 1
+}]

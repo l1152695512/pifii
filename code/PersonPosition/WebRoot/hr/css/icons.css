@@ -1,0 +1,1120 @@
+<!--  -->
+.window-bord{
+	color:#FF0000
+}
+.x-grid3-rows{
+    background:Yellow;
+	color:red;
+}	
+
+.label-css {
+	font:11px tahoma,arial,helvetica,sans-serif;
+	color:#444444;
+	margin-left:12px;
+	margin-top:5px;
+	display:block;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#fff;
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	z-index: inherit;
+	zoom: 1;
+	behavior: url(../css/border-radius.htc);
+}
+.file-download{
+  	background-image:url(../img/icons/file-download.png) ! important;
+}
+.columnchart-min16px{
+	background-image:url(../img/icons/column-min16.png) ! important;
+}
+.linechart-min16px{
+	background-image:url(../img/icons/line-min16.png) ! important;
+}
+.piechart-min16px{
+	background-image:url(../img/icons/pie-min16.png) ! important;
+}
+.file-view{
+  	background-image:url(../img/icons/view.png) ! important;
+}
+.busiuess-add{
+  	background-image:url(../img/icons/busiessadd.png) ! important;
+}
+.data-audit{
+  	background-image:url(../img/icons/data-audit.png) ! important;
+}
+.icon-unCheck{
+  	background-image:url(../img/icons/icon-unAudit.png) ! important;
+}
+.icon-check{
+  	background-image:url(../img/icons/icon-Audit.png) ! important;
+}
+.icon-unAudit{
+  	background-image:url(../img/icons/unAudit.png) ! important;
+}
+.file-download-title{
+  	background-image:url(../img/icons/file-download-title.png) ! important;
+}
+.add-index-value{
+  	background-image:url(../img/icons/add_index_value.png) ! important;
+}
+.icon-send-info{
+   background-image:url(../img/icons/email.png) ! important;
+}
+.person-list-getlon{
+	background: #FFA07A !important;
+}
+.icon-photo-show{
+	background-image:url(../img/icons/pho.png ) ! important;
+}
+.icon-video-show{
+	background-image:url(../img/icons/video.png ) ! important;
+}
+
+.import-excel{
+  	background-image:url(../img/icons/importExcel.png) ! important;
+}
+.export-excel{
+  	background-image:url(../img/icons/exportExcel.png) ! important;
+}
+.energy-data{
+  	background-image:url(../img/icons/energy-data.png) ! important;
+}
+.icon-action{
+  	background-image:url(../img/icons/actionManage.png) ! important;
+}
+.icon-channles-audit{
+  	background-image:url(../img/icons/auditPerson.png) ! important;
+}
+
+.icon-arrow{
+	background-image:url(../img/icons/arrow_down.png) ! important;
+}
+.icon-line-model{
+	background-image:url(../img/icons/line-model.png) ! important;
+}
+.icon-calculate{
+	background-image:url(../img/icons/calculate.png) ! important;
+}
+.next-page{
+	background-image:url(../img/icons/next_page.png) ! important;
+}
+.page-over{
+	background-image:url(../img/icons/page-over.png) ! important;
+}
+.icon-line-error{
+	background-image:url(../img/icons/chart_line_error.png) ! important;
+}
+.icon-document{
+	background-image:url(../img/icons/docment.png) ! important;
+}
+.icon-palnning{
+	background-image:url(../img/icons/palnning.png) ! important;
+}
+.icon-property{
+	background-image:url(../img/icons/Property.png) ! important;
+}
+.icon-category{
+	background-image:url(../img/icons/Category.png) ! important;
+}
+.find-local{
+	background-image:url(../img/icons/findLocal.png) ! important;
+}
+.setting-btn{
+	background-image:url(../img/icons/setting-btn.png) ! important;
+}
+.icon-energy-anylsis{
+	background-image:url(../img/icons/anysis2.png) ! important;
+}
+.icon-door-monitor{
+	background-image:url(../img/icons/door_monitor.png) ! important;
+}
+.icon-energy-anylsis1{
+	background-image:url(../img/icons/anylsis.png) ! important;
+}
+.icon-document-mangaer{
+	background-image:url(../img/icons/docuemntMangaer.png) ! important;
+}
+.icon-query-contract{
+	background-image:url(../img/icons/query-contract.png) ! important;
+}
+.icon-eq-manage{
+	background-image:url(../img/icons/eq-manage.png) ! important;
+}
+.album-node-line{
+   background-image:url(../img/icons/chart_curve.png) ! important;
+}
+.album-node-pie{
+   background-image:url(../img/icons/chart_pie.png) ! important;
+}
+.album-node-column{
+   background-image:url(../img/icons/chart_bar.png) ! important;
+}
+.album-node-bar{
+   background-image:url(../img/icons/chart_bar.png) ! important;
+}
+.grey-loading{
+       background-image:url(../img/icons/loading.gif) ! important;
+}
+.icon-measur-manage{
+	background-image:url(../img/icons/measur-manage.png) ! important;
+}
+.icon-engry-saving-manage{
+	background-image:url(../img/icons/engry-saving-mangae.png) ! important;
+}
+.icon-engry-saving-view{
+	background-image:url(../img/icons/engry-meaures-view.png) ! important;
+}
+.icon-engry-saving-status{
+	background-image:url(../img/icons/engry-saving-status.png) ! important;
+}
+
+.icon-measur-manage{
+	background-image:url(../img/icons/measur-manage.png) ! important;
+}
+.icon-records-manage{
+	background-image:url(../img/icons/records-management.png) ! important;
+}
+
+.icon-suggest-manage{
+	background-image:url(../img/icons/suggest-manage.png) ! important;
+}
+.icon-pue-access{
+	background-image:url(../img/icons/pue-access.png) ! important;
+}
+.icon-index-manage{
+	background-image:url(../img/icons/index-mangae.png) ! important;
+}
+.icon-distribution-analysis{
+	background-image:url(../img/icons/distribution-Analysis.png) ! important;
+}
+
+.icon-pue-setting{
+	background-image:url(../img/icons/pue-setting.png) ! important;
+}
+
+.icon-grey-setting{
+	background-image:url(../img/icons/grey-setting.png) ! important;
+}
+.upload-icon{
+  	background-image:url(../img/icons/image_add.png) ! important;
+ }
+.upload-win{
+  	background-image:url(../img/icons/upload.png) ! important;
+ } 
+.icon-checkin{
+	background-image:url(../img/icons/checkin.png) ! important;
+}
+.icon-bell{
+	background-image:url(../img/icons/bell.png) ! important;
+}
+
+
+.icon-door{
+	background-image:url(../img/icons/door_in.png) ! important;
+}
+.icon-chagePwd{
+   
+	background-image:url(../img/icons/chagepassword.png) ! important;
+		
+}
+.index-update{
+	background-image:url(../img/icons/index-update.png) ! important;
+}
+.icon-reserv{
+	background-image:url(../img/icons/reserv.png) ! important;
+}
+.icon-system{
+	background-image:url(../img/icons/system.png) ! important;
+}
+.icon-logout{
+	background-image:url(../img/icons/logout.png) ! important;
+}
+.icon-stat{
+	background-image:url(../img/icons/stat.png) ! important;
+}
+.icon-minus{
+	background-image:url(../img/icons/stat.png) ! important;
+}
+.icon-info{
+	background-image:url(../img/icons/chart_bar_error.png) ! important;
+}
+.icon-btns{
+	background-image:url(../img/icons/cog_go.png) ! important;
+}
+.icon-edit{
+	background-image:url(../img/icons/edit.png) ! important;
+}
+
+.icon-roomfilter{
+	background-image:url(../img/icons/filter.png) ! important;
+}
+.icon-roomcatalog{
+	background-image:url(../img/icons/catalog.png) ! important;
+}
+.icon-roomfloor{
+	background-image:url(../img/icons/floor.png) ! important;
+}
+.icon-hotel{
+	background-image:url(../img/icons/hotel.png) ! important;
+}
+.icon-manage{
+	background-image:url(../img/icons/manage.png) ! important;
+}
+.icon-group{
+	background-image:url(../img/icons/group.png) ! important;
+}
+.icon-group-manage{
+	background-image:url(../img/icons/group_edit.png) ! important;
+}
+.icon-group-branch{
+	background-image:url(../img/icons/arrow_branch.png) ! important;
+}
+.icon-right-setting{
+	background-image:url(../img/icons/right.png) ! important;
+}
+.icon-buinding-setting{
+	background-image:url(../img/icons/buinding.png) ! important;
+}
+.icon-announcement-setting{
+	background-image:url(../img/icons/aunoc.png) ! important;
+}
+.icon-energy-reduction{
+	background-image:url(../img/icons/energy.png) ! important;
+}
+.icon-status-manage{
+	background-image:url(../img/icons/server.png) ! important;
+}
+.icon-charts-line{
+	background-image:url(../img/icons/chart_line.png) ! important;
+}
+.icon-business-manage{
+	background-image:url(../img/icons/server_chart.png) ! important;
+}
+.icon-room-manage{
+	background-image:url(../img/icons/room.png) ! important;
+}
+.icon-channels-manage{
+	background-image:url(../img/icons/channels.png) ! important;
+}
+.icon-manager-room-manage{
+	background-image:url(../img/icons/manager-room.png) ! important;
+}
+.icon-business-analysis{
+	background-image:url(../img/icons/chart_organisation.png) ! important;
+}
+
+.icon-guestinfo{
+	background-image:url(../img/icons/guestinfo.png) ! important;
+}
+.icon-statchart{
+	background-image:url(../img/icons/statchart.png) ! important;
+}
+.icon-center{
+	background-image:url(../img/icons/center.png) ! important;
+}
+.icon-monitor-error{
+	background-image:url(../img/icons/cog_error.png) ! important;
+}
+.icon-monitor{
+	background-image:url(../img/icons/cog.png) ! important;
+}
+.icon-monitor-title{
+	background-image:url(../img/icons/monitors.png) ! important;
+}
+.icon-monitor-setting{
+	background-image:url(../img/icons/cog_setting.png) ! important;
+}
+.icon-monitor-clock-play{
+	background-image:url(../img/icons/clock_play.png) ! important;
+}
+.icon-monitor-clock-stop{
+	background-image:url(../img/icons/clock_stop.png) ! important;
+}
+.icon-monitor-clock-go{
+	background-image:url(../img/icons/clock_go.png) ! important;
+}
+.icon-system-settings-params{
+	background-image:url(../img/icons/cog_edit.png) ! important;
+}
+.settings {
+    background-image:url( ../img/icons/folder_wrench.png ) !important;
+}
+.nav {
+    background-image:url( ../img/icons/folder_go.png ) !important;
+}
+.details .x-btn-text {
+    background-image: url(../img/icons/details.gif);
+}
+
+.icon-details {
+    background-image: url(../img/icons/details.gif);
+}
+.icon-reservin {
+    background-image:url( ../img/icons/reservin.png ) !important;
+}
+.icon-checkininfo {
+    background-image:url( ../img/icons/checkininfo.png ) !important;
+}
+.icon-checkrvinfo {
+    background-image:url( ../img/icons/checkrvinfo.png ) !important;
+}
+.icon-switch {
+    background-image:url(../img/icons/switch.png ) !important;
+}
+.icon-checkout {
+    background-image:url( ../img/icons/checkout.png ) !important;
+}
+.icon-chart-bar {
+    background-image:url( ../img/icons/chart_bar.png ) !important;
+}
+.icon-consumption-anylsis {
+    background-image:url( ../img/icons/lh-anylsis.png ) !important;
+}
+.icon-data-validate {
+    background-image:url( ../img/icons/dataValidate.png ) !important;
+}
+.icon-room-data {
+    background-image:url( ../img/icons/roomdata.png ) !important;
+}
+.icon-channels-data {
+    background-image:url( ../img/icons/channelsdata.png ) !important;
+}
+.icon-coins {
+    background-image:url( ../img/icons/coins.png ) !important;
+}
+.icon-chart1 {
+    background-image:url( ../img/icons/chart1.png ) !important;
+}
+.icon-chart2 {
+    background-image:url( ../img/icons/chart2.png ) !important;
+}
+.icon-chart3 {
+    background-image:url( ../img/icons/chart3.png ) !important;
+}
+.icon-room-Diemons {
+    background-image:url( ../img/icons/roomDiemons.png ) !important;
+}
+.icon-grey{
+    background-image:url( ../img/icons/grey.png ) !important;
+}
+.icon-index-model{
+    background-image:url( ../img/icons/index-model.png) !important;
+}
+.icon-index-model1{
+    background-image:url( ../img/icons/index-model1.png) !important;
+}
+.icon-index-search{
+    background-image:url( ../img/icons/index-model-search.png) !important;
+}
+.icon-room-equipment-Diemons {
+    background-image:url( ../img/icons/roomequipment.png ) !important;
+}
+.icon-archive{
+    background-image:url( ../img/icons/page.png ) !important;
+}
+.icon-attendance{
+    background-image:url( ../img/icons/gif_47_024.gif ) !important;
+}
+.icon-memorys{
+    background-image:url( ../img/icons/clock_red.png ) !important;
+}
+.icon-person{
+    background-image:url( ../img/icons/user.png) !important;
+}
+.icon-resource{
+    background-image:url( ../img/icons/gif_47_107.gif ) !important;
+}
+.icon-empeye{
+    background-image:url( ../img/icons/user_suit.png) !important;
+}
+
+.icon-images{
+    background-image:url( ../img/icons/images.png ) !important;
+}
+.icon-contract-alert{
+    background-image:url( ../img/icons/script_error.png ) !important;
+}
+.icon-birthday-week{
+    background-image:url( ../img/icons/calendar_view_day.png ) !important;
+}
+.icon-birthday-month{
+    background-image:url( ../img/icons/calendar.png ) !important;
+}
+.icon-folder-user{
+    background-image:url( ../img/icons/folder_user.png ) !important;
+}
+.icon-retire-user{
+    background-image:url( ../img/icons/group_error.png ) !important;
+}
+.icon-group-gear{
+    background-image:url( ../img/icons/group_gear.png ) !important;
+}
+.icon-page{
+    background-image:url( ../img/icons/page.png ) !important;
+}
+.icon-cancel1{
+    background-image:url( ../img/icons/cancel.png ) !important;
+}
+.icon-empincome{
+    background-image:url( ../img/icons/gif_45_004.gif ) !important;
+}
+.icon-empincome4561{
+    background-image:url( ../img/icons/gif_45_061.gif ) !important;
+}
+.icon-empincome47041{
+    background-image:url( ../img/icons/gif_47_041.gif ) !important;
+}
+.icon-login-hr{
+    background-image:url( ../img/icons/hr_32x32.png ) !important;
+}
+
+
+
+
+.icon-back{
+    background-image:url( ../img/icons/back.png ) !important;
+}
+.icon-add{
+    background-image:url( ../img/icons/add.png ) !important;
+}
+.icon-guide{
+    background-image:url( ../img/icons/audit.png ) !important;
+}
+.icon-book{
+    background-image:url( ../img/icons/user_suit.png ) !important;
+}
+.icon-query{
+    background-image:url( ../img/icons/checkrvinfo.png ) !important;
+}
+.icon-undo{
+    background-image:url( ../img/icons/right.png ) !important;
+}
+.icon-cancel{
+    background-image:url( ../img/icons/arrow_undo.png ) !important;
+}
+.icon-print{
+    background-image:url( ../img/icons/printer.png ) !important;
+}
+.icon-xls{
+    background-image:url( ../img/icons/page_white_excel.png ) !important;
+}
+.icon-save{
+	background-image:url(../img/icons/save.png ) ! important;
+}
+.icon-delete{
+	background-image:url(../img/icons/delete.png ) ! important;
+}
+.icon-audit{
+   background-image:url(../img/icons/audit.png) ! important;
+}
+.icon-gps-position{
+	background-image:url(../img/icons/gps.png) ! important;
+}
+.icon-find{
+	background-image:url(../img/icons/find.png ) ! important;
+}
+.icon-update{
+	background-image:url(../img/icons/refresh.png ) ! important;
+}
+.icon-search{
+	background-image:url(../img/icons/search.png ) ! important;
+}
+.icon-redo{
+	background-image:url(../img/icons/redo.png ) ! important;
+}
+.icon-accept{
+	background-image:url(../img/icons/accept.png ) ! important;
+}
+.icon-clock{
+	background-image:url(../img/icons/clock.png ) ! important;
+}
+
+
+.icon-emp-manager{
+	background-image:url(../img/icons/menus/emp-manager.png ) ! important;
+}
+.icon-emp-info{
+	background-image:url(../img/icons/menus/emp-info.png ) ! important;
+}
+.icon-emp-zz{
+	background-image:url(../img/icons/menus/emp-zz.png ) ! important;
+}
+.icon-emp-lz{
+	background-image:url(../img/icons/menus/emp-lz.png ) ! important;
+}
+.icon-emp-dd{
+	background-image:url(../img/icons/menus/emp-dd.png ) ! important;
+}
+.icon-emp-cb{
+	background-image:url(../img/icons/menus/emp-cb.png ) ! important;
+}
+
+.icon-attendance-manager{
+	background-image:url(../img/icons/menus/attendance-manager.png ) ! important;
+}
+.icon-attendance-timerecord{
+	background-image:url(../img/icons/menus/attendance-timerecord.png ) ! important;
+}
+.icon-attendance-behindtime{
+	background-image:url(../img/icons/menus/attendance-behindtime.png ) ! important;
+}
+.icon-attendance-leaverecord{
+	background-image:url(../img/icons/menus/attendance-leaverecord.png ) ! important;
+}
+.icon-attendance-leave{
+	background-image:url(../img/icons/menus/attendance-leave.png ) ! important;
+}
+.icon-attendance-empovertime{
+	background-image:url(../img/icons/menus/attendance-empovertime.png ) ! important;
+}
+.icon-attendance-timerule{
+	background-image:url(../img/icons/menus/attendance-timerule.png ) ! important;
+}
+
+.icon-slymanger-manager{
+	background-image:url(../img/icons/menus/slymanger-manager.png ) ! important;
+}
+.icon-slymanger-salaryaccount{
+	background-image:url(../img/icons/menus/slymanger-salaryaccount.png ) ! important;
+}
+.icon-slymanger-salaryrecord{
+	background-image:url(../img/icons/menus/slymanger-salaryrecord.png ) ! important;
+}
+.icon-slymanger-salarybufa{
+	background-image:url(../img/icons/menus/slymanger-salarybufa.png ) ! important;
+}
+.icon-slymanger-sickleaveratio{
+	background-image:url(../img/icons/menus/slymanger-sickleaveratio.png ) ! important;
+}
+.icon-slymanger-cutpaymentratio{
+	background-image:url(../img/icons/menus/slymanger-cutpaymentratio.png ) ! important;
+}
+
+.icon-archives-manager{
+	background-image:url(../img/icons/menus/archives-manager.png ) ! important;
+}
+.icon-archives-contractmanger{
+	background-image:url(../img/icons/menus/archives-contractmanger.png ) ! important;
+}
+
+.icon-resource-manager{
+	background-image:url(../img/icons/menus/resource-manager.png ) ! important;
+}
+.icon-resource-trainings{
+	background-image:url(../img/icons/menus/resource-trainings.png ) ! important;
+}
+.icon-resource-talent{
+	background-image:url(../img/icons/menus/resource-talent.png ) ! important;
+}
+.icon-resource-positionapplyfor{
+	background-image:url(../img/icons/menus/resource-positionapplyfor.png ) ! important;
+}
+.icon-resource-jobpreference{
+	background-image:url(../img/icons/menus/resource-jobpreference.png ) ! important;
+}
+
+.icon-statchart-manager{
+	background-image:url(../img/icons/menus/statchart-manager.png ) ! important;
+}
+.icon-statchart-employee{
+	background-image:url(../img/icons/menus/statchart-employee.png ) ! important;
+}
+.icon-statchart-institutions{
+	background-image:url(../img/icons/menus/statchart-institutions.png ) ! important;
+}
+.icon-statchart-talent{
+	background-image:url(../img/icons/menus/statchart-talent.png ) ! important;
+}
+.icon-statchart-analys{
+	background-image:url(../img/icons/menus/statchart-analys.png ) ! important;
+}
+.icon-statchart-deptsalarymonth{
+	background-image:url(../img/icons/menus/statchart-deptsalarymonth.png ) ! important;
+}
+.icon-statchart-type{
+	background-image:url(../img/icons/menus/statchart-type.png ) ! important;
+}
+
+.icon-reportmanager-manager{
+	background-image:url(../img/icons/menus/reportmanager-manager.png ) ! important;
+}
+.icon-reportmanager-personmanger{
+	background-image:url(../img/icons/menus/reportmanager-personmanger.png ) ! important;
+}
+.icon-reportmanager-archives{
+	background-image:url(../img/icons/menus/reportmanager-archives.png ) ! important;
+}
+.icon-reportmanager-employee{
+	background-image:url(../img/icons/menus/reportmanager-employee.png ) ! important;
+}
+.icon-reportmanager-employalter{
+	background-image:url(../img/icons/menus/reportmanager-employalter.png ) ! important;
+}
+.icon-reportmanager-leaving{
+	background-image:url(../img/icons/menus/reportmanager-leaving.png ) ! important;
+}
+.icon-reportmanager-reportduty{
+	background-image:url(../img/icons/menus/reportmanager-reportduty.png ) ! important;
+}
+.icon-reportmanager-researchers{
+	background-image:url(../img/icons/menus/reportmanager-researchers.png ) ! important;
+}
+.icon-reportmanager-schedu{
+	background-image:url(../img/icons/menus/reportmanager-schedu.png ) ! important;
+}
+.icon-reportmanager-deptsort{
+	background-image:url(../img/icons/menus/reportmanager-deptsort.png ) ! important;
+}
+.icon-reportmanager-ageanalysis{
+	background-image:url(../img/icons/menus/reportmanager-ageanalysis.png ) ! important;
+}
+.icon-reportmanager-slymanger{
+	background-image:url(../img/icons/menus/reportmanager-slymanger.png ) ! important;
+}
+.icon-reportmanager-salarybene{
+	background-image:url(../img/icons/menus/reportmanager-salarybene.png ) ! important;
+}
+.icon-reportmanager-empincome{
+	background-image:url(../img/icons/menus/reportmanager-empincome.png ) ! important;
+}
+.icon-reportmanager-actual{
+	background-image:url(../img/icons/menus/reportmanager-actual.png ) ! important;
+}
+.icon-reportmanager-attendance{
+	background-image:url(../img/icons/menus/reportmanager-attendance.png ) ! important;
+}
+.icon-reportmanager-month{
+	background-image:url(../img/icons/menus/reportmanager-month.png ) ! important;
+}
+
+.icon-perorasse{
+	background-image:url(../img/icons/menus/perorasse.png ) ! important;
+}
+.icon-perorasse-grade{
+	background-image:url(../img/icons/menus/perorasse-grade.png ) ! important;
+}
+.icon-perorasse-project{
+	background-image:url(../img/icons/menus/perorasse-project.png ) ! important;
+}
+.icon-perorasse-result{
+	background-image:url(../img/icons/menus/perorasse-result.png ) ! important;
+}
+
+.icon-basic{
+	background-image:url(../img/icons/menus/basic.png ) ! important;
+}
+.icon-basic-user{
+	background-image:url(../img/icons/menus/basic-user.png ) ! important;
+}
+.icon-basic-dictionary{
+	background-image:url(../img/icons/menus/basic-dictionary.png ) ! important;
+}
+.icon-basic-menus{
+	background-image:url(../img/icons/menus/basic-menus.png ) ! important;
+}
+.icon-basic-dept{
+	background-image:url(../img/icons/menus/basic-dept.png ) ! important;
+}
+.icon-basic-workday{
+	background-image:url(../img/icons/menus/basic-workday.png ) ! important;
+}
+.icon-basic-welfare{
+	background-image:url(../img/icons/menus/basic-welfare.png ) ! important;
+}
+.icon-basic-tax{
+	background-image:url(../img/icons/menus/basic-tax.png ) ! important;
+}
+.icon-basic-rewardpunishty{
+	background-image:url(../img/icons/menus/basic-rewardpunishty.png ) ! important;
+}
+.icon-basic-contype{
+	background-image:url(../img/icons/menus/basic-contype.png ) ! important;
+}
+.icon-basic-talenttype{
+	background-image:url(../img/icons/menus/basic-talenttype.png ) ! important;
+}
+.icon-basic-leavetype{
+	background-image:url(../img/icons/menus/basic-leavetype.png ) ! important;
+}
+.icon-basic-posiion{
+	background-image:url(../img/icons/menus/basic-posiion.png ) ! important;
+}
+.icon-basic-famouscompanies{
+	background-image:url(../img/icons/menus/basic-famouscompanies.png ) ! important;
+}
+.icon-basic-positionskills{
+	background-image:url(../img/icons/menus/basic-positionskills.png ) ! important;
+}
+.icon-basic-auth{
+	background-image:url(../img/icons/menus/basic-auth.png ) ! important;
+}
+.icon-basic-skillsmanger{
+	background-image:url(../img/icons/menus/basic-skillsmanger.png ) ! important;
+}
+.icon-basic-deptpos{
+	background-image:url(../img/icons/menus/basic-deptpos.png ) ! important;
+}
+.icon-dept-parent{
+	background-image:url(../img/icons/application.png ) ! important;
+}
+.icon-dept-children{
+	background-image:url(../img/icons/application_double.png ) ! important;
+}
+.icon-dept{
+	background-image:url(../img/icons/application_home.png ) ! important;
+}
+.icon-property{
+	background-image:url(../img/icons/systemmo.png ) ! important;
+}
+.icon-data-forecast{
+	background-image:url(../img/icons/database_gear.png) ! important;
+}
+.icon-data-forecast-type{
+	background-image:url(../img/icons/data-forecast.png) ! important;
+}
+.icon-work-pace{
+	background-image:url(../img/icons/work.png) ! important;
+}
+.icon-assess-system{
+	background-image:url(../img/icons/assess-system.png) ! important;
+}
+.icon-system-banner{
+	background-image:url(../img/icons/top.jpg) ! important;
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:120px;
+}
+.icon-system-banner img{
+	width:100%;
+}
+.icon-system-model{
+	background-image:url(../img/icons/system-model.png) ! important;
+}
+.icon-system-nxpg{
+	background-image:url(../img/icons/nxpg.png) ! important;
+}
+.icon-expert-system{
+	background-image:url(../img/icons/expert-system.png) ! important;
+}
+.icon-planning{
+	background-image:url(../img/icons/planning-16.png) ! important;
+}
+.icon-planning-index{
+	background-image:url(../img/icons/planning-index-16.png) ! important;
+}
+.icon-planning-approval{
+	background-image:url(../img/icons/planning-pappor.png) ! important;
+}
+
+.icon-planning-monitor{
+	background-image:url(../img/icons/monitor-manage.png) ! important;
+}
+
+.icon-planning-devel{
+	background-image:url(../img/icons/inities-devel.png) ! important;
+}
+
+.icon-inintes-approval{
+	background-image:url(../img/icons/inintes-approval.png) ! important;
+}
+
+.icon-energy-assess{
+	background-image:url(../img/icons/engey-assess.png) ! important;
+}
+.icon-energy-task-index{
+	background-image:url(../img/icons/task-index.png) ! important;
+}
+.icon-energy-trask-accuess{
+	background-image:url(../img/icons/track-success.png) ! important;
+}
+
+.icon-data-query{
+	background-image:url(../img/icons/data-query.png) ! important;
+}
+
+.icon-apperov-data{
+	background-image:url(../img/icons/apperov-data.png) ! important;
+}
+.icon-apperov-data-assess{
+	background-image:url(../img/icons/assess-data-query.png) ! important;
+}
+.icon-contract-manage{
+	background-image:url(../img/icons/contract-manage.png) ! important;
+}
+.icon-contract-message{
+	background-image:url(../img/icons/contract-message.png) ! important;
+}
+.icon-contract-day{
+	background-image:url(../img/icons/contract-day.png) ! important;
+}
+.icon-contract-analysis{
+	background-image:url(../img/icons/contract-analysis.png) ! important;
+}
+.icon-knowledge-manage{
+	background-image:url(../img/icons/knowledge-manage.png) ! important;
+}
+.icon-knowledge-categy{
+	background-image:url(../img/icons/knowledge-categy.png) ! important;
+}
+.icon-knowledge-message{
+	background-image:url(../img/icons/knowledge-message.png) ! important;
+}
+.icon-experiment-manage{
+	background-image:url(../img/icons/experiment-manage.png) ! important;
+}
+.icon-experiment-green-parters{
+	background-image:url(../img/icons/green-parters.png) ! important;
+}
+.icon-exper-green-application{
+	background-image:url(../img/icons/green-application.png) ! important;
+}
+.icon-exper-green-review{
+	background-image:url(../img/icons/green-review.png) ! important;
+}
+.icon-exper-green-certifs{
+	background-image:url(../img/icons/green-certification.png) ! important;
+}
+.icon-permissions-manage{
+	background-image:url(../img/icons/permissions-manage.png) ! important;
+}
+.icon-users-groups{
+	background-image:url(../img/icons/user-groups.png) ! important;
+}
+.icon-data-clean-up{
+	background-image:url(../img/icons/clean-up.png) ! important;
+}
+
+.icon-data-input{
+	background-image:url(../img/icons/data-input.png) ! important;
+}
+.icon-data-map{
+	background-image:url(../img/icons/data-map.png) ! important;
+}
+.icon-building-manage{
+	background-image:url(../img/icons/building-manage.png) ! important;
+}
+.icon-base-station-manage{
+	background-image:url(../img/icons/base-station-manage.png) ! important;
+}
+.icon-workplace-manage{
+	background-image:url(../img/icons/workplace-manage.png) ! important;
+}
+.icon-statistics-analysis{
+	background-image:url(../img/icons/statistics-analysis.png) ! important;
+}
+.icon-statistics-room{
+	background-image:url(../img/icons/statistics-room.png) ! important;
+}
+.icon-location{
+	background-image:url(../img/icons/location.png) ! important;
+}
+.icon-room-analysis{
+	background-image:url(../img/icons/room-analysis.png) ! important;
+}
+.icon-property-settings{
+	background-image:url(../img/icons/property-settings.png) ! important;
+}
+.icon-network{
+	background-image:url(../img/icons/network.ico) ! important;
+}
+.icon-business{
+	background-image:url(../img/icons/business.ico) ! important;
+}
+.icon-business-dimemsion{
+	background-image:url(../img/icons/businessdimemsion.ico) ! important;
+}
+.icon-service{
+	background-image:url(../img/icons/service.ico) ! important;
+}
+
+
+.icon-composite{
+	background-image:url(../img/icons/composite.ico) ! important;
+}
+.icon-professional{
+	background-image:url(../img/icons/professional.ico) ! important;
+}
+.icon-room{
+	background-image:url(../img/icons/room.ico) ! important;
+}
+.icon-top{
+	cursor:pointer
+}
+.icon-init{
+	background-image:url(../img/icons/datainit.png) ! important;
+}
+.data-init-icon{
+	background-image:url(../img/icons/dataadd.ico) ! important;
+}
+.rule-icon{
+	background-image:url(../img/icons/rule.png) ! important;
+}
+.bak-color{
+	background-image:url(../img/icons/bak.jpg) ! important;
+	background-repeat:repeat-x;
+	height:120px;
+}
+.door-open-icon{
+	background-image:url(../../img/door_open.ico) ! important;
+}
+.door-close-icon{
+	background-image:url(../../img/door_close.ico) ! important;
+}
+.open-icon{
+	background-image:url(../img/map/open2.png) ! important;
+}
+.closeed-icon{
+	background-image:url(../img/map/closed.png) ! important;
+}
+.d-o-icon{
+	background-image:url(../img/map/open_d.png) ! important;
+}
+.d-c-icon{
+	background-image:url(../img/map/d_c.png) ! important;
+}
+.movies1-icon{
+	background-image:url(../img/cvms/movies1.png) ! important;
+}
+.movies2-icon{
+	background-image:url(../img/cvms/movies2.png) ! important;
+}
+.stop-icon{
+	background-image:url(../img/cvms/stop.png) ! important;
+}
+.over-icon{
+	background-image:url(../img/cvms/over.png) ! important;
+}
+.play-icon{
+	background-image:url(../img/cvms/play.png) ! important;
+}
+.back-icon{
+	background-image:url(../img/cvms/back.png) ! important;
+}
+.mainbgimage { 
+   background:url(../../images/mainbgimage.jpg ) ! important;
+}
+/*
+.person-location-route{
+	background: rgba(255, 255, 0, 0.4);
+	border-radius: 4px;
+}*/
+.person-location{
+	background: rgba(255, 0, 0, 0.9);
+	border-radius: 2px;
+}
+.location-button{
+	padding-right: 20px;
+	/*width:10px;
+	top:50px;
+	height:50px;
+	padding-top: 40px;
+	position: absolute;
+	z-index:100;*/
+	/* filter:alpha(opacity=80); */
+	/* -moz-opacity:0.8; */
+	/* opacity:0.8; */
+}
+/* 
+.full-screen-location{
+	position: absolute;
+	z-index:100;
+}
+.picture-preview{
+	position: absolute;
+	top:25px;
+	z-index:100;
+}
+ */
+.device{background: url(../img/icons/device.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person{background: url(../img/icons/person.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person1{background: url(../img/icons/person1.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person2{background: url(../img/icons/person2.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person3{background: url(../img/icons/person3.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person4{background: url(../img/icons/person4.png) no-repeat scroll left top transparent;border-radius: 4px;}
+.person-image{
+	position: absolute;
+	float: right!important;
+	top:45px;
+  	left:140px;
+}
+.person-list{
+	overflow: hidden;
+}
+.person-list-image{
+	/*
+	position: absolute;*/
+	padding-right:10px;
+	float: left!important;
+	width:40px;
+	height:50px;
+}
+.person-list-info{
+	/*
+	top:0px;
+	left:40px;
+	width:40px;
+	padding-left:50px;
+	position: absolute;
+	*/
+	float: left!important;
+	display:inline;
+	white-space: nowrap;
+	height:50px;
+}
+.person-list-route{
+	float: right!important; 
+	cursor: pointer;
+	/*
+	vertical-align: middle; 
+	top:-20px;
+	position: absolute;
+	*/
+}
+.person-list-mouseover{
+	background: #BCE2F4;
+}
+.person-list-click{
+	background: #BCE2F4;
+}
+
+.my-icon-search{
+	background-image:url(../img/icons/my-search.png ) ! important;
+}
+.icon-clear-route{
+	background-image:url(../img/icons/clear-route.png ) ! important;
+}
+
+.history-route-point-click{
+	background:#BCE2F4;
+}
+.history-route-point-mouseover{
+	background:#BCE2F4;
+}
+
+.icon-history-route{
+	background-image:url(../img/icons/find_history.png ) ! important;
+}
+
+.route-plan-point-range{
+	pointer-events: none;
+	border-radius: 500px;
+	position: absolute;
+	background: rgba(255,255,0, 0.3);
+}
+.route-plan-point{
+	background: rgba(255,255,0,0.9);
+	border-radius: 10px;
+}
+
+.view-map{
+	background-image:url(../img/icons/view-map.png ) ! important;
+}
+
+.preview{
+	background-image:url(../img/icons/preview.png ) ! important;
+}
+.floor-map{
+	background-image:url(../img/icons/floor-map.png ) ! important;
+}
