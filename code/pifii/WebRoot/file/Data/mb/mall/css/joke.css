@@ -1,0 +1,93 @@
+body{
+	background:#dbe0f8;
+	font-family: "微软雅黑";
+}
+#wrap{
+	width: 100%;
+	min-width: 320px;
+	margin-top:5px;
+}
+.topTitle{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background:#ee3b3b;
+	font-size: 18px;
+	color:#fff;
+	position: fixed;
+	letter-spacing: 2px;
+	text-indent: 1em;
+}
+h1{
+	width: 70%;
+	height: 40px;
+	font-weight: normal;
+	font-size: 18px;
+	float: left;
+}
+.topTitle div{
+	position: absolute;
+	float:left;
+	right: 10%;
+	top:5px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+.topTitle img{
+	width: 100%;
+}
+/*topTitle	结束*/
+
+#wrap ul{
+	padding:0 8px;
+}
+#wrap ul li{
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	}
+#wrap .contentTitle{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom:1px solid rgb(240, 240, 240);
+	background: #f5f5f5;
+}
+#wrap .contentTitle h3{
+	width: 55%;
+	height: 30px;
+	line-height: 32px;
+	color: #121212;
+	font-size: 14px;
+	text-indent: 1em;
+}
+#wrap .contentTitle  .time{
+/* 	width: 35%; */
+	height: 30px;
+	line-height: 32px;
+}
+#wrap .detail{
+	padding:1px 3px;
+	text-indent: 1em;
+	max-height: 70px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #262525;
+}
+/*contentTitle end*/
+#wrap .pic{
+/* 	width: 100%; */
+/* 	height: 130px; */
+	margin:5px 10px;
+	overflow: hidden;
+	padding-bottom:10px;
+}
+#wrap .pic div{
+/* 	min-width: 110px; */
+/* 	max-width: 210px; */
+	margin: 0 auto;
+}
+#wrap .pic div img{
+	width: 100%;
+}

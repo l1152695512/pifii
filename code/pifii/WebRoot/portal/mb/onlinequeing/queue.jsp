@@ -1,0 +1,257 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>${name}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- 		<meta http-equiv="Pragma" CONTENT="no-cache"/>  -->
+<!-- 		<meta http-equiv="Cache-Control" CONTENT="no-cache,must-revalidate"/>  -->
+<!-- 		<meta http-equiv="Expires" CONTENT="0"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no"/>
+		<meta name="MobileOptimized" content="320"/>
+		<script src="${pageContext.request.contextPath}/portal/commonjs/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="${pageContext.request.contextPath}/portal/commonjs/jquery.cookie.js" type="text/javascript"></script>
+		<script src="${pageContext.request.contextPath}/portal/commonjs/jquery.jsonp.js" type="text/javascript"></script>
+		<script src="${pageContext.request.contextPath}/portal/commonjs/commons.js" type="text/javascript"></script>
+		<style type="text/css">
+			/* css 重置 */
+			body, p, input, h1, h2, h3, h4, h5, h6, ul, li{ margin: 0; padding: 0; list-style: none; vertical-align: middle;}
+			img { border:0; margin: 0; padding: 0;}
+			body { color: #000; -webkit-user-select: none; -webkit-text-size-adjust: none; font:normal 14px/200% "微软雅黑", helvetica, arial; text-align:left;   }
+			header, section, footer { display: block; margin: 0; padding: 0 }
+			a{text-decoration:none;color:#000;}
+			.fl{float:left}
+			.fr{float:right;}
+			.cl{clear:both;}
+			/*公共样式*/
+			#content{background:#fff;}
+			.path{text-align: center;height: 35px;font-size:18px;line-height: 35px;}
+			.line-jianbian{background: url(${pageContext.request.contextPath}/portal/commonimg/line-jianbian.png);width: 100%;height:7px;}
+			/*标题信息*/
+
+			/*.mid座位人数*/
+			.mid{
+				padding:10px 3% 15px;
+				border-bottom:1px solid #EBEBEB;
+				margin-bottom: 30px;
+			}
+			.mid p{
+				font-size: 16px;
+				line-height: 24px;
+				color: #000000;
+				height: 24px;
+				width: 100%;
+				margin-bottom: 7px;
+			}
+			.mid ul{
+				padding:0 3%;
+			}
+			.mid ul li{
+				float: left;
+				width: 22%;
+				height: 40px;
+				border-radius: 3px;
+				background: #B4D9F5;
+				margin-right: 4%;
+				margin-bottom:4%;
+				text-align: center;
+				line-height: 40px;
+				font-size: 14px;
+				color: #3188CB;
+				cursor: pointer;
+			}
+			/*mid li 添加样式的css midLiCur*/
+			.midLiCur{
+				color: #fff !important;
+				background: #027EDE !important;
+			}
+			.mid ul li:nth-child(4n+4){
+				margin-right:0;
+			}
+			.under{
+				width: 100%;
+			}
+			.under div{
+				width: 90%;
+				height: 35px;
+				margin:0 auto;
+				margin-bottom: 20px;
+			}
+			.under .print input{
+				background: #CECECE;
+
+			}
+			.under input{
+				width: 100%;
+				height: 100%;
+				background: #027EDE;
+				border:0;
+				outline: none;
+				border-radius: 5px;
+				font-size: 18px;
+				color: #FFF;
+			}
+
+			/*最先面显示顾客的排队信息s*/
+			.guestInfo{
+				padding:0 5%;
+				height: 26px;
+				line-height: 26px;
+				font-size: 14px;
+				color: #1E1E1E;
+				display:none;
+			}
+			.queqing{
+			}
+			.cancel{
+				display:none;
+			}
+			.queueInfo{
+				color: #027EDE;
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div class="path">${name}</div>
+			<div class="line-jianbian"></div><!--渐变介绍-->
+			<div class="mid"><!--中间mid 显示座位人数-->
+				<p>人数</p>
+				<ul>
+					<li data-num="1" class="midLiCur">1人</li>
+					<li data-num="2">2人</li>
+					<li data-num="3">3人</li>
+					<li data-num="4">4人</li>
+					<li data-num="6">6人</li>
+					<li data-num="10">10人</li>
+					<li data-num="12">12人</li>
+					<li data-num="14">12人以上</li>
+				</ul>
+				<div class="cl"></div>
+			</div>
+			<div class="under">
+				<div class="queqing"><input type="submit" value="开启排队"/></div>
+				<div class="cancel"><input type="submit" value="取消排队"/></div>
+			</div>
+			<p class="guestInfo">
+				排队号是：<span class="queueInfo">?</span> &nbsp;&nbsp;&nbsp;
+				<span class="queueInfo">1</span>人桌&nbsp;&nbsp;&nbsp;
+				等待人数：<span class="queueInfo">?</span>
+			</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var refreshInterval = 5000;//5秒一刷新
+		var thisTimeout;
+		
+		var routersn = "&routersn="+routersn;
+		var testMac = "&mac="+mac;
+		$(document).ready(function(){
+			$(".mid li").click(function(){
+				if($(".queqing").is(":visible")){
+					$(this).addClass("midLiCur").siblings().removeClass("midLiCur");//选中li 的样式
+					$(".guestInfo").find("span").eq(1).text($(this).data("num"));
+				}
+			});
+			$(".mid li").first().click();
+			loadData();
+			$(".queqing input").click(function(){
+				$(this).val("获取中....");
+				var personNum = $(".mid li.midLiCur").data("num");
+				 $.ajax({
+				 	type: "POST",
+				 	async:false,
+					url: "${pageContext.request.contextPath}/portal/mb/queue/get",
+					data:{personNum:personNum},
+					success: function(data){
+						if(data.success = 'true'){
+							$(".queqing").hide();
+							$(".cancel").show();
+							$(".guestInfo").find("span").eq(0).html(data.num);
+							if(data.beforeMe == 0){
+								$(".guestInfo").find("span").eq(2).html("无");
+							}else{
+								$(".guestInfo").find("span").eq(2).html(data.beforeMe);
+							}
+							clearTimeout(thisTimeout); 
+							thisTimeout = setTimeout('loadData()',refreshInterval);
+							$(".guestInfo").show();
+							reFreshHeight();
+						}else{
+							alert(data.msg);
+						}
+					},
+					error: function(){
+						alert("排队失败，稍后请重试！");
+					}
+				});
+				$(this).val("开启排队");
+			});
+			$(".cancel input").click(function(){
+				if(confirm("确定要取消排队？")){
+					$.ajax({
+					 	type: "POST",
+						url: "${pageContext.request.contextPath}/portal/mb/queue/cancel",
+						success: function(data){
+							if(data.success = 'true'){
+								$(".queqing").show();
+								$(".cancel").hide();
+								$(".guestInfo").hide();
+								reFreshHeight();
+							}else{
+								alert(data.msg);
+							}
+						},
+						error: function(){
+							alert("请求失败，稍后请重试！");
+						}
+					});
+				}
+			});
+		});
+		
+		//获取历史排队信息
+		function loadData(){
+			if(undefined != $('#content').html()){//用户停留在排队取号页面
+				$.ajax({
+				 	type: "POST",
+					url: "${pageContext.request.contextPath}/portal/mb/queue/history",
+					success: function(data){
+						if(data.num != -1){
+							$("#content .mid li").each(function(){
+								var thisNum = $(this).data("num");
+								if(thisNum == data.personNum){
+									$(this).click();
+								}
+							});
+							$(".queqing").hide();
+							$(".cancel").show();
+							$(".guestInfo").find("span").eq(0).html(data.num);
+							if(data.beforeMe == 0){
+								$(".guestInfo").find("span").eq(2).html("无");
+							}else{
+								$(".guestInfo").find("span").eq(2).html(data.beforeMe);
+							}
+							$(".guestInfo").show();
+							clearTimeout(thisTimeout); 
+							thisTimeout = setTimeout('loadData()',refreshInterval);
+							reFreshHeight();
+						}else{
+							$(".queqing").show();
+							$(".cancel").hide();
+							$(".guestInfo").hide();
+							reFreshHeight();
+						}
+					}
+				});
+			}
+		}
+		//调整菜单的高度
+		function reFreshHeight(){
+			var bodyHeight = parseInt($(window).height());
+			$("body").css("height",bodyHeight);
+		}
+	</script>
+</html>

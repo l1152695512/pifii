@@ -1,0 +1,468 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>PiFii派路由-网络设置</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.scrollintro.css"/>
+		<link rel="stylesheet" href="css/animate.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript"></script>
+		<script src="js/common.js" type="text/javascript"></script>
+		<script src="js/modernizr.custom.49511.js" type="text/javascript"></script>
+		<script src="js/jquery.scrollintro.min.js" type="text/javascript"></script>
+		<script src="js/fun.base.js" type="text/javascript"></script>
+		<script src="js/script.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var onlineModels = {'pppoe':'PPPoE拨号','dhcp':'网线（自动配置）','static':'网线（手动配置）','wifi':'无线连接'};
+			
+			$(document).ready(function(){
+				var modelHtml = "";
+				for(var attr in onlineModels) {//不使用过滤
+			        modelHtml +="<li id='"+attr+"'>"+onlineModels[attr]+"</li>";
+			    }
+				$("#modelSelect").html(modelHtml);
+				if(checkLogin){
+					$("body").show();
+				}
+				$('.son_ul').hide(); //初始ul隐藏
+				$('.select_box span').hover(function(){ //鼠标移动函数
+					$(this).parent().find('ul.son_ul').slideDown(100);  //找到ul.son_ul显示
+					$(this).parent().find('li').hover(function(){$(this).addClass('hover')},function(){$(this).removeClass('hover')}); //li的hover效果
+					$(this).parent().hover(function(){},function(){
+						$(this).parent().find("ul.son_ul").slideUp(100); 
+					});
+				},function(){});
+				
+				$(".box").hide();
+				$('#net_seting').click(function(){
+					showInfo("box");
+				});
+				$('ul.son_ul li').click(function(){
+					$(this).parents('li').find('span').html($(this).html());
+					var value = $(this).data("value");
+					if(undefined != value && "" != value){
+						$(this).parents('li').find('span').data("value",value);
+					}
+					$(this).parents('li').find('ul').slideUp();
+				});
+				$("#pppoe").click(function(){
+					$(".wifi_list,.gateway,.mask,.ip,.use").hide();
+					$(".name,.pwd,.dns").show();
+					
+					$(".dns input").val(models.pppoe.dns);
+					$(".pwd input").val(models.pppoe.pass);
+				});
+				$("#dhcp").click(function(){
+					$(".name,.pwd,.wifi_list,.gateway,.mask,.ip,.use").hide();
+					$(".dns").show();
+					
+					$(".dns input").val(models.dhcp.dns);
+				});
+				$("#static").click(function(){
+					$(".name,.pwd,.wifi_list,.use").hide();
+					$(".ip,.mask,.gateway,.dns").show();
+					
+					$(".dns input").val(models.static.dns);
+				});
+				$("#wifi").click(function(){
+					$(".name,.pwd,.gateway,.mask,.ip,.dns").hide();
+					$(".wifi_list,.use,.pwd").show();
+					$(".wifi_list .select_box span").first().text(models.wifi.ssid);
+					
+					$(".use .using").text(models.wifi.ssid);
+					$(".pwd input").val(models.wifi.key);
+					getWiFiList();
+				});
+				initPageData(true);
+				
+				$(".log").children("input.submit").click(function(){
+					var url = 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/wan_ip_set?token='+token;
+					var data;
+					if($(".name").is(":visible")){//pppoe方式
+						var user = $(".name input").val();
+						var pass = $(".pwd input").val();
+						var dns = $(".dns input").val();
+						data = {proto:'pppoe',user:user,pass:pass,dns:dns};
+					}else if($(".ip").is(":visible")){//网线(手动配置)
+						var ip = $(".ip input").val();
+						var gw = $(".gateway input").val();
+						var dns = $(".dns input").val();
+						var mask = $(".mask .select_box span").first().data("value");
+						data = {proto:'static',ip:ip,gw:gw,dns:dns,mask:mask};
+					}else if($(".dns").is(":visible")){//网线(自动配置)
+						var dns = $(".dns input").val();
+						//url = 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/wan_ip_set?token='+token;
+						data = {proto:'dhcp',dns:dns};
+					}else if($(".wifi_list").is(":visible")){//无线连接
+						var selectedWifi = $(".wifi_list .select_box span").first();
+						var ssid = selectedWifi.text();
+						var encryption = selectedWifi.data("encryption");
+						var key = $(".pwd input").val();
+						url = 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/wan_relay_set?token='+token;
+						data = {ssid:ssid,key:key,encryption:encryption};
+					}
+					$.ajax({
+						type: "POST",
+						async: false,
+						url: url,
+						data:data,
+						success: function(data,status){
+							if(data.status != '1'){
+								alert("请求失败，稍后请重试！");
+							}else{
+								initPageData(false);
+								showInfo("wifi_revise");
+							}
+						},
+						error: function(jqXHR, textStatus,errorThrown){
+							alert("请求失败，稍后请重试！");
+						}
+					});
+				});
+				
+				$(".log").children("input.close").click(function(){
+					initPageData(false);
+					showInfo("wifi_revise");
+				});
+				$("#set_psd").click(function(){
+					showInfo("psd_wrap");
+				});
+				$(".psd_wrap .btn_set input").first().click(function(){
+					showInfo("wifi_revise");
+				});
+				$(".psd_wrap .btn_set input").eq(1).click(function(){
+					var pass = $(".psd_wrap ul input").first().val();
+					var passC = $(".psd_wrap ul input").eq(1).val();
+					if(pass != passC){
+						alert("两次输入的密码不同！");
+						return;
+					}
+					if(pass.length != 8){
+						alert("密码必须为8位！");
+						return;
+					}
+					changePWD(pass);
+				});
+				
+				$("#set_name").click(function(){
+					showInfo("name_wrap");
+					$.ajax({
+						type: "POST",
+						async: false,
+						url: 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/sys_hostname_get?token='+token,
+						success: function(data,status){
+							$(".name_wrap ul input").first().val(data.hostname);
+						},
+						error: function(jqXHR, textStatus,errorThrown){
+							alert("请求失败，稍后请重试！");
+						}
+					});
+				});
+				$(".name_wrap .btn_set input").first().click(function(){
+					showInfo("wifi_revise");
+				});
+				$(".name_wrap .btn_set input").eq(1).click(function(){
+					var name = $(".name_wrap ul input").first().val();
+					if(name.length > 0){
+						changeName(name);
+					}else{
+						alert("名称不能为空！");
+						return;
+					}
+				});
+				
+				setInterval(initPageData,5000,false);
+			});
+			function showInfo(divClass){
+				if('box' == divClass){
+					$(".box").show();
+				}else{
+					$(".box").hide();
+				}
+				
+				if('psd_wrap' == divClass){
+					$(".psd_wrap").show();
+				}else{
+					$(".psd_wrap").hide();
+				}
+				
+				if('name_wrap' == divClass){
+					$(".name_wrap").show();
+				}else{
+					$(".name_wrap").hide();
+				}
+				
+				if('wifi_revise' == divClass){
+					$(".wifi_revise").show();
+				}else{
+					$(".wifi_revise").hide();
+				}
+				
+			}
+			
+			var models;
+			function initPageData(refresh){
+				$.ajax({
+					type: "POST",
+					url: 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/wan_ip_get?token='+token,
+					success: function(data,status){
+						models = data;
+						$(".onlineModel").text(onlineModels[data.wantype]);
+						$(".onlineSSID").text(data.wifi.ssid);
+						if(data.wantype == 'wifi'){//显示连接的wifi名称
+							$(".onlineSSID").parent().show();
+						}else{
+							$(".onlineSSID").parent().hide();
+						}
+						if(data.real.ip == ""){
+							$(".onlineIpMask").text("连接重试中....");
+						}else{
+							$(".onlineIpMask").text(data.real.ip+" / "+data.real.mask);
+						}
+						$(".onlineGW").text(data.real.gw);
+						var thisDNS = "";
+						for(var i=0;i<data.real.dns.length;i++){
+							thisDNS += data.real.dns[i]+",";
+						}
+						if(thisDNS != ""){
+							thisDNS = thisDNS.substring(0,thisDNS.length-1);
+						}
+						$(".onlineDNS").text(thisDNS);
+						
+						if(refresh){
+							$("#"+data.wantype).click();
+							
+							$(".name input").val(data.pppoe.user);
+							//$(".pwd input").val(data.pppoe.pass);
+							//$(".dns input").val(data.pppoe.dns);
+							
+							//$(".dns input").val(data.dhcp.dns);
+							
+							$(".ip input").val(data.static.ip);
+							$(".mask .select_box span").first().text(data.static.mask);
+							$(".mask .select_box span").first().data("value",data.static.mask);
+							$(".mask .son_ul li").each(function(){
+								if(data.static.mask == $(this).data("value")){
+									$(".mask .select_box span").first().text($(this).text());
+								}
+							});
+							$(".gateway input").val(data.static.gw);
+							
+							$(".wifi_list .select_box span").first().text(data.wifi.ssid);
+						}
+					},
+					error: function(jqXHR, textStatus,errorThrown){
+						//alert("请求失败，稍后请重试！");
+					}
+				});
+			}
+			function getWiFiList(){
+				$.ajax({
+					type: "POST",
+					url: 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/wifi_scan_get?token='+token,
+					success: function(data,status){
+						$(".wifi_list .son_ul").html("");
+						var wifiListHtml = "";
+						for(var i=0;i<data.length;i++){
+							wifiListHtml += "<li data-encryption='"+data[i].encryption+"'>"+data[i].ssid+"</li>";
+						}
+						$(".wifi_list .son_ul").html(wifiListHtml);
+						$(".wifi_list .son_ul li").click(function(){
+							if($(this).html() != $(this).parents('li').find('span').html()){
+								$(".pwd input").val("");
+								if($(this).html() == models.wifi.ssid){
+									$(".pwd input").val(models.wifi.key);
+								}
+								$(this).parents('li').find('span').html($(this).html());
+								$(this).parents('li').find('span').data("encryption",$(this).data("encryption"));
+								$(this).parents('li').find('ul').slideUp();
+							}
+						});
+					},
+					error: function(jqXHR, textStatus,errorThrown){
+						alert("请求失败，稍后请重试！");
+					}
+				});
+			}
+			function changePWD(pw){
+				$.ajax({
+					type: "POST",
+					url: 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/sys_password_set?token='+token,
+					data:{pw:pw},
+					success: function(data,status){
+						if(data.status == "1"){
+							alert("密码更改成功。");
+							location.reload();
+						}else{
+							alert("密码更改失败，稍后请重试！");
+						}
+					},
+					error: function(jqXHR, textStatus,errorThrown){
+						alert("请求失败，稍后请重试！");
+					}
+				});
+			}
+			function changeName(name){
+				$.ajax({
+					type: "POST",
+					url: 'http://'+window.location.host+'/cgi-bin/luci/api/0/module/sys_hostname_set?token='+token,
+					data:{hostname:name,action:"apply"},
+					success: function(data,status){
+						if(data.status == "1"){
+							alert("名称更改成功。");
+							location.reload();
+						}else{
+							alert("名称更改失败，稍后请重试！");
+						}
+					},
+					error: function(jqXHR, textStatus,errorThrown){
+						alert("请求失败，稍后请重试！");
+					}
+				});
+			}
+		</script>
+	</head>
+	<body style="display:none;">
+		<div class="nav_banner animate3 fadeInDown">
+			<div>
+				<span>派路由</span>
+				<a href="http://192.168.10.1/" target="_blank">更多设置</a>
+				<span class="split">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+				<a href="javascript:void(0);" id="set_psd">修改密码</a>
+				<span class="split">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>
+				<a href="javascript:void(0);" id="set_name">修改名称</a>
+		    </div>
+		    <div class="cl"></div>
+		</div>
+		<div class="psd_wrap animate2 rotateInDownRight">
+			<div class="logo png"></div>
+			<ul>
+		        <li><label>密码：</label><input type="password" class="text" /><span>&nbsp; *密码为8位</span></li>
+		        <li><label>确认密码：</label><input type="password" class="text"/></li>
+		    </ul>
+		    <div class="btn_set"><input type="button" class="close_psd" value="关闭" /><input type="button" class="save_psd" value="保存" /></div>
+		    <div class="cl"></div>
+		</div>
+		<div class="name_wrap animate2 rotateInDownRight">
+			<div class="logo png"></div>
+			<ul>
+		        <li><label>名称：</label><input type="text" class="text" /></li>
+				<li style="text-align: center;"><span>提示：修改路由名称会导致无线重新连接</span></li>
+		    </ul>
+		    <div class="btn_set"><input type="button" class="close_psd" value="关闭" /><input type="button" class="save_psd" value="保存" /></div>
+		    <div class="cl"></div>
+		</div>
+		<div class="wifi_revise animate2 rotateInDownRight">
+			<div class="logo png"></div>
+			<ul>
+		        <li><label>连接方式：</label><span class="onlineModel"></span><a href="javascript:void(0);" id="net_seting">修改</a></li>
+		        <li><label>SSID：</label><span class="onlineSSID">ifidc-oneline</span></li>
+		        <li><label>互联网地址：</label><span class="onlineIpMask">14.150.8.210/32</span></li>
+		        <li><label>网关：</label><span class="onlineGW">14.150.8.1</span></li>
+		        <li><label>DNS：</label><span class="onlineDNS">202.96.128.166.202.96.134.133</span></li>
+		    </ul>
+		</div>
+		<div class="login">
+			<form action="" method="post" name="piilogin">
+			    <div class="box png animate2 rotateInDownRight">
+			        <div class="logo png"></div>
+			        <div class="input">
+			            <div class="log">
+			                <div class="mode" style="position:relative;z-index:200;">
+			                    <label class="mode_title">模式：</label>
+			                    <ul class="select">
+			                      <li class="select_box">
+			                        <span>PPPoE拨号</span>
+			                        <ul id="modelSelect" class="son_ul">
+			                        </ul>
+			                      </li>
+			                    </ul>
+			                    <div class="cl"></div>
+			                </div>
+			                <div class="use">
+			                    <label>使用：</label><label class="using" tabindex="1"></label>
+			                </div>
+			                 <div class="ip">
+			                    <label>IP：</label><input type="text" class="text" id="" placeholder="IP地址" name="data-value_1" tabindex="1" style="font-size:16px;">
+			                </div>
+			                <div class="mode mask">
+			                    <label class="mode_title">掩码：</label>
+			                    <ul class="select">
+			                      <li class="select_box">
+			                        <span></span>
+			                        <ul class="son_ul ul_item">
+										<li data-value="255.255.255.255">255.255.255.255(/32)</li>
+										<li data-value="255.255.255.254">255.255.255.254(/31)</li>
+										<li data-value="255.255.255.252">255.255.255.252(/30)</li>
+										<li data-value="255.255.255.248">255.255.255.248(/29)</li>
+										<li data-value="255.255.255.240">255.255.255.240(/28)</li>
+										<li data-value="255.255.255.224">255.255.255.224(/27)</li>
+										<li data-value="255.255.255.192">255.255.255.192(/26)</li>
+										<li data-value="255.255.255.128">255.255.255.128(/25)</li>
+										<li data-value="255.255.255.0">255.255.255.0(/24)</li>
+										<li data-value="255.255.254.0">255.255.254.0(/23)</li>
+										<li data-value="255.255.252.0">255.255.252.0(/22)</li>
+										<li data-value="255.255.248.0">255.255.248.0(/21)</li>
+										<li data-value="255.255.240.0">255.255.240.0(/20)</li>
+										<li data-value="255.255.224.0">255.255.224.0(/19)</li>
+										<li data-value="255.255.192.0">255.255.192.0(/18)</li>
+										<li data-value="255.255.128.0">255.255.128.0(/17)</li>
+										<li data-value="255.255.0.0">255.255.0.0(/16)</li>
+										<li data-value="255.254.0.0">255.254.0.0(/15)</li>
+										<li data-value="255.252.0.0">255.252.0.0(/14)</li>
+										<li data-value="255.248.0.0">255.248.0.0(/13)</li>
+										<li data-value="255.240.0.0">255.240.0.0(/12)</li>
+										<li data-value="255.224.0.0">255.224.0.0(/11)</li>
+										<li data-value="255.192.0.0">255.192.0.0(/10)</li>
+										<li data-value="255.128.0.0">255.128.0.0(/9)</li>
+										<li data-value="255.0.0.0">255.0.0.0(/8)</li>
+										<li data-value="254.0.0.0">254.0.0.0(/7)</li>
+										<li data-value="252.0.0.0">252.0.0.0(/6)</li>
+										<li data-value="248.0.0.0">248.0.0.0(/5)</li>
+										<li data-value="240.0.0.0">240.0.0.0(/4)</li>
+										<li data-value="224.0.0.0">224.0.0.0(/3)</li>
+										<li data-value="192.0.0.0">192.0.0.0(/2)</li>
+										<li data-value="128.0.0.0">128.0.0.0(/1)</li>
+			                        </ul>
+			                      </li>
+			                    </ul>
+			                    <div class="cl"></div>
+			                </div>
+			                <div class="gateway">
+			                    <label>网关：</label><input type="password" class="text" id="" placeholder="网关" name="data-value_2" tabindex="2" style="font-size:16px;">
+			                </div>
+			                <div class="name">
+			                    <label>帐号：</label><input type="text" class="text" id="" placeholder="拨号帐号" name="data-value_1" tabindex="1" style="font-size:16px;">
+			                </div>
+			                <div class="mode wifi_list">
+			                    <label class="mode_title wifi_icon"></label>
+			                    <ul style="margin-top: -18px;margin-bottom: 25px;">
+			                      <li class="select_box">
+			                        <span></span>
+			                        <ul class="son_ul ul_item">
+			                        </ul>
+			                      </li>
+			                    </ul>
+			                    <div class="cl"></div>
+			                </div>
+			                <div class="pwd">
+			                    <label>密码：</label><input type="password" class="text" id="" placeholder="拨号密码" name="data-value_2" tabindex="2">
+			                </div>  
+			                <div class="dns">
+			                    <label>DNS：</label><input type="text" class="text" id="" placeholder="DNS之间使用空格分隔" name="data-value_3" tabindex="3" style="font-size:16px;">
+			                    
+			                </div>
+			                <input type="button" class="close" tabindex="3" value="关闭">
+			                <input type="button" class="submit" tabindex="3" value="连接">
+			                <div class="check"></div>
+			                <div class="tip"></div>
+			            </div>
+			        </div>
+			    </div>
+			</form>
+			<div class="air-balloon ab-1 png"></div>
+			<div class="air-balloon ab-2 png"></div>
+		</div>
+	</body>
+</html>

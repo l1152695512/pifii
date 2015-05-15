@@ -1,0 +1,98 @@
+#appStroe{
+	height:550px;
+}
+#appStroe .guide_app_title{
+	height: 36px;
+	line-height: 36px;
+	width: 595px;
+	margin:0 auto;
+	font-size: 18px;
+	color: #344477;
+	font-family: "微软雅黑";
+}
+
+#appStroe .yingyong{
+ 	width: 960px;
+	height: 180px;
+	margin:0 auto;
+}
+
+#appStroe .yingyong li{
+	width: 60px;
+	height: 134px;
+	margin-left: 27px;
+	margin-top: 30px;
+	position: relative;
+	float: left;
+}
+#appStroe .close{
+	top: 7px;
+}
+#appStroe .yingyong li .pic{
+	width: 60px;
+	height: 60px;
+}
+#appStroe .yingyong li p{
+	font-size:14px;
+	font-weight: normal;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+}
+#appStroe .yizhuang{
+	width: 45px;
+	height: 43px;
+	background:url(../../images/business/yizhuang.png) no-repeat;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+#appStroe .bz{
+	width: 320px;
+	height: 45px;
+	margin:0 auto;
+	color: #444;
+	font-size: 16px;
+	text-align: center;
+
+}
+#appStroe .buzhou .xia{
+	width: 137px;
+	height: 33px;
+	background:#41aaff;
+	margin-right: 15px;
+	line-height: 35px;
+	border-radius: 2px;
+
+}
+#appStroe .buzhou .prev{
+	width: 137px;
+	height: 33px;
+	margin-right: 15px;
+	line-height: 35px;
+	background:#41aaff;
+	border-radius: 2px;
+}
+#appStroe .app_action{
+	width:58px;
+	height: 22px;
+	border: 1px solid rgb(49, 189, 222);
+	border-radius: 2px;
+	margin:0 auto;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background: rgb(78, 199, 227);
+}
+#appStroe .uninstall_app{
+	background: rgb(226, 165, 0);
+	border: 1px solid rgb(200, 175, 1);
+}
+#appStroe .setting_app{
+	background: rgb(111, 206, 139);
+	border: 1px solid rgb(107, 190, 49);
+}

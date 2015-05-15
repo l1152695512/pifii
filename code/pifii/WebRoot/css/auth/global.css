@@ -1,0 +1,37 @@
+/*公用样式*/
+@charset "utf-8";
+body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size:14px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;margin:0;padding:0;}
+body{min-width:320px;font-size:14px;font-family:'microsoft yahei',Verdana,"\5FAE\8F6F\96C5\9ED1",Helvetica,Tahoma,sans-serif,"\5b8b\4f53",Arial;background:#FFF;color:#000;-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;cursor:default;-ms-content-zooming:none;-webkit-text-size-adjust:100%;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-weight:normal; font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;font:inherit;empty-cells:show}
+address,caption,cite,code,dfn,th,var{font-style:normal; font-weight:normal;}
+button,input,select,textarea{text-decoration: none;outline:none;-moz-outline:none;font-size:100%;word-break:normal;text-transform:none;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{vertical-align:middle;-webkit-appearance:button;cursor:pointer;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+q,blockquote{quotes:none}
+q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}
+textarea{resize:none;overflow:auto;vertical-align:top}
+ul,ol,li,dl{list-style-type:none;}         i,em{font-style:normal}     svg:not(:root){overflow:hidden}
+fieldset,img{border:0;}
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic;-webkit-tap-highlight-color:rgba(0,0,0,0);}   
+a{color:#000;-webkit-tap-highlight-color:rgba(0,0,0,0);text-decoration: none;outline:none;} 
+a:active{blr:expression(this.onFocus=this.blur())}
+a:focus {outline:none;-moz-outline:none;}
+
+/*liemmy 自定义样式 2014/11/19*/
+.fl{float:left;}
+.fr{float:right;}
+.cl{clear:both;}
+
+
+/*重置样式*/
+html,body{margin:0;padding:0;width:100%;}
+body{font-size:14px;height:100%;}
+p,ul,dd,h1,h2,h3,form,input,select,textarea{margin:0;padding:0;border:0;}
+ul,li{list-style:none;}
+input,button,select,textarea{outline:none}
+div,p{word-wrap: break-word;}
+
+

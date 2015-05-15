@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='zh-CN' xml:lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>帮助中心</title>
+<link rel="stylesheet" type="text/css" href="css/reset_y.css">
+<link rel="stylesheet" type="text/css" href="css/help.css">
+<script id="jquery_183" type="text/javascript" class="library" src="js/jquery-1.8.3.min.js"></script>
+<script> 
+   (function() {
+     if (! 
+     /*@cc_on!@*/
+     0) return;
+     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     var i= e.length;
+     while (i--){
+         document.createElement(e[i])
+     } 
+})() 
+</script>
+</head>
+<body class="impress-not-supported">
+
+<div class="bg"><img src="images/bg04.jpg" width="100%" /></div>
+
+<header class="top" id="top">
+	<h1><em>和商务商户平台帮助中心</em></h1>
+	<div class="music" id="bgMusicSwitch" title="停止背景音乐">
+		<div class="triangle"></div>
+		<div class="pause pause1"></div>
+		<div class="pause pause2"></div>
+	</div>
+</header>
+
+<section id="timeline" class="timeline">
+	<div id="line" class="line_white"></div>
+	<div id="impress">
+		<div id="timeList">
+			<div class="step year" data-x="-600" data-y="0" data-scale ="0.5" id="0">
+				<div class="year2012">2013-14</div>
+				<div class="list_show">欢迎来到云南移动和商务平台<br/></div>
+			</div>
+			<div class="timeList_item step" data-x="0" data-y="0" id="1">
+				<div class="circle">01</div>
+				<h2 class="timeList_item_title">快速搭建应用</h2>
+				<div class="list_show show1" >
+					<img src="images/event1.png" width="500">
+					<h2><a href="#">如何快速搭建专属应用</a></h2>
+					<p>1、选择样式&nbsp;&nbsp;2、安装应用<br/>3、配置内容&nbsp;&nbsp;4、发布&nbsp;&nbsp;</p>
+				</div>
+			</div>
+			<div class="timeList_item step"  data-x="200" data-y="0" id="2">
+				<div class="circle">02</div>
+				<h2 class="timeList_item_title">自定义风格</h2>
+				<div class="list_show">
+					<img src="images/event2.png">
+					<h2><a href="#">自定义风格</a></h2>
+					<p class="m160">N种方案随心选择</p>
+				</div>
+			</div>
+			<div class="timeList_item step" data-x="400" data-y="0" id="3">
+				<div class="circle">03</div>
+				<h2 class="timeList_item_title">丰富的应用商店</h2>
+				<div class="list_show">
+					<img src="images/event3.png" width="500">
+					<h2><a href="#">应用商店</a></h2>
+					<p>一键上网、我要排队</p>
+				</div>
+			</div>
+			<div class="timeList_item step" data-x="600" data-y="0" id="4">
+				<div class="circle">04</div>
+				<h2 class="timeList_item_title">配置内容</h2>
+				<div class="list_show show3">
+					<img src="images/event4.png" width="500">
+					<h2><a href="#">配置内容</a></h2>
+					<p><img src="images/chengdu.png" /></p>
+				</div>
+			</div>
+		<div class="timeList_item step future" data-x="800" data-y="0" id="5" >
+				<div class="circle">05</div>
+				<h2 class="timeList_item_title">发布成功</h2>
+				<div class="list_show">
+					<img src="images/event5.png" width="500">
+					<h2 style="color: rgb(255, 255, 255);"><a href="#">发布成功</a></h2>
+					<p>恭喜您！发布成功了哦</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="gotop"> <a href="#top"><img src="images/top.png" title="回顶部"/></a></div>
+
+<script type="text/javascript" src="js/impress.js"></script>
+
+</body>
+</html>
+
+<script>var impress = $.browser.msie?undefined:impress();
+
+//预加载图片
+new Image().src = "images/bg04.jpg";
+new Image().src = "images/bg01.jpg";
+new Image().src = "images/bg02.jpg";
+new Image().src = "images/bg03.jpg";
+
+var replay = function(){
+	if(impress){
+		impress.goto($("#0")[0]);
+	}else{
+		location.reload();
+	}
+};
+
+
+var event_cache = null;
+
+var loop = true,timing=null;
+
+$(function(){			
+	
+	 $(window).bind('scroll resize',function(){
+        if($(window).scrollTop() >= 1)
+            $('.gotop').css('display','block');
+        else
+            $('.gotop').css('display','none');
+    });   
+	
+	var cache_event_top = function(){
+		if(event_cache!=null)
+			return;
+		event_cache = new Array(24);
+		var i = 0;
+		var length = event_cache.length;
+		for(;i<length;i++){
+			var id = i+1;
+			event_cache[i] = $("#"+id).position().top;
+		}
+	}
+		
+	var resize = function(){
+		
+		var width = $(window).width();
+		var height = $(window).height();
+		$(".bg img").css("width",width);
+		$(".bg img").css("height",height);
+		
+	};
+		
+	var cur_month = 2;
+
+	var getMonthByTop = function(top){
+		for(var i=0,event=event_cache[i];i<event_cache.length;i++){
+				if(i==event_cache.length-1 && top>=event || top>=event && top<event_cache[i+1]){
+					var date = $("#"+(i+1)).find(".circle").html();
+					if(date){
+						var month = +date.split("/")[0];
+						return month;
+					}
+				}
+		}
+		return cur_month;
+	};
+		
+	var scroll = function(){
+		if($.browser.msie){
+			cache_event_top();
+			var st = $(window).scrollTop();
+			var month = getMonthByTop(st);
+			if(month!=cur_month){
+				changeBackground(month);
+				cur_month = month;
+			}
+		}
+	};
+	
+	resize();
+	
+	$(window).resize(function(){
+		resize();
+	});
+	
+	$(window).scroll(function(){
+		scroll();
+	});
+	
+	$(".circle").click(function(){
+			loop = false;
+		if(timing)
+			clearInterval(timing);
+	});
+	$(".refresh img").click(function(){
+		loop = true;
+		$(".refresh img").addClass("rotate45");
+		setTimeout(function(){
+			$(".refresh img").removeClass("rotate45");
+		},2000);	
+	});
+	if(!$.browser.msie){
+		if($.browser.safari)
+			bgMusic = new Audio('music/music.mp3');
+		else
+			bgMusic = new Audio('music/music.ogg');
+		bgMusic.loop = true;
+		bgMusic.volume = 0.7;
+		$('#bgMusicSwitch').click(function(){
+			if(bgMusic.paused){
+				bgMusic.play();
+				$(".triangle").css("display","none");
+				$(".pause").css("display","block");
+				$("#bgMusicSwitch").attr("title","暂停背景音乐");
+			}else{
+				bgMusic.pause();
+				$(".pause").css("display","none");
+				$(".triangle").css("display","block");
+				$("#bgMusicSwitch").attr("title","播放背景音乐");
+			}});
+		var bgSwitch = function(){
+			$('#bgMusicSwitch').trigger('click');
+		}
+				
+		bgSwitch();
+	}else{
+		$(".music").hide();
+	}		
+	
+});
+
+
+if(impress)impress.init();
+
+var last_month = 4;
+
+var changeBackground = function(month){
+	var body = $("body");
+	var url = "";
+	if(month == 12 || month == 1 || month==2){
+		if(last_month==4)
+			return;
+		last_month = 4;
+		url = "images/bg04.jpg";
+		$("header").css("background-color","rgba(255,255,255,0.2)");
+		$(".impress-supported .list_show h2").css("color","#0087f1");
+		$(".impress-not-supported .timeList_item_title").css("color","#0087f1");
+	}else if(month>=3 && month<=5){
+		if(last_month==1)
+			return;
+		last_month = 1;
+		url = "images/bg01.jpg";
+		$("header").css("background-color","rgba(255,255,255,0.2)");
+		$(".impress-supported .list_show h2").css("color","#fff");
+		$(".impress-not-supported .timeList_item_title").css("color","#eca200");
+	}else if(month>=6 && month<=8){
+		if(last_month==2)
+			return;
+		last_month = 2;
+		url = "images/bg02.jpg";
+		$("header").css("background-color","rgba(0,0,0,0.2)");
+		$(".impress-supported .list_show h2").css("color","#82e211");
+		$(".impress-not-supported .timeList_item_title").css("color","#82e211");
+	}else{
+		if(last_month==3)
+			return;
+		last_month = 3;
+		url = "images/bg03.jpg";
+		$("header").css("background-color","rgba(255,255,255,0.2)");
+		$(".impress-supported .list_show h2").css("color","#ffca00");
+		$(".impress-not-supported .timeList_item_title").css("color","#ffca00");
+	}
+	$(".bg img").attr("src",url);
+};
+
+if(!$.browser.msie){
+	document.addEventListener('impress:stepenter', function(e){
+		var cur = arguments[0].target;
+		var date = $(cur).find(".circle").html();
+		if(date){
+			var month = +date.split("/")[0];
+			changeBackground(month);
+		}
+		if(!loop)
+			return;
+		if (typeof timing !== 'undefined') clearInterval(timing);
+		var duration = 4000;
+		timing = setInterval(function(){
+			var dom = impress.next();
+			var id = +$(dom).attr("id");
+			if(id==25){
+				clearInterval(timing);
+				loop = false;
+			}
+		}, duration);
+	});
+}
+</script>

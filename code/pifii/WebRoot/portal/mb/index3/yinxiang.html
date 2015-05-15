@@ -1,0 +1,78 @@
+﻿
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>印象咖啡厅</title>     
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/template.css" />
+        <script src="js/TouchSlide.1.1.js" type="text/javascript"></script>
+        <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="slideBox" class="slideBox">
+            <div class="bd">
+                <ul>
+                        <li>
+                            <a class="pic" href="javascript:void(0)"><img src="images/yinxiang_b_01.png"  style="height:13rem;min-height:12rem;"/></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="javascript:void(0)"><img src="images/yinxiang_b_01.png"  style="height:13rem;min-height:12rem;"/></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="javascript:void(0)"><img src="images/yinxiang_b_01.png"  style="height:13rem;min-height:12rem;"/></a>
+                        </li>
+                        <li>
+                            <a class="pic" href="javascript:void(0)"><img src="images/yinxiang_b_01.png"  style="height:13rem;min-height:12rem;"/></a>
+                        </li>
+                </ul>
+            </div>
+            <div class="hd">
+                <ul></ul>
+            </div>
+            <script type="text/javascript">
+                try{
+                    TouchSlide({ 
+                        slideCell:"#slideBox",
+                        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                        mainCell:".bd ul", 
+                        effect:"leftLoop", 
+                        autoPage:true,//自动分页
+                        autoPlay:true //自动播放
+                    });
+                }catch(e){
+                }
+            </script>
+        </div>
+        <article>
+        	<div class="d_l"><img src="images/yinxiang_logo.png" /></div>
+            <div class="d_r">
+            	<h2>印象咖啡厅</h2>
+                <p>电话:<a href="tel:02083881142">020-83881142</a></p>
+                <p>地址：广州市越秀区建设六马路1号4楼</p>
+            </div>
+            <div class="cl"></div>
+        </article>
+        <aside>
+        	<div class="online"><a href="javascript:void(0)" class="yinxiang">我要上网</a></div>
+        </aside>
+        <article class="ar_2">
+        	<h1>附近热门商家</h1>
+             <ul>
+                <li><a href="javascript:void(0);"><img src="images/hm_ktv.png" ><p>金畅KTV</p></a></li>
+                <li><a href="javascript:void(0);"><img src="images/hm_bbj.png" ><p>廖记棒棒鸡</p></a></li>
+                <li><a href="javascript:void(0);"><img src="images/hm_swx.png" ><p>食为先</p></a></li>
+                <li><a href="javascript:void(0);"><img src="images/hm_fyyc.png" ><p>飞扬影城</p></a></li>
+            </ul>
+        	<div class="cl"></div>
+        </article>
+        <footer>
+        	<P>MO派智慧WiFi@<a href="#">mofi139.com</a></P>
+        </footer>
+    </body>
+</html>

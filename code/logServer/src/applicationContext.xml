@@ -7,7 +7,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver">
 		</property>
 		<property name="url"
-			value="jdbc:mysql://127.0.0.1:3306/big_data?useUnicode=true&amp;characterEncoding=utf8">
+			value="jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf8">
 		</property> 
 		<property name="username" value="root"></property>
 		<property name="password" value="ifidc2403"></property> 
@@ -58,7 +58,7 @@
 	</bean>
 	<bean id="ServerConfig" class="com.ifidc.common.ServerConfig">
 		<property name="ipAddr">
-			<value>192.168.1.109</value>
+			<value>192.168.1.12</value>
 		</property>
 		<property name="port">
 			<value>10000</value>

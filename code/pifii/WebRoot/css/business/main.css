@@ -1,0 +1,164 @@
+/* css 重置 */
+body, p, input, h1, h2, h3, h4, h5, h6, ul, li{ 
+	margin: 0; padding: 0; list-style: none; vertical-align: middle;
+}
+img{ 
+	border:0; margin: 0; padding: 0;
+}
+body{
+	color: #000; 
+	-webkit-text-size-adjust: none;
+	font:normal 14px/200% "微软雅黑", helvetica, arial;
+	text-align:left;
+}
+.header, section, .footer {
+	display: block; margin: 0; padding: 0 
+}
+a{text-decoration:none;color:#000;}
+.fl{float:left}
+.fr{float:right;}
+.cl{clear:both;}
+.line3{width: 100%;height:3px;background:#E3E3E3;}
+.line2{width: 100%;height: 2px;font-size: 0;line-height: 0;background:#D8D8D8;margin-bottom: 10px;}
+/*公共样式*/
+
+
+/*头部样式*/
+.header{
+	width:100%;
+	height:88px;
+	background: #2079d4;
+}
+#mainPageHeader{
+	width: 1210px;
+	height:88px;
+	margin:0 auto;
+/* 	background: url(../../images/business/header_bj.jpg) no-repeat; */
+}
+#mainPageHeader .headerLeft{
+/* 	margin-top: 12px; */
+	font-size:28px;
+	line-height: 28px;
+	color:#fff;
+}
+#mainPageHeader .headerLeft .logo{
+	width: 65px;
+	height:65px;
+	cursor: pointer;
+	-webkit-box-shadow: rgb(69, 74, 78) 0px 4px 20px;
+	-moz-box-shadow: rgb(69, 74, 78) 0px 4px 20px;
+	box-shadow: rgb(69, 74, 78) 0px 4px 20px;
+	border-radius: 5px;
+}
+#mainPageHeader .headerLeft .logo.select{
+ 	margin:10px;
+}
+#mainPageHeader .headerLeft .logo_mouse_over{
+	width:70px;
+	height:70px;
+}
+#mainPageHeader .logo img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+#mainPageHeader .selectname{
+/* 	width: 400px; */
+/* 	position: relative; */
+/* 	margin-right: 100px; */
+	margin-top: 25px;
+	position: relative;
+}
+#mainPageHeader .selectname .selected_shop p{
+/* 	width:135px; */
+/* 	height: 40px; */
+/* 	background: url(../../images/business/indexCons.png) no-repeat 95px 16px; */
+	float:left;
+	overflow: hidden; 
+	 outline:none;
+	 border:0;
+	 font-size:28px;
+	line-height: 34px;
+	color:#fff;
+/* 	max-width: 251px; */
+/* 	white-space: nowrap; */
+/* 	text-overflow: ellipsis; */
+}
+#mainPageHeader .selectname .selected_shop img{
+	margin-left: 12px;
+}
+#mainPageHeader .selectname ul{
+/* 	width: 100%; */
+/* 	list-style:none; */
+/* 	display:block; */
+/* 	margin:0; */
+/* 	padding:0; */
+	text-align:center;
+/* 	position: relative; */
+/* 	z-index: 4; */
+}
+#mainPageHeader .selectname ul li{
+/* 	width: 90%; */
+	float: left;
+/* 	padding:15px 30px 15px 30px; */
+	font-size: 16px;
+	color: #000;
+/* 	background: #fff; */
+	cursor: pointer;
+	width: 95px;
+	overflow: hidden;
+}
+#mainPageHeader .selectname ul li>p{
+	margin: 15px;
+}
+#mainPageHeader .selectname ul li .logo{
+	margin: 15px;
+}
+#mainPageHeader .selectname ul li .logo p{
+	width: 100%;
+	vertical-align: baseline;
+	overflow: hidden;
+	height: 30px;
+	white-space: nowrap;
+}
+/* #mainPageHeader .selectname ul li:hover{ */
+/* 	font-size: 16px; */
+/* 	color: #fff; */
+/* 	background: #009FFC; */
+/* } */
+#mainPageHeader .selectname>div.selected_shop{
+	cursor: pointer;
+/* 	position: absolute; */
+}
+#mainPageHeader .selectname>div.shop_list{
+/* 	width: 100%; */
+	display:none;
+	background: #fff;
+	position:absolute;
+	top: 63px;
+	left: -85px;
+	z-index: 10;
+	-webkit-box-shadow: #666 0px 3px 10px;
+	-moz-box-shadow: #666 0px 3px 10px;
+	box-shadow: #666 0px 3px 10px;
+}
+/*header 左边logo设置结束*/
+
+#mainPageHeader .headerRight{
+	width: 130px;
+	margin-top: 30px;
+	background-size: 16px;
+	color:#06427a;
+}
+#mainPageHeader .headerRight span{
+	cursor: pointer;
+}
+/*header 结束*/
+/*footer*/
+body>.main_page_center{
+	width: 1210px;
+	margin:0 auto;
+}
+body>.main_page_center>.main_content{
+	width: 970px;
+}

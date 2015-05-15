@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* 7day 金逸  印象 */
+body{background-color:#e3e3e3;}
+h3.qiday_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#c33a04;color:#fff;}
+.slideBox{ position:relative; overflow:hidden; margin:0 auto;  max-width:560px;/* 设置焦点图最大宽度 */ }
+.slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:0; right:0; z-index:1; }
+.slideBox .hd li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;   }
+.slideBox .hd li.on{ background:#fff;  }
+.slideBox .bd{ position:relative; z-index:0;}
+.slideBox .bd li{ position:relative; text-align:center;  }
+.slideBox .bd li img{ background:url(../images/loading.gif) center center no-repeat;  vertical-align:top; width:100%;height:100%;/* 图片宽度100%，达到自适应效果 */}
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  }  /* 去掉链接触摸高亮 */
+.slideBox .bd li .tit{ display:block; width:100%;position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:url(images/focusBg.png) repeat-x; color:#7E9500;  text-align:left;}
+.article{background-color:#ffffff;padding:8px 8px;}
+.article .d_l{width:75px;height:75px;float:left;margin-right: 10px;}
+.article .d_l img{width:100%;height:100%;vertical-align:middle;-webkit-border-radius:5px;border-radius:5px;}
+.article .d_r{width:60%;display:inline-block;padding:0;line-height:25px;color: gray;font-family: sans-serif;overflow: hidden;}
+.article .d_r span,div{font-size: 16px;white-space: nowrap;}
+.article .d_r .this_title{z-index: 1;position: relative;}
+.article .d_r>span{overflow: hidden;white-space: nowrap;font-weight: bold;font-size: 16px;color: #000;}
+.article .d_r span{background: white;}
+.article .d_r>div span{font-size: 14px;}
+/* .article .d_r h2{width:100%;overflow:hidden;font-size:16px;font-weight: bold;} */
+/* .article .d_r p{color:#666;font-size:14px;} */
+/* .article .d_r p a{width:100%;overflow:hidden;text-decoration:none;color:#999;cursor:pointer;font-size:14px;} */
+/* .article .d_r > p:nth-of-type(2){width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#666;} */
+/* aside{background-color:#fff;padding:20px 0;margin-top:2px;} */
+/* aside .online{width:70%;text-align:center;margin:0 auto;} */
+/* aside .online a.qiday{display:block;cursor:pointer;padding:15px;text-align:center;-webkit-border-radius:5px;border-radius:5px;color:#fff;background-color:#e34f14;} */
+.article.ar_2{background-color:#ffffff;padding:8px 8px;margin-top:5px;}
+.ar_2 h1{color:#dd490f;font-size:16px;}
+.ar_2 li{ float:left; width:25%; text-align:center;padding-top:7px; padding-bottom:7px;}
+.ar_2 li a{ color:#888888;display:inline-block;cursor:pointer;}
+.ar_2 li a img{ width:70px; height:70px;border-radius:3px; margin-bottom:3px;}
+.ar_2 li a p{ text-align:center;color:#000;font-size:14px;}
+
+.footer{width: 100%;height: 26px;text-align: center;line-height: 26px;font-size: 12px;color: #666;}
+.footer a{font-family: Arial, Helvetica, sans-serif;text-decoration: none;color: #666;}
+/* .footer{margin-top:3%;} */
+/* .footer p{text-align:center;color:#6b6b6b;overflow:hidden;font-size:14px;} */
+/* .footer p a{text-align:center;cursor:pointer;color:#C33;font-size:14px;} */
+
+h3.yinxiang_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#cc632a;color:#fff;}
+/* aside .online a.yinxiang{display:block;cursor:pointer;padding:15px;text-align:center;-webkit-border-radius:5px;border-radius:5px;color:#fff;background-color:#cc632a;} */
+
+h3.jinyi_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#057cd7;color:#fff;}
+/* aside .online a.jinyi{display:block;cursor:pointer;padding:15px;text-align:center;-webkit-border-radius:5px;border-radius:5px;color:#fff;background-color:#057cd7;} */
+
+/* 花园  */
+h3.huayuan_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#a136a0;color:#fff;}
+.huayuan_nav_list{background-color:#fff;padding:8px 8px;margin-top:2px;}
+.huayuan_list_content{width:100%;margin:0 auto;background:#fff;}
+.huayuan_list_content li{position: relative;height:120px;overflow: hidden;}
+.huayuan_list_content li a.logo_info{display:block;width:100%;height:100%;}
+.huayuan_list_content > li:nth-of-type(1){width:49%;display:block;background: url(../images/sw.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.huayuan_list_content > li:nth-of-type(2){width: 49%;display:block;background: url(../images/hy.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.huayuan_list_content > li:nth-of-type(3){width: 56%;display:block;background: url(../images/yl.png) no-repeat 50% 50%;background-size:100% 100%;}
+.huayuan_list_content > li:nth-of-type(4){width: 42%;display:block;background: url(../images/ms.png) no-repeat 50% 50%;background-size:100% 100%;}
+.huayuan_list_content > li:nth-child(2n-1){float:left;}
+.huayuan_list_content li:nth-child(2n){float:right;}
+h2.tit_info{position:absolute;left:0;bottom:0;width:100%;background:rgba(0,0,0,0.2);color:#fff;overflow:hidden;font-size:16px;height:25px;line-height:25px;text-align:center;}
+
+/* 中华广场  */
+h3.zhonghua_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#0fc4d9;color:#fff;}
+.zhonghua_nav_list{background-color:#fff;padding:8px 8px;margin-top:2px;}
+.zhonghua_list_content{width:100%;margin:0 auto;background:#fff;}
+.zhonghua_list_content li{position: relative;height:120px;overflow: hidden;}
+.zhonghua_list_content li a.logo_info{display:block;width:100%;height:100%;}
+.zhonghua_list_content > li:nth-of-type(1){width:49%;display:block;background: url(../images/sw.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.zhonghua_list_content > li:nth-of-type(2){width: 49%;display:block;background: url(../images/hm_yhq.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.zhonghua_list_content > li:nth-of-type(3){width: 56%;display:block;background: url(../images/hm_zjf.png) no-repeat 50% 50%;background-size:100% 100%;}
+.zhonghua_list_content > li:nth-of-type(4){width: 42%;display:block;background: url(../images/hm_zkd.png) no-repeat 50% 50%;background-size:100% 100%;}
+.zhonghua_list_content > li:nth-child(2n-1){float:left;}
+.zhonghua_list_content li:nth-child(2n){float:right;}
+h2.tit_info{position:absolute;left:0;bottom:0;width:100%;background:rgba(0,0,0,0.2);color:#fff;overflow:hidden;font-size:16px;height:25px;line-height:25px;text-align:center;}
+
+/* 招商银行  */
+h3.yinhang_tit{text-align:center;font-size:18px;overflow:hidden;padding:1.5% 0;background-color:#cc0c0b;color:#fff;}
+aside .online a.yinhang{display:block;cursor:pointer;padding:15px;text-align:center;-webkit-border-radius:5px;border-radius:5px;color:#fff;background-color:#cc0c0b;}
+.yinhang_nav_list{background-color:#fff;padding:8px 8px;margin-top:5px;}
+.yinhang_list_content{width:100%;margin:0 auto;background:#fff;}
+.yinhang_list_content li{position: relative;height:120px;overflow: hidden;}
+.yinhang_list_content li a.logo_info{display:block;width:100%;height:100%;}
+.yinhang_list_content > li:nth-of-type(1){width:49%;display:block;background: url(../images/hm_thsh.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.yinhang_list_content > li:nth-of-type(2){width: 49%;display:block;background: url(../images/hm_dyp.png) no-repeat 50% 50%;background-size:100% 100%;margin-bottom:7px;}
+.yinhang_list_content > li:nth-of-type(3){width: 49%;display:block;background: url(../images/hm_xyk.png) no-repeat 50% 50%;background-size:100% 100%;}
+.yinhang_list_content > li:nth-of-type(4){width: 49%;display:block;background: url(../images/hm_wdcx.png) no-repeat 50% 50%;background-size:100% 100%;}
+.yinhang_list_content > li:nth-child(2n-1){float:left;}
+.yinhang_list_content li:nth-child(2n){float:right;}
+h2.yinhang_tit_info{position:absolute;left:0;top:0;width:100%;background:rgba(0,0,0,0.2);color:#fff;overflow:hidden;font-size:16px;height:25px;line-height:25px;text-align:left;text-indent:10px;padding:2% 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+/*  reset style */
+body,h1,h2,ol,ul,li,p,input,dl,dd, dt { margin:0;padding:0;}
+ul,ol {list-style:none;}
+input[type="text"],input[type="search"] {-webkit-appearance:none;
+-webkit-tap-highlight-color:#fff;outline:none;}
+/*  common style  */
+body {
+    font-size:14px;
+	color: #4a4a4a;
+	font-family: arial;
+}
+a {
+	color:#4a4a4a;
+	text-decoration:none;
+}
+.hidden {
+	display:none;
+}
+/*  page style  */
+#content {
+	width:320px;
+	min-width:320px;
+	margin:0 auto;
+	position:relative;
+	
+}
+/* menu */
+.menu{width:80px;height:80px;position:absolute;bottom:-82px;left:38%;background:url(../images/menu.png) no-repeat;cursor:move;}
+*html .menu{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+.menu .box{width:200px;height:243px;background:url(../images/m-bg.png) repeat;position:absolute;top:-88px;left:-30px;display:none;}
+.menu .box a{background:url(../images/m1.png) no-repeat;position:absolute;}
+.menu .box a:hover{background:url(../images/m2.png) no-repeat;}
+.menu .box .t1{background-position:0px 0px;width:49px;height:59px;left:34px;top:8px;}
+.menu .box .t2{background-position:0px -80px;width:49px;height:52px;left:104px;top:24px;}
+.menu .box .t3{background-position:0px -160px;width:58px;height:50px;left:134px;top:84px;}
+.menu .box .t4{background-position:0px -240px;width:54px;height:49px;left:126px;top:154px;}
+.menu .box .t5{background-position:0px -320px;width:50px;height:57px;left:74px;top:189px;}
+.menu .box .t6{background-position:0px -400px;width:50px;height:54px;left:3px;top:185px;}
+.menu .box .t1:hover{background-position:0px 0px;}
+.menu .box .t2:hover{background-position:0px -80px;}
+.menu .box .t3:hover{background-position:0px -160px;}
+.menu .box .t4:hover{background-position:0px -240px;}
+.menu .box .t5:hover{background-position:0px -320px;}
+.menu .box .t6:hover{background-position:0px -400px;}
+
+/*  header START  */
+a{outline:0;text-decoration:none;}
+header{position:relative;background:#ed6c00;}
+header h1{text-align:center;height:45px;font-size:16px;font-weight:bold;line-height:45px;color:#fff;overflow:hidden;}
+header .back{position:absolute;left:10px;top:5px;color:#c00;font-weight:bolder;font:bolder 20px/30px SimSun,Arial;display:block;}
+header .back img{width:20px;height:16px;line-height:16px;}
+
+/* scroll START  */
+.scroll{width:320px;min-width:320px;margin:0 auto; overflow:hidden;}
+.mod_01{float:left; width:320px;position:relative;}
+.mod_01 img{display:block; width:320px; height:400px;}
+.mod_01 h2{position:absolute;top:5%;left:2%;background:rgba(100%,0%,100%,0.5);width:60%;overflow:hidden;color:#fff;font-size:16px;text-align:center;border-radius:10px; padding:5px;}
+.mod_01 h3{position:absolute;top:30%;right:2%;background:rgba(100%,0%,0%,0.5);width:60%;overflow:hidden;color:#fff;font-size:18px;text-align:center;border-radius:10px; padding:5px;}
+.mod_01 h3 del{display:block;font-size:16px;}
+.mod_01 p{position:absolute;bottom:3%;left:2%;background:rgba(0%,0%,100%,0.5);width:60%;overflow:hidden;color:#fff;font-size:14px;text-align:center;border-radius:10px; padding:5px;}
+
+.dotModule_new {height:25px;line-height:25px; background:#fff;border:1px solid #dadada;}
+#slide_01_dot {text-align:center;}
+#slide_01_dot span {display:inline-block;margin:0 3px;width:13px;height:13px;vertical-align:middle;background:#76838d;-webkit-border-radius:10px;border-radius:10px;}
+#slide_01_dot .selected {background:#f46430;}
+.row_con{background:#ededed;}
+.row_con h2{ 
+	border-bottom:2px solid #dadada;
+	font-size:16px;
+	padding:0 10px;
+	line-height:40px;
+	color:#F3F;
+	}
+.row_con h2 a{ 
+    float:right;
+	font-size:12px;
+	font-weight:normal;
+	background:url(../images/next.png) no-repeat right center;
+	padding-right:15px;
+	}
+.commend {
+    text-align: center;
+    margin: 10px 0 0 7px;
+	overflow:hidden;
+	zoom:1;
+	}
+.commend a {
+    width: 70px;
+    display:block;
+    float: left;
+    margin: 0 8px 10px 0;
+	-webkit-transition:1s ease all;
+    -moz-transition:1s ease all;
+}
+.commend a img{ width:68px; height:38px; border:1px solid #ddd;}
+/*.commend .hover{
+	-webkit-transform: rotateY(360deg); 
+     transform: rotateY(360deg);
+	 -moz-transform: skew(0deg, 360deg) ; 
+     -o-transform: skew(0deg, 360deg) ;}*/
+

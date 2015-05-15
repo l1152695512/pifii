@@ -1,0 +1,16 @@
+	/* css 重置 */
+	body, p, input, h1, h2, h3, h4, h5, h6, ul, li{ margin: 0; padding: 0; list-style: none; vertical-align: middle;}
+	img { border:0; margin: 0; padding: 0;}
+	body { color: #000; 
+	 -webkit-text-size-adjust: none;
+	 font:normal 14px/200% "微软雅黑", helvetica, arial;
+	 text-align:left;
+	}
+	header, section, footer { display: block; margin: 0; padding: 0 }
+	a{text-decoration:none;color:#000;}
+	.fl{float:left}
+	.fr{float:right;}
+	.cl{clear:both;}
+	.line3{width: 100%;height:3px;background:#E3E3E3;}
+	.line2{width: 100%;height: 2px;font-size: 0;line-height: 0;background:#D8D8D8;margin-bottom: 10px;}
+	/*公共样式*/

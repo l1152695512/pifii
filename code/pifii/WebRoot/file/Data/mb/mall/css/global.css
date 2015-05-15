@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{
+	font-size: 14px;
+	font-family: "宋体","arial";
+	background: #f5f5f5;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.ul{
+	list-style: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+.cl{
+	clear: both;
+}
+img{
+	border:0;
+}

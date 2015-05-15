@@ -1,0 +1,39 @@
+body{background: url(../../images/auth/body_bg.jpg) top center;height: 100%;background-size:cover;
+/*background:url(../img/body_bg.jpg) no-repeat top center; background-size:cover;*/
+}
+/*.placeholder{font-size:22px;}*/
+.header{padding-top:17px;width:100%;width:1110px;margin:30px auto;}
+#logo{width:130px;height:55px;background:url(../../images/auth/pii_logo.png) no-repeat;}
+#login{width:484px;padding-top:40px;margin:0 auto;}
+
+#login .tab{height:40px;text-align: center;line-height: 40px;font-size:16px;font-family: arial;font-weight: bold;}
+#login .tab .ka{width:126px;height:40px;border-top-left-radius: 3px;border-top-right-radius:3px;margin-right:4px;
+-webkit-box-shadow:2px -2px 3px rgba(0,0,0,0.1);
+-moz-box-shadow:2px -2px 3px rgba(0,0,0,0.1);
+-ms-box-shadow:2px -2px 3px rgba(0,0,0,0.1);
+box-shadow:2px -2px 3px rgba(0,0,0,0.1);}
+.ON{color: #717171;background:rgb(255,255,255);opacity:0.4;filter:alpha(opacity=40);}
+.OFF{background:#2b8de0;color:#fff;}
+/*tab end*/
+
+#login .box{background:url(../../images/auth/box_bj.png);width:100%;height:245px;padding-top:55px;border-radius:5px;border-top-left-radius:0;font-family: "宋体";-webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.2);}
+#login .box .inner{width:330px;height:200px;margin:0 auto;font-size: 16px;color: #8a8a8a;}
+#login .box .inner input[type="text"]{color:#8a8a8a;width:310px;height:41px;border:1px solid #a6a6a6;
+font-size:14px;padding-left:14px;background: #fff;line-height:41px;}
+#login .box .inner .flo{margin-bottom:20px;}
+#login .box .inner .flo01 input {margin-right:10px;}
+#login .box .inner .flo input[type="button"]{width:326px;height:46px;border-radius:3px;background:#2188d6;color:#fff;font-family: "宋体";font-weight:bold;font-size:16px;}
+#login .box .inner .flo input[type="button"]:hover{background:#228ee1;}
+#login .box .inner input[type="text"].numb{width:180px;}
+#login .box .inner input[type="text"]:focus{color:#757474;border:1px solid #2b8de0;}
+#login .box .inner span{cursor: pointer;text-decoration: underline;color: #999999;}
+/*#login .box .inner手机认证显示部分*/
+
+#login .box .inner02 {width:375px;height:200px;margin:0 auto;}
+#login .box .inner02 .weixin{height:110px;width:100%;margin-bottom: 30px;}
+#login .box .inner02 div{width:326px;height:46px;margin:0 auto;}
+#login .box .inner02 input{width:326px;height:46px;border-radius:3px;background:#2188d6;color:#fff;font-family: "宋体";font-weight:bold;font-size:16px;}
+#login .box .inner02 input:hover{background:#228ee1;}
+
+#login .box .inner{display:block;}/*默认手机认证显示*/
+#login .box .inner02{display:none;}/*默认微信认证隐藏*/

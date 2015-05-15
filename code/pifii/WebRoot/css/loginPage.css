@@ -1,0 +1,230 @@
+/* css ï¿½ï¿½ï¿½ï¿½ */
+body, p, input, h1, h2, h3, h4, h5, h6, ul, li{ margin: 0; padding: 0; list-style: none; vertical-align: middle;}
+img { border:0; margin: 0; padding: 0;}
+body { color: #000; 
+ -webkit-text-size-adjust: none;
+ font:normal 14px/200% "Microsoft YaHei", helvetica, arial;
+ text-align:left;
+}
+header, section, footer { display: block; margin: 0; padding: 0 }
+a{text-decoration:none;color:#000;}
+.fl{float:left}
+.fr{float:right;}
+.cl{clear:both;}
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½*/
+body{
+	background:url(../images/login/pifiiUserBj2.png) no-repeat fixed center top;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-ms-background-size:100% 100%;
+	background-size: 100% 100%;
+}
+.header{
+	width:1210px;
+	height: 77px;
+	padding-top:18px;
+	margin:0 auto;
+}
+.header .logo{
+	width:240px;
+	height: 70px;
+	cursor: pointer;
+}
+.header .logo a{
+	display: block;
+	width: 100%;
+}
+.header .nav{
+	width: 200px;
+	height: 40px;
+	padding-top:25px;
+}
+.header .nav li{
+	cursor: pointer;
+	float: left;
+	width:80px;
+	margin-right: 5px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.header .nav li a{
+	color: #fff;
+}
+.header .nav li a:hover{
+	text-decoration: underline;
+}
+/*header  end*/
+
+.content{
+	width:1210px;
+	height: 450px;
+	margin:0 auto;
+	position: relative;
+}
+.content .denglu{
+	width: 310px;
+	height: 350px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	position: absolute;
+	background:#3e9bdd;
+	*background:#3e9bdd;
+	_background:#3e9bdd;
+	background:rgba(67,133,193,0.5);
+	right: 137px;
+}
+
+.content .denglu .title{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.content .denglu .floor{
+	width: 250px;
+	height: 45px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.content .denglu .floor input{
+	width: 195px;
+	height: 40px;
+	*line-height:40px;/* Õë¶ÔIE7 */
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color:#005FAA;
+	font-size: 14px;
+	border:0;
+	outline:none;
+	padding-left: 55px;
+	background: #fff url(../images/login/icons.png) no-repeat -67px 9px;
+}
+.content .denglu .floor input:focus{
+	font-size: 14px;
+}
+.content .denglu .floor02 input{
+	background: #fff url(../images/login/icons.png) no-repeat -67px -61px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #afc1cf;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #afc1cf;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #afc1cf;
+   
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #afc1cf;
+}
+.content .denglu .yangzhengma{
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 14px;
+	position: relative;
+/* 	margin-bottom: 23px; */
+}
+.content .denglu .yangzhengma input{
+	position: absolute;
+	top:0;
+	width:68px;
+	height: 30px;
+	border: 1px solid #d2d2d2 ;
+	outline: none;
+	background: #fFF;
+	padding-left: 10px;
+	*line-height: 30px;/* Õë¶ÔIE7 */
+	color: #005FAA;
+	font-size: 16px;
+}
+.content .denglu .yangzhengma img{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	left:110px;
+}
+.content .denglu .yangzhengma  span{
+	position: absolute;
+	right: 4px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+.content .denglu .floor03{
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+}
+.content .denglu .floor03 input{
+	width: 250px;
+	height: 45px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color: #D4ECFF;
+	font-size: 16px;
+	border:0;
+	outline:none;
+	text-align: center;
+	line-height: 45px;
+	_line-height: 48px;
+	*line-height: 48px;
+	letter-spacing: 1px;
+	background: rgb(31,120,189);
+	background: rgba(31,120,189,0.8);
+	*background: rgb(31,120,189);
+	_background: rgb(31,120,189);
+	cursor: pointer;
+	font-family: "ï¿½ï¿½ï¿½ï¿½";
+}
+.content .denglu .floor03 input:hover{
+	background:#2384ce;
+	background:rgba(35,132,206,0.8);
+	_background:#2384ce;
+	*background:#2384ce;
+}
+
+.content .denglu .errorMsg{
+	text-align: center;
+	padding: 5px 0 5px 0;
+	color: red;
+}
+
+.rot{
+	position:absolute;
+	bottom:5%;
+	width:100%;
+	height:290px;
+	background:url(../images/login/word.png) no-repeat 70% 50%;
+	background-size:600px 250px;
+	display: none;
+	}
+/*ï¿½ï¿½Â¼ end*/
+.footer{
+	width: 100%;
+	height: 60px;
+	margin:0 auto;
+	position: absolute;
+	bottom: 0;
+/* 	padding-top: 50px; */
+	pointer-events: none;
+}
+.footer p{
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	color: #555555;
+	font-size: 14px;
+	text-align: center;
+}
