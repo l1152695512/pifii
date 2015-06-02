@@ -1,0 +1,856 @@
+2015-06-02 14:04:36,435 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:04:36,444 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:04:36,446 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:04:36,457 NioProcessor-2 WARN org.apache.mina.filter.logging.LoggingFilter - EXCEPTION :
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:04:36,458 NioProcessor-2 WARN org.apache.mina.core.service.IoHandlerAdapter - EXCEPTION, please implement pifii.com.log.test.UDPClient.exceptionCaught() for proper handling:
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:04:36,458 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:06:34,222 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:06:34,303 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:06:34,558 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:06:34,670 NioProcessor-2 WARN org.apache.mina.filter.logging.LoggingFilter - EXCEPTION :
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:06:34,745 NioProcessor-2 WARN org.apache.mina.core.service.IoHandlerAdapter - EXCEPTION, please implement pifii.com.log.test.UDPClient.exceptionCaught() for proper handling:
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:06:40,586 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:06:40,657 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:06:40,678 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:06:40,746 NioProcessor-2 WARN org.apache.mina.filter.logging.LoggingFilter - EXCEPTION :
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:06:40,770 NioProcessor-2 WARN org.apache.mina.core.service.IoHandlerAdapter - EXCEPTION, please implement pifii.com.log.test.UDPClient.exceptionCaught() for proper handling:
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:06:40,790 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:07:37,468 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:07:37,558 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:07:37,622 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:07:37,653 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:07:37,787 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:07:37,828 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:07:37,828 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=22 cap=4096: E6 B5 8B E8 AF 95 E6 95 B0 E6 8D AE E5 8F 91 E9...]
+2015-06-02 14:07:37,862 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:07:37,877 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:08:15,108 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:08:15,182 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:08:15,224 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:08:15,224 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:08:15,257 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:08:15,311 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=22 cap=4096: E6 B5 8B E8 AF 95 E6 95 B0 E6 8D AE E5 8F 91 E9...]
+2015-06-02 14:08:15,311 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 2
+2015-06-02 14:08:15,344 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:08:15,356 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 2
+2015-06-02 14:08:37,634 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:08:37,674 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:08:37,712 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:09:15,676 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:09:16,078 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 2
+2015-06-02 14:09:16,159 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 2
+2015-06-02 14:11:27,668 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:11:27,927 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:11:27,953 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=101 cap=4096: 00 00 00 61 AC ED 00 05 73 72 01 00 29 6E 65 74...]
+2015-06-02 14:11:27,953 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 3
+2015-06-02 14:11:27,993 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 3
+2015-06-02 14:11:28,031 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 14:11:46,519 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:11:46,559 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:11:46,580 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 4
+2015-06-02 14:11:46,580 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=101 cap=4096: 00 00 00 61 AC ED 00 05 73 72 01 00 29 6E 65 74...]
+2015-06-02 14:11:46,602 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 4
+2015-06-02 14:11:46,654 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 4
+2015-06-02 14:29:38,062 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:29:38,136 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:29:38,166 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:29:38,197 NioProcessor-2 WARN org.apache.mina.filter.logging.LoggingFilter - EXCEPTION :
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:29:38,248 NioProcessor-2 WARN org.apache.mina.core.service.IoHandlerAdapter - EXCEPTION, please implement pifii.com.log.test.UDPClient.exceptionCaught() for proper handling:
+java.net.PortUnreachableException: null
+	at sun.nio.ch.DatagramDispatcher.read0(Native Method) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramDispatcher.read(DatagramDispatcher.java:43) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:225) ~[na:1.7.0_17]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:198) ~[na:1.7.0_17]
+	at sun.nio.ch.DatagramChannelImpl.read(DatagramChannelImpl.java:542) ~[na:1.7.0_17]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:311) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.transport.socket.nio.NioProcessor.read(NioProcessor.java:45) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.read(AbstractPollingIoProcessor.java:702) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:668) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.process(AbstractPollingIoProcessor.java:657) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$600(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1121) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:29:38,278 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:29:56,798 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:29:56,834 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:29:56,856 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: 测试数据发送！
+2015-06-02 14:29:56,865 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:29:56,895 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:29:56,920 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:29:56,920 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=22 cap=4096: E6 B5 8B E8 AF 95 E6 95 B0 E6 8D AE E5 8F 91 E9...]
+2015-06-02 14:29:56,947 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:29:57,028 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:30:56,864 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:30:57,010 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:30:57,033 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:31:36,828 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:32:06,897 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:32:06,971 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:06,999 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:32:07,050 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,062 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:32:07,175 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:32:07,175 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,181 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,219 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,231 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,231 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:32:07,286 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,300 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,312 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,367 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,381 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,401 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,447 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,461 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,482 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,536 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,553 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,565 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,585 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,599 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,611 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,625 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,679 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,693 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,705 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,731 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,744 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,757 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,770 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,783 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,796 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,811 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,823 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,878 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,891 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:07,953 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:07,966 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,012 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,025 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,038 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,052 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,064 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,078 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,090 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,104 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,116 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,130 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,142 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,155 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,168 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,182 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,194 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,208 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,220 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,232 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,247 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,260 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,315 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,327 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,353 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,375 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,396 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,418 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,438 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,461 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,481 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,503 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,524 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,546 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,567 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,589 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,609 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,631 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,652 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,674 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,694 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,717 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,751 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,772 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,794 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,815 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,848 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,875 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,905 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,926 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,946 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:08,968 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:08,989 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:32:09,012 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:32:09,032 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:33:09,994 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:33:10,042 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:33:10,070 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:41:04,543 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:41:04,569 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:41:04,589 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=12 cap=4096: 48 65 6C 6C 6F 2C 20 57 6F 72 6C 64]
+2015-06-02 14:41:04,589 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 2
+2015-06-02 14:41:04,610 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 2
+2015-06-02 14:41:04,622 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:42:05,072 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:42:05,114 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 2
+2015-06-02 14:42:05,134 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 2
+2015-06-02 14:42:37,298 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:42:37,317 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:42:37,339 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 3
+2015-06-02 14:42:37,339 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=12 cap=4096: 48 65 6C 6C 6F 2C 20 57 6F 72 6C 64]
+2015-06-02 14:42:37,360 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 3
+2015-06-02 14:42:37,373 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 14:45:35,640 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:45:36,065 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:45:36,112 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,132 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:45:36,147 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,175 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,229 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:45:36,242 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,256 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:45:36,256 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,268 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,280 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:45:36,293 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,293 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,318 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,319 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,338 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,350 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,364 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,376 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,389 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,401 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,414 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,426 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,439 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,452 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,464 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,489 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,503 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,515 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,528 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,540 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,566 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,591 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,617 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,642 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,654 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,665 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,679 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,692 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,704 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,717 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,730 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,741 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,755 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,767 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,779 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,792 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,804 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,818 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,829 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,843 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,855 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,869 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,880 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,893 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,940 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:36,951 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:36,973 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,018 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,031 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: HeapBuffer[pos=0 lim=8 cap=8: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,044 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,069 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,089 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,111 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,131 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,153 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,173 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,197 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,217 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,239 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,260 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,281 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,302 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,322 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,344 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,364 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,386 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,407 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,455 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,484 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,514 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,534 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,554 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,584 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,604 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,626 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,647 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,669 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,692 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,720 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,740 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,762 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,782 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:45:37,804 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=8 cap=4096: 00 00 00 00 0E 02 9E 40]
+2015-06-02 14:45:37,824 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:46:38,136 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:46:38,182 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:46:38,213 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:48:00,327 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:48:00,406 NioProcessor-2 WARN org.apache.mina.util.DefaultExceptionMonitor - Unexpected exception.
+java.nio.BufferOverflowException: null
+	at java.nio.HeapByteBuffer.put(HeapByteBuffer.java:183) ~[na:1.7.0_17]
+	at org.apache.mina.core.buffer.AbstractIoBuffer.put(AbstractIoBuffer.java:642) ~[mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.buffer.AbstractIoBuffer$2.write(AbstractIoBuffer.java:1557) ~[mina-core-2.0.9.jar:na]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1857) ~[na:1.7.0_17]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1766) ~[na:1.7.0_17]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185) ~[na:1.7.0_17]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:346) ~[na:1.7.0_17]
+	at org.apache.mina.core.buffer.AbstractIoBuffer.putObject(AbstractIoBuffer.java:2228) ~[mina-core-2.0.9.jar:na]
+	at pifii.com.log.test.UDPClient.sendData(UDPClient.java:62) ~[bin/:na]
+	at pifii.com.log.test.UDPClient.access$0(UDPClient.java:57) ~[bin/:na]
+	at pifii.com.log.test.UDPClient$1.operationComplete(UDPClient.java:47) ~[bin/:na]
+	at org.apache.mina.core.future.DefaultIoFuture.notifyListener(DefaultIoFuture.java:375) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.future.DefaultIoFuture.notifyListeners(DefaultIoFuture.java:365) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.future.DefaultIoFuture.setValue(DefaultIoFuture.java:288) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.future.DefaultConnectFuture.setSession(DefaultConnectFuture.java:87) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.sessionCreated(DefaultIoFilterChain.java:778) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:913) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:913) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.filter.logging.LoggingFilter.sessionCreated(LoggingFilter.java:220) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$700(DefaultIoFilterChain.java:48) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.sessionCreated(DefaultIoFilterChain.java:913) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterAdapter.sessionCreated(IoFilterAdapter.java:74) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextSessionCreated(DefaultIoFilterChain.java:459) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.fireSessionCreated(DefaultIoFilterChain.java:452) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.service.IoServiceListenerSupport.fireSessionCreated(IoServiceListenerSupport.java:211) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.addNow(AbstractPollingIoProcessor.java:538) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.handleNewSessions(AbstractPollingIoProcessor.java:505) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor.access$400(AbstractPollingIoProcessor.java:67) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.core.polling.AbstractPollingIoProcessor$Processor.run(AbstractPollingIoProcessor.java:1113) [mina-core-2.0.9.jar:na]
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64) [mina-core-2.0.9.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
+	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
+2015-06-02 14:48:00,474 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:48:37,762 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:48:38,097 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:48:38,140 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:48:38,139 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,170 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:48:38,184 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,196 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,196 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 2
+2015-06-02 14:48:38,208 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,220 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,220 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 2
+2015-06-02 14:48:38,232 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,246 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,258 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,271 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,283 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,296 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,351 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,363 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,384 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,396 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,409 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,421 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,434 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,447 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,460 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,471 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,522 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,522 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,548 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,560 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,573 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,585 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,597 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,610 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,623 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,636 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,648 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,661 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,673 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,687 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,711 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,724 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,736 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,749 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,761 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,775 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,787 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,800 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,812 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,824 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,838 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,849 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,863 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,874 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,889 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,900 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,914 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,926 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,938 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,951 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:38,963 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:38,976 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:38,988 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:48:39,002 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,027 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,047 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,068 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,090 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,109 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,132 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,152 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,174 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,194 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,215 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,269 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,331 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,386 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,406 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,428 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,491 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,553 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,582 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,612 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,632 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,652 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,674 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,696 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,767 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,836 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,858 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,887 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,942 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:39,970 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:48:39,991 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:48:40,021 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 14:49:08,801 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:49:09,175 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:49:09,251 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,280 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:49:09,327 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,381 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:49:09,406 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,462 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:49:09,462 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,472 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,494 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:49:09,507 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,552 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,591 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,603 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,628 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,640 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,662 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,673 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,686 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,700 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,752 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,766 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,778 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,867 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,879 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,900 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,912 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,925 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,937 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:09,949 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,962 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:09,974 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:09,987 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,000 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,013 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,025 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,038 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,051 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,062 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,076 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,088 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,101 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,112 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,165 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,165 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,189 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,201 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,223 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,235 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,248 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,260 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,274 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,285 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,297 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,310 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,323 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,336 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,348 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,361 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,373 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,387 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,399 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:49:10,411 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,436 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,460 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,480 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,502 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,523 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,544 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,590 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,612 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,633 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,653 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,675 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,695 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,718 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,738 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,759 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,780 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,802 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,822 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,844 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,864 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,885 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,906 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,927 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,949 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:10,970 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:10,991 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:11,012 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:11,034 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:11,054 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:11,076 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:49:11,096 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:49:11,118 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:50:11,281 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:50:11,331 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:50:11,361 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:51:21,186 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:51:51,230 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:51:51,335 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,361 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:51:51,375 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,404 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,417 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:51:51,444 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:51:51,444 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,454 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,468 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:51:51,480 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,480 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,506 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,507 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,527 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,539 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,553 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,565 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,621 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,633 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,694 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,708 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,720 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,733 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,746 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,760 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,771 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,784 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,797 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,810 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,823 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,836 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,848 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,873 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,886 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,900 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,912 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,927 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,938 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:51,952 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,964 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:51,977 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:51,989 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,001 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,015 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,027 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,040 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,053 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,065 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,077 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,090 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,195 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,209 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,229 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,240 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,254 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,266 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,279 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,291 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,303 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,317 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:51:52,329 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,354 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,376 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,396 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,418 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,438 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,458 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,480 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,500 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,522 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,544 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,564 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,584 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,606 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,626 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,647 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,668 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,688 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,710 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,731 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,752 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,772 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,795 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,814 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,835 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,857 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,877 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,898 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,920 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,940 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:52,962 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:52,995 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:51:53,015 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:51:53,037 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:52:53,358 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:52:53,393 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:52:53,412 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 14:57:46,714 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:58:16,789 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:58:16,849 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,875 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 14:58:16,891 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,918 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,931 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 14:58:16,943 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,959 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 14:58:16,959 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:16,969 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,982 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:16,995 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:16,995 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 14:58:17,009 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,046 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,046 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,077 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,088 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,100 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,113 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,126 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,139 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,152 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,165 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,177 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,191 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,203 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,216 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,242 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,254 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,267 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,279 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,292 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,305 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,318 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,332 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,343 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,356 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,368 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,382 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,394 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,409 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,420 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,433 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,447 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,459 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,473 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,485 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,498 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,510 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,523 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,535 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,547 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,561 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,573 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,586 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,598 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,612 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,623 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,636 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,661 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,674 NioProcessor-2 INFO org.apache.mina.filter.logging.LoggingFilter - SENT: sss
+2015-06-02 14:58:17,722 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,850 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,874 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,896 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,916 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,938 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:17,958 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:17,980 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,000 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,022 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,042 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,063 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,084 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,105 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,126 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,146 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,168 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,188 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,210 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,230 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,251 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,274 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,292 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,315 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,335 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,356 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,377 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,398 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,418 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,439 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,461 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:58:18,481 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=4 cap=4096: 73 73 73 00]
+2015-06-02 14:58:18,503 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 14:59:18,874 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 14:59:18,923 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 14:59:18,954 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
