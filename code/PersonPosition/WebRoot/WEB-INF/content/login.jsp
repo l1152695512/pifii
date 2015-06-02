@@ -67,7 +67,7 @@ body {
 	padding: 10px 0 0 10px !important;
 }
 </style>
-		<script type="text/javascript">
+<!-- 		<script type="text/javascript">
 function onfocus() {
 	document.getElementById('username').focus();
 }
@@ -86,7 +86,7 @@ function checkPassword(){
 		return false;
 	}
 }
-</script>
+</script> -->
 	</head>
 
 	<body onload="onfocus()">
@@ -98,7 +98,7 @@ function checkPassword(){
 </script> </font>
 				</c:if>
 				<form name="LoginForm"
-					action="<c:url value='/j_spring_security_check'/>" method="post" onSubmit="return checkPassword()">
+					action="<c:url value='/j_spring_security_check'/>" method="post" ><!--onSubmit="return checkPassword()"  -->
 					<table width="100%" cellpadding="0" cellspacing="0">
 						<tr>
 							<td class="loginarea">
@@ -156,9 +156,9 @@ function checkPassword(){
 								&nbsp;&nbsp;
 							</td></tr>
 						<tr>
-							<td class="copyright">
+						<!-- 	<td class="copyright">
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;版本信息：广州因孚网络科技有限公司 技术支持
-							</td>
+							</td> -->
 						</tr>
 					</table>
 				</form>

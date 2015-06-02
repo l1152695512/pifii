@@ -389,4 +389,5 @@ public interface SysUserService extends IService<SysUser,java.lang.String> {
 	 * @return 行数
 	 */
 	public int getRowCountByDc(DetachedCriteria dc);
+
 }

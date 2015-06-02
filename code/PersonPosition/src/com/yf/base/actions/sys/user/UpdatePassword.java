@@ -66,7 +66,6 @@ public class UpdatePassword extends UniqueIdActionSupport implements ModelDriven
 			e.printStackTrace();
 			return "failure";
 		}
-		
 		return "success";
 	}
 	@Override

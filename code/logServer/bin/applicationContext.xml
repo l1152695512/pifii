@@ -7,13 +7,11 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver">
 		</property>
 		<property name="url"
-			value="jdbc:mysql://58.67.196.187:3306/ttopyd?useUnicode=true&amp;characterEncoding=utf8">
+			value="jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf8">
 		</property> 
-
 		<property name="username" value="root"></property>
-		<property name="password" value="ifidc@id#0411"></property> 
+		<property name="password" value="ifidc2403"></property> 
 	</bean>
-	<bean id="MyInterceptor" class="com.pifii.dao.CutTable"/>
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
 		<property name="dataSource">
@@ -25,31 +23,31 @@
 					org.hibernate.dialect.MySQLDialect
 				</prop>
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
-<!-- 				<prop key="hibernate.c3p0.max_size">10000</prop>
-				<prop key="hibernate.c3p0.min_size">10</prop>
-				<prop key="hibernate.c3p0.timeout">1800</prop>
-				<prop key="hibernate.c3p0.max_statements">50</prop>
-				<prop key="hibernate.c3p0.idle_test_period">100</prop>
-				<prop key="hibernate.c3p0.acquire_increment">2</prop>
-				<prop key="hibernate.c3p0.validate">false</prop>
-				<prop key="hibernate.jdbc.batch_size">50</prop>
-				<prop key="hibernate.jdbc.fetch_size">100</prop>
-				<prop key="hibernate.connection.release_mode">auto</prop>
-				<prop key="hibernate.connection.isolation">1</prop>
-				<prop key="hibernate.use_outer_join">auto</prop>
-				<prop key="hibernate.max_fetch_depth">1</prop>
-				<prop key="hibernate.connection.provider_class">
-					org.hibernate.connection.C3P0ConnectionProvider
-				</prop>
-				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
-				<prop key="hibernate.cache.use_query_cache">true</prop>
-				<prop key="hibernate.cache.use_structured_entries">true</prop>
-				<prop key="hibernate.cache.use_second_level_cache">true</prop>
-				<prop key="hibernate.current_session_context_class">thread</prop>
-				<prop key="hibernate.jdbc.use_scrollable_resultset">true</prop>
-				<prop key="hibernate.cglib.use_reflection_optimizer">true</prop>
-				<prop key="hibernate.format_sql">true</prop>
-				<prop key="hibernate.show_sql">false</prop> -->
+				<!-- 				<prop key="hibernate.c3p0.max_size">10000</prop>
+					<prop key="hibernate.c3p0.min_size">10</prop>
+					<prop key="hibernate.c3p0.timeout">1800</prop>
+					<prop key="hibernate.c3p0.max_statements">50</prop>
+					<prop key="hibernate.c3p0.idle_test_period">100</prop>
+					<prop key="hibernate.c3p0.acquire_increment">2</prop>
+					<prop key="hibernate.c3p0.validate">false</prop>
+					<prop key="hibernate.jdbc.batch_size">50</prop>
+					<prop key="hibernate.jdbc.fetch_size">100</prop>
+					<prop key="hibernate.connection.release_mode">auto</prop>
+					<prop key="hibernate.connection.isolation">1</prop>
+					<prop key="hibernate.use_outer_join">auto</prop>
+					<prop key="hibernate.max_fetch_depth">1</prop>
+					<prop key="hibernate.connection.provider_class">
+						org.hibernate.connection.C3P0ConnectionProvider
+					</prop>
+					<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+					<prop key="hibernate.cache.use_query_cache">true</prop>
+					<prop key="hibernate.cache.use_structured_entries">true</prop>
+					<prop key="hibernate.cache.use_second_level_cache">true</prop>
+					<prop key="hibernate.current_session_context_class">thread</prop>
+					<prop key="hibernate.jdbc.use_scrollable_resultset">true</prop>
+					<prop key="hibernate.cglib.use_reflection_optimizer">true</prop>
+					<prop key="hibernate.format_sql">true</prop>
+					<prop key="hibernate.show_sql">false</prop> -->
 			</props>
 		</property>
 		<property name="mappingResources">
@@ -58,22 +56,20 @@
 			</list>
 		</property>
 	</bean>
-
 	<bean id="ServerConfig" class="com.ifidc.common.ServerConfig">
 		<property name="ipAddr">
-			<value>113.106.98.60</value>
+			<value>192.168.10.243</value>
 		</property>
 		<property name="port">
 			<value>10000</value>
 		</property>
-				<property name="filter">
+		<property name="filter">
 			<value>.jpg,.png,.css,.js,.gif,.jpeg,.swf</value>
 		</property>
 		<property name="protocol">
 			<value>udp</value>
 		</property>
 	</bean>
-
 	<bean id="TestLog" class="com.TestLog">
 		<property name="deviceNo">
 			<value>11:40:f3:a5:f2:76</value>
@@ -91,7 +87,6 @@
 			<value>http://www.baidu.com</value>
 		</property>
 	</bean>
-
 	<bean id="BpBaseLogTblDAO" class="com.ifidc.persistent.BpBaseLogTblDAO">
 		<property name="sessionFactory">
 			<ref bean="sessionFactory" />
