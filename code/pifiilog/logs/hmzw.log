@@ -854,3 +854,328 @@ java.nio.BufferOverflowException: null
 2015-06-02 14:59:18,874 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
 2015-06-02 14:59:18,923 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
 2015-06-02 14:59:18,954 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 16:06:03,644 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 16:06:03,678 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 16:06:03,702 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 16:06:03,702 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=101 cap=4096: 00 00 00 61 AC ED 00 05 73 72 01 00 29 6E 65 74...]
+2015-06-02 16:06:03,729 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 16:06:03,742 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 16:07:03,644 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 16:07:03,706 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 16:07:03,733 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 17:06:06,286 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 17:06:06,327 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 17:06:06,349 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 17:06:06,349 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=101 cap=4096: 00 00 00 61 AC ED 00 05 73 72 01 00 29 6E 65 74...]
+2015-06-02 17:06:06,375 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 17:06:06,389 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 17:15:37,380 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 17:15:37,408 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 17:15:37,432 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 17:15:37,432 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=15 cap=4096: E6 B5 8B E8 AF 95 E6 96 87 E5 AD 97 41 42 43]
+2015-06-02 17:15:37,459 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 17:15:37,472 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 17:15:57,381 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 17:15:57,405 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 17:15:57,428 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 2
+2015-06-02 17:15:57,428 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=15 cap=4096: E6 B5 8B E8 AF 95 E6 96 87 E5 AD 97 41 42 43]
+2015-06-02 17:15:57,449 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 2
+2015-06-02 17:15:57,462 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 17:16:37,379 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 17:16:37,430 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 17:16:37,459 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 17:16:57,431 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 17:16:57,813 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 2
+2015-06-02 17:16:57,872 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 2
+2015-06-02 17:49:16,881 main DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2015-06-02 17:50:05,390 main DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2015-06-02 17:50:20,764 main DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2015-06-02 17:51:33,808 main DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2015-06-02 17:52:06,953 main DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2015-06-02 18:44:06,561 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:44:07,022 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:44:07,064 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 18:44:07,064 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,089 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 18:44:07,102 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,129 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,129 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=109 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,148 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:07,161 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,185 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,186 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=103 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,186 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,219 pool-2-thread-2 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://cloud-q.duba.net/abc
+2015-06-02 18:44:07,219 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,241 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,241 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,258 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,265 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.99/
+2015-06-02 18:44:07,268 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,292 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,292 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,299 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,312 pool-2-thread-2 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:07,324 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,345 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,349 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,349 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,374 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,374 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:07,396 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,396 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,414 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,421 pool-2-thread-2 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.100/
+2015-06-02 18:44:07,433 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,450 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,568 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,568 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,593 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.110/
+2015-06-02 18:44:07,593 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,631 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,639 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,639 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,664 pool-2-thread-2 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:07,664 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,684 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,684 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,704 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,710 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,710 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.100/
+2015-06-02 18:44:07,738 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,743 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:07,747 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,777 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:07,777 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:07,804 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:07,810 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:07,835 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:05 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:07,861 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:09,834 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=196 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:10,501 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:10,548 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:10,572 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:08 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://singerimage.kugou.com/?r=home/GetSingerImgs&singername=A&sign=12372640&md5=ae4956b7ad35033c1f3645d7ce17a296
+2015-06-02 18:44:10,600 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,461 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,503 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,523 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,523 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=103 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,544 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:11,556 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,576 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,585 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,585 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,607 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,607 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.99/
+2015-06-02 18:44:11,627 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,627 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=109 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,646 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,654 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,654 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:11,690 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,691 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,698 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,712 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://cloud-q.duba.net/abc
+2015-06-02 18:44:11,724 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,743 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,749 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,775 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.100/
+2015-06-02 18:44:11,801 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,809 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,850 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,871 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,892 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.110/
+2015-06-02 18:44:11,933 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:11,946 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:11,967 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:11,988 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:11,988 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=103 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,008 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:12,022 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,040 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,048 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,048 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,075 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,075 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.99/
+2015-06-02 18:44:12,095 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,112 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,120 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:12,129 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,152 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,157 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,183 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,183 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=103 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,204 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,217 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:12,229 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,247 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,254 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.99/
+2015-06-02 18:44:12,285 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,419 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,438 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,460 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,480 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.110/
+2015-06-02 18:44:12,502 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,507 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,521 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,547 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,547 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,567 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:12,581 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,598 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,606 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,606 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,630 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,630 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.100/
+2015-06-02 18:44:12,657 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,664 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,664 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,690 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,690 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:12,719 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,723 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,723 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,748 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:12,748 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,774 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,774 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=105 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,791 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,811 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.100/
+2015-06-02 18:44:12,825 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,842 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,850 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,850 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=104 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,874 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://119.147.146.109/
+2015-06-02 18:44:12,874 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,903 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,907 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=103 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 34...]
+2015-06-02 18:44:12,909 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,933 pool-2-thread-3 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://122.193.207.53/
+2015-06-02 18:44:12,933 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:44:12,960 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:44:12,967 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:44:12,992 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:44:11 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://183.60.153.99/
+2015-06-02 18:44:13,018 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:45:03,224 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:45:03,750 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:45:03,844 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 18:45:03,844 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=123 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 35...]
+2015-06-02 18:45:03,918 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:45:03,929 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 18:45:03,944 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:45:03,968 pool-2-thread-2 DEBUG <clinit> - 日志上报<14>Jun  2 18:45:01 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0|http://cv.duba.net/cvj?&r=2030
+2015-06-02 18:45:04,052 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:45:15,546 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=1759 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 35...]
+2015-06-02 18:45:15,592 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:45:15,623 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a EXCEPTION_CAUGHT event for session 1
+2015-06-02 18:45:15,652 pool-2-thread-2 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 18:45:15,680 pool-2-thread-2 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event EXCEPTION_CAUGHT has been fired for session 1
+2015-06-02 18:45:15,680 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 1
+2015-06-02 18:45:15,722 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 1
+2015-06-02 18:46:27,251 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:46:27,322 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:46:27,360 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 36...]
+2015-06-02 18:46:27,360 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 2
+2015-06-02 18:46:27,381 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:46:27,393 pool-2-thread-3 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 2
+2015-06-02 18:46:27,407 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:46:27,431 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:46:25 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/170835346/170835346/41"
+2015-06-02 18:46:27,473 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:46:27,483 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 36...]
+2015-06-02 18:46:27,538 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:46:27,563 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:46:27,584 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:46:26 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/170835346/170835346/41"
+2015-06-02 18:46:27,625 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:46:46,054 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=257 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 36...]
+2015-06-02 18:46:46,075 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:46:46,097 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:46:46,126 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:46:44 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://163.177.71.192/gchatpic_new/4172491757/4172491757-2922758607-010F76EDD45F2BFF38B8F5A5A43FC4E4/0?vuin=1152695512&term=1
+2015-06-02 18:46:46,167 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:46:50,744 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=157 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 36...]
+2015-06-02 18:46:50,783 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:46:50,805 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:46:50,856 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:46:49 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://cu005.www.duba.net/duba/2011/kcomponent/kcom_commonfast/59c411c6.dat
+2015-06-02 18:46:50,913 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:46:51,138 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=193 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 36...]
+2015-06-02 18:46:51,161 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:46:51,181 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:46:51,229 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:46:49 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://cu005.www.duba.net/duba/2011/kcomponent/kcom_commonfast/kcom_commonfast/5178391d3d923cff2b4f3edbdfb4c11e
+2015-06-02 18:46:51,295 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:47:09,095 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=193 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 37...]
+2015-06-02 18:47:09,126 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 2
+2015-06-02 18:47:09,155 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 2
+2015-06-02 18:47:09,184 pool-2-thread-4 DEBUG <clinit> - 日志上报<14>Jun  2 18:47:07 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://cu005.www.duba.net/duba/2011/kcomponent/kcom_commonfast/kcom_commonfast/2d4008000dab9e470c4c74ec8a63cfc5
+2015-06-02 18:47:09,225 pool-2-thread-4 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 2
+2015-06-02 18:48:09,233 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 18:48:09,287 pool-2-thread-5 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 2
+2015-06-02 18:48:09,317 pool-2-thread-5 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 2
+2015-06-02 18:48:45,242 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:48:45,283 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:48:45,321 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 38...]
+2015-06-02 18:48:45,321 pool-2-thread-5 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 3
+2015-06-02 18:48:45,341 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:48:45,353 pool-2-thread-5 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 3
+2015-06-02 18:48:45,367 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:48:45,392 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:48:43 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/432689079/432689079/41"
+2015-06-02 18:48:45,433 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:48:45,436 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 38...]
+2015-06-02 18:48:45,468 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:48:45,488 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:48:45,509 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:48:44 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/432689079/432689079/41"
+2015-06-02 18:48:45,550 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:48:45,579 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 38...]
+2015-06-02 18:48:45,601 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:48:45,623 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:48:45,642 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:48:44 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/432689079/432689079/41"
+2015-06-02 18:48:45,684 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:48:52,468 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=269 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 38...]
+2015-06-02 18:48:52,852 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:48:52,894 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:48:52,913 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:48:51 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://singerimage.kugou.com/?r=home/GetSingerImgs&singername=2.440318E-3128%A11.647876E-3055%BD0X0.000847FBBECDP-102266.726727E-3126%8C&sign=12370142&md5=afb98bcf9ba49425e4a91d7171b30fc8
+2015-06-02 18:48:52,955 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:49:09,343 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=234 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 39...]
+2015-06-02 18:49:09,385 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:49:09,406 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:49:09,426 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:49:07 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5||http://rtmonitor.kugou.com/Keyword/monitorstat.aspx?Ver=7700&Md5=ca5fddf12c19925f4646afc5aa64f568&State=1&UID=209512838&Type=3000&Os=2&Net=5&Para=0&Op=0
+2015-06-02 18:49:09,467 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:49:27,597 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=257 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 34 39...]
+2015-06-02 18:49:27,654 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 3
+2015-06-02 18:49:27,674 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 3
+2015-06-02 18:49:27,696 pool-2-thread-6 DEBUG <clinit> - 日志上报<14>Jun  2 18:49:26 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://163.177.68.214/gchatpic_new/2049088787/2049088787-2243304043-39BEA31486E79917CA4074C328FCE028/0?vuin=1152695512&term=1
+2015-06-02 18:49:27,770 pool-2-thread-6 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 3
+2015-06-02 18:50:28,295 ExpiringMapExpirer-1 INFO org.apache.mina.filter.logging.LoggingFilter - CLOSED
+2015-06-02 18:50:28,321 pool-2-thread-7 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_CLOSED event for session 3
+2015-06-02 18:50:28,341 pool-2-thread-7 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_CLOSED has been fired for session 3
+2015-06-02 18:54:12,174 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:54:12,229 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:54:12,279 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=565 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 35 34...]
+2015-06-02 18:54:12,279 pool-2-thread-8 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 4
+2015-06-02 18:54:12,303 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 4
+2015-06-02 18:54:12,320 pool-2-thread-8 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 4
+2015-06-02 18:54:12,329 pool-2-thread-9 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 4
+2015-06-02 18:54:12,350 pool-2-thread-9 DEBUG <clinit> - 日志上报<14>Jun  2 18:54:10 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36 QIHU 360SE|http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query&os=win&arch=x86&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=stable&prodversion=31.0.1650.63&x=id%3Dfpdnjdlbdmifoocedhkighhlbchbiikl%26v%3D3.1.4                   4698029c                      0x73ing%3Dr%253D1&os=win&arch=x86&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=stable&prodversion=31.0.1650.63
+2015-06-02 18:54:12,395 pool-2-thread-9 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 4
+2015-06-02 18:54:30,734 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - CREATED
+2015-06-02 18:54:30,774 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - OPENED
+2015-06-02 18:54:30,797 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a SESSION_OPENED event for session 1
+2015-06-02 18:54:30,797 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=357 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 35 34...]
+2015-06-02 18:54:30,833 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event SESSION_OPENED has been fired for session 1
+2015-06-02 18:54:30,844 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:54:30,872 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:54:30,917 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:54:29 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36|http://58.67.196.187:8888/wp-login.php?redirect_to=http0X0.000730047AFADP-10220.0000000.00000058.67.196.1870X0.0013D00000021P-102288880.000000wp-admin0.000000&reauth=1
+2015-06-02 18:54:30,959 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:54:33,559 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=141 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 35 34...]
+2015-06-02 18:54:33,607 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:54:33,636 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:54:33,666 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:54:32 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0|http://rcmd.pop.ijinshan.com/1335/updatefile.xml
+2015-06-02 18:54:33,723 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:54:44,847 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=176 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 35 34...]
+2015-06-02 18:54:45,414 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:54:45,465 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:54:45,492 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:54:43 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://p.qlogo.cn/gh/456838465/456838465/41"
+2015-06-02 18:54:45,575 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
+2015-06-02 18:55:02,166 NioDatagramAcceptor-1 INFO org.apache.mina.filter.logging.LoggingFilter - RECEIVED: HeapBuffer[pos=0 lim=257 cap=4096: 3C 31 34 3E 4A 75 6E 20 20 32 20 31 38 3A 35 35...]
+2015-06-02 18:55:02,393 NioDatagramAcceptor-1 DEBUG org.apache.mina.filter.codec.ProtocolCodecFilter - Processing a MESSAGE_RECEIVED for session 1
+2015-06-02 18:55:02,448 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Firing a MESSAGE_RECEIVED event for session 1
+2015-06-02 18:55:02,475 pool-2-thread-1 DEBUG <clinit> - 日志上报<14>Jun  2 18:55:00 ćŻ process: |witfii:|0100860000002772|08:57:00:33:27:c5|Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)|http://163.177.83.179/gchatpic_new/2160835346/2160835346-2939334835-A706262884B19BC9023ADA5E6470888B/0?vuin=1152695512&term=1
+2015-06-02 18:55:02,517 pool-2-thread-1 DEBUG org.apache.mina.core.filterchain.IoFilterEvent - Event MESSAGE_RECEIVED has been fired for session 1
