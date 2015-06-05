@@ -1,5 +1,6 @@
 package pifii.com.log.udp;
 
+
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.charset.Charset;
@@ -13,6 +14,8 @@ import org.apache.mina.filter.executor.ExecutorFilter;
 import org.apache.mina.filter.logging.LoggingFilter;
 import org.apache.mina.transport.socket.DatagramSessionConfig;
 import org.apache.mina.transport.socket.nio.NioDatagramAcceptor;
+
+import pifii.com.log.udp.LogServerHandler;
 
 public class LogServer {
 	private static final long serialVersionUID = 201506261506L;
@@ -28,9 +31,9 @@ public class LogServer {
 		chain.addLast("codec", new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8"))));
 		chain.addLast("threadPool", new ExecutorFilter(threadPool));
 		DatagramSessionConfig dcfg = acceptor.getSessionConfig();
-		dcfg.setReadBufferSize(4096);// 设置接收最大字节默认2048
-		dcfg.setMaxReadBufferSize(65536);
-		dcfg.setReceiveBufferSize(1024);// 设置输入缓冲区的大小
+		dcfg.setReadBufferSize(94096);// 设置接收最大字节默认2048
+		dcfg.setMaxReadBufferSize(965536);
+		dcfg.setReceiveBufferSize(91024);// 设置输入缓冲区的大小
 		dcfg.setSendBufferSize(1024);// 设置输出缓冲区的大小
 		dcfg.setReuseAddress(true);// 设置每一个非主监听连接的端口可以重用
 		acceptor.bind(new InetSocketAddress(PORT));

@@ -167,7 +167,7 @@
         </connectionSource>
     </appender>
         <logger name="java.sql.Connection">
-        <level value="DEBUG" />
+        <level value="ERROR" />
     </logger>
 <!--
     <logger name="java.sql.Statement">
@@ -205,6 +205,10 @@
     <root level="DEBUG">
         <appender-ref ref="logfile"/>
      	 <appender-ref ref="CONSOLE"/>
+     	 <appender-ref ref="db" />
+    </root>
+    
+     <root level="ERROR">
      	 <appender-ref ref="db" />
     </root>
    <!--

@@ -34,7 +34,7 @@ public class LogServerHandler extends IoHandlerAdapter {
 		String[] logArray = expression.split("witfii:");
 		if (logArray.length >= 2) {
 			     String[] logs = logArray[1].split("\\|");
-			      if (logs.length >= 3) {
+			     	if (logs.length >= 3) {
 			    	String pifiiname = logs[0].trim();
 			        String sn = logs[1].trim();
 					String mac=logs[2].trim();//添加判断去除 无用的00:00:00:00:00MAC地址
@@ -51,7 +51,7 @@ public class LogServerHandler extends IoHandlerAdapter {
 			           type = "iPhone";
 			         isMobile = true;
 		        	}
-		          index = type.indexOf("iPad");
+			       index = type.indexOf("iPad");
 			        if (index > -1) {
 			          type = "iPad";
 			          isMobile = true;
@@ -60,9 +60,15 @@ public class LogServerHandler extends IoHandlerAdapter {
 			        if (!isMobile) {
 			           type = "PC";
 			        }
-	          Connection conn =DBUtilApache.openConn(ResourcesUtil.getVbyKey("dbtype"), ResourcesUtil.getVbyKey("dbbaseurl"), ResourcesUtil.getVbyKey("dbport"), ResourcesUtil.getVbyKey("dbname"), ResourcesUtil.getVbyKey("dbusername"), ResourcesUtil.getVbyKey("dbpassword"));
-		      String s="insert into bpbaselogtbl(device_no,type,input_mac,ip,link,create_date) values ('"+sn+"','"+type+"','"+mac+"','"+0+"','"+url+"',now()) ";
-		      DBUtilApache.update(conn, s, null); 
+			        
+//	          Connection conn =DBUtilApache.openConn(ResourcesUtil.getVbyKey("dbtype"), ResourcesUtil.getVbyKey("dbbaseurl"), ResourcesUtil.getVbyKey("dbport"), ResourcesUtil.getVbyKey("dbname"), ResourcesUtil.getVbyKey("dbusername"), ResourcesUtil.getVbyKey("dbpassword"));
+//		      String s="insert into bpbaselogtbl(device_no,type,input_mac,ip,link,create_date) values ('"+sn+"','"+type+"','"+mac+"','"+0+"','"+url+"',now()) ";
+//		      DBUtilApache.update(conn, s, null); 
+			        
+			      //过滤 image css js
+			        
+			        log.error(expression);
+			        
 			      }
 		}
 	}
