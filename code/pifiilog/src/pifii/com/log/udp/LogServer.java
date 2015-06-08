@@ -16,12 +16,12 @@ import org.apache.mina.transport.socket.DatagramSessionConfig;
 import org.apache.mina.transport.socket.nio.NioDatagramAcceptor;
 
 import pifii.com.log.udp.LogServerHandler;
+import pifii.com.log.util.ResourcesUtil;
 
 public class LogServer {
 	private static final long serialVersionUID = 201506261506L;
 
-	public static final int PORT = 10000;
-
+	public static final int PORT =Integer.valueOf(ResourcesUtil.getVbyKey("port"));
 	public LogServer() throws IOException {
 		NioDatagramAcceptor acceptor = new NioDatagramAcceptor();
 		acceptor.setHandler(new LogServerHandler(this));
