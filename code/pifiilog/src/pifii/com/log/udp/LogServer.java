@@ -23,24 +23,10 @@ public class LogServer {
 
 	public static final int PORT =Integer.valueOf(ResourcesUtil.getVbyKey("port"));
 	public LogServer() throws IOException {
-		NioDatagramAcceptor acceptor = new NioDatagramAcceptor();
-		acceptor.setHandler(new LogServerHandler(this));
-		Executor threadPool = Executors.newCachedThreadPool();
-		DefaultIoFilterChainBuilder chain = acceptor.getFilterChain();
-		chain.addLast("logger", new LoggingFilter());
-		chain.addLast("codec", new ProtocolCodecFilter(new TextLineCodecFactory(Charset.forName("UTF-8"))));
-		chain.addLast("threadPool", new ExecutorFilter(threadPool));
-		DatagramSessionConfig dcfg = acceptor.getSessionConfig();
-		dcfg.setReadBufferSize(94096);// 设置接收最大字节默认2048
-		dcfg.setMaxReadBufferSize(965536);
-		dcfg.setReceiveBufferSize(91024);// 设置输入缓冲区的大小
-		dcfg.setSendBufferSize(1024);// 设置输出缓冲区的大小
-		dcfg.setReuseAddress(true);// 设置每一个非主监听连接的端口可以重用
-		acceptor.bind(new InetSocketAddress(PORT));
-		System.out.println("UDPServer listening on port " + PORT);
-	}
+}
 
 	public static void main(String[] args) throws IOException {
 		new LogServer();
 	}
+	
 }

@@ -5,6 +5,10 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.junit.Test;
 
 /**
  * @author ZYWANG
@@ -30,6 +34,12 @@ public class DUPTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
+	
+	@Test
+	public void fomDate(){
+		SimpleDateFormat sdf=new SimpleDateFormat("_yyyy_MM_dd");
+		System.out.println(sdf.format(new Date()));;
+	}
+	
 }
