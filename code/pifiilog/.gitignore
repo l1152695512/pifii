@@ -1,6 +1,6 @@
 /bin/
 /logs/
-
+/bin/*
 *.class
 .classpath
 .project
