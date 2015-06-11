@@ -13,6 +13,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.expression.ParseException;
 
 import pifii.com.log.util.Log;
+import pifii.com.log.util.ResourcesUtil;
 
 import com.ifidc.common.ApplicationContextHelper;
 import com.ifidc.persistent.BpBaseLogTbl;
@@ -37,7 +38,7 @@ public class LogServerHandler extends IoHandlerAdapter {
 	@Override
 	public void messageReceived(IoSession session, Object message)
 			throws Exception {
-
+		boolean isFlag=true;
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String ds = df.format(new Date());
 		Timestamp tt = null;
@@ -64,7 +65,10 @@ public class LogServerHandler extends IoHandlerAdapter {
 				String type = logs[3].trim();
 				int index = type.indexOf("Android");
 				boolean isMobile = false;
-
+				String urlRep=ResourcesUtil.getVbyKey("url");
+				if(url.contains(urlRep)){
+					isFlag=false;
+				}
 				if (index > -1) {
 					type = "Android";
 					isMobile = true;
@@ -96,7 +100,9 @@ public class LogServerHandler extends IoHandlerAdapter {
 						.getApplicationContext();
 				BpBaseLogTblDAO dao = (BpBaseLogTblDAO) ctx
 						.getBean("BpBaseLogTblDAO");
-				dao.save(bpBaseLogTbl);
+				if(isFlag){
+					dao.save(bpBaseLogTbl);
+				}
 
 			}
 		}

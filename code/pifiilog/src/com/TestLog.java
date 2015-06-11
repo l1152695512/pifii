@@ -13,6 +13,7 @@
 /* 11 */     return this.deviceNo;
 /*    */   }
 /*    */ 
+
 /*    */   public void setDeviceNo(String deviceNo) {
 /* 15 */     this.deviceNo = deviceNo;
 /*    */   }

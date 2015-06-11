@@ -59,7 +59,6 @@
 /*  43 */       throw re;
 /*     */     }
 /*     */   }
-/*     */ 
 /*     */   public void delete(BpBaseLogTbl persistentInstance) {
 /*  48 */     log.debug("deleting BpBaseLogTbl instance");
 /*     */     try {
