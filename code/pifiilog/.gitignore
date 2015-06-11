@@ -1,2 +1,6 @@
-/pifii/
+/bin/
+/logs/
+
 *.class
+.classpath
+.project
