@@ -50,8 +50,3 @@
 /* 47 */     this.link = link;
 /*    */   }
 /*    */ }
-
-/* Location:           D:\cache\windows\Desktop\logServer\
- * Qualified Name:     com.TestLog
- * JD-Core Version:    0.6.0
- */
