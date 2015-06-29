@@ -1,0 +1,10 @@
+/com/
+/db.properties
+/ehcache-shiro.xml
+/ehcache.xml
+/index-sql.xml
+/job.properties
+/log4j.properties
+/setting.properties
+/shiro.ini
+/system-sql.xml
