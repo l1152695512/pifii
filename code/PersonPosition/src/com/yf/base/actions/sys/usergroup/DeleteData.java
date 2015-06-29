@@ -11,7 +11,6 @@ public class DeleteData extends ActionSupport {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
 	private SysUsergroupService sysUsergroupService;
 	private String[] ids;
 	public String[] getIds() {

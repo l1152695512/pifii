@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
-import org.apache.commons.lang.xwork.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.apache.struts2.interceptor.ServletRequestAware;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.security.context.SecurityContextHolder;

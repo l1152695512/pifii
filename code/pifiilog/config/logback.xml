@@ -205,7 +205,6 @@
     <root level="DEBUG">
         <appender-ref ref="logfile"/>
      	 <appender-ref ref="CONSOLE"/>
-     	 <appender-ref ref="db" />
     </root>
     
      <root level="ERROR">

@@ -10,7 +10,7 @@ import com.pifii.dao.CutTableJdbc;
 import com.pifii.util.DateUtil;
 import com.pifii.util.ResourcesUtil;
 public class Table extends TimerTask {
-	private static final Logger log = LoggerFactory.getLogger(Table.class);
+		private static final Logger log = LoggerFactory.getLogger(Table.class);
 	@Override
 	public void run() {
 		log.info("分表日期：day :"+DateUtil.getTabCurrentDay());
@@ -27,6 +27,7 @@ public class Table extends TimerTask {
 				System.out.println(ResourcesUtil.getVbyKey("tablename")+data+":中存在的其他日期："+string);
 				CutTableJdbc.insertTab(ResourcesUtil.getVbyKey("tablename")+DateUtil.getTabCurrentDay(string),ResourcesUtil.getVbyKey("tablename")+data,string);
 				CutTableJdbc.deleteDureTab(ResourcesUtil.getVbyKey("tablename")+data,string);
+				
 			}
 			log.debug("已经删除了表中的其他日期+++++++++++++++++++++++++++");
 			}

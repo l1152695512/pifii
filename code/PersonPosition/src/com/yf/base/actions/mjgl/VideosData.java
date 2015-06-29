@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang.xwork.StringUtils;
 
 import com.opensymphony.xwork2.ActionSupport;
 import com.yf.tradecontrol.GlobalVar;

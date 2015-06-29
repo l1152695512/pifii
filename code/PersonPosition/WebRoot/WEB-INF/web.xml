@@ -59,9 +59,10 @@
 		<filter-name>exitFilter</filter-name>
 		<filter-class>com.yf.servlet.filter.ExitFilterChainFilter</filter-class>
 	</filter>
+	<!--org.apache.struts2.dispatcher.FilterDispatcher-->
 	<filter>
 		<filter-name>struts2</filter-name>
-		<filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>openSessionInViewFilterDelegate</filter-name>

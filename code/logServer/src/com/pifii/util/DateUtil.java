@@ -753,7 +753,8 @@ public class DateUtil {
     }
     
     public static void main(String[] args) {
-		System.out.println(getTabYesterDay());
+//		System.out.println(getTabYesterDay());
+		System.out.println(getTabDay().replace("-", "_"));
 	}
     public static String getLastDay(int day) {
         java.util.Date yestoday = new java.util.Date(new java.util.Date().getTime() - 1000 * 60

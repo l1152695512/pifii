@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import javax.sql.RowSet;
 
 import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.xwork.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.security.context.SecurityContextHolder;
 
 import com.opensymphony.xwork2.ActionContext;

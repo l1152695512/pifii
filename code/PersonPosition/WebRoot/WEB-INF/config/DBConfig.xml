@@ -16,12 +16,11 @@
 		<type>mysql</type>
 		<driver>com.mysql.jdbc.Driver</driver>
 		
-		<url>jdbc:mysql://58.67.196.187:3306/person?useUnicode=true&amp;characterEncoding=utf8</url>
+		<url>jdbc:mysql://113.106.98.11:3306/person?useUnicode=true&amp;characterEncoding=utf8</url>
 		<!--	<url>jdbc:mysql://localhost:3306/person</url>	-->
 		<!-- 	<url>jdbc:mysql://113.106.98.60:3306/person_position?useUnicode=true&amp;characterEncoding=utf8</url> -->
 		<username>root</username>
-		<password>admin123</password>
+		<password>ifidc2403</password>
 		<maxconn>500</maxconn>
-		
 	</pool>
 </db-config>

@@ -27,8 +27,6 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/css/plugin/iPicture.css"/>"/>
 	<link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/css/plugin/tango/skin.css"/>"/>
 	<link rel="stylesheet" type="text/css" media="screen" href="<c:url value="/css/plugin/jquery.classyslider.css"/>"/>
-	
-	
 	<script type="text/javascript" src="<c:url value="/fusionChartsJs/FusionCharts.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/fusionChartsJs/FusionChartsExportComponent.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/fusionChartsJs/prettify.js"/>"></script>
@@ -46,7 +44,6 @@
 	<script type="text/javascript" src="<c:url value="/script/ext/PortalColumn.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/script/ext/Portlet.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/script/ext/messageWindow.js"/>"></script>
-	<script type="text/javascript" src="<c:url value="/script/ext/plugin/Ext.ux.grid.RowActions.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/script/ext/GMapPanel.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/script/ext/examples.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/ext/bug-fix.js"/>"></script>
@@ -89,7 +86,6 @@
 	</script>
 
 	<style type="css/text">
-
 	</style>	
   </head>
   <body>
@@ -100,7 +96,6 @@
 	<input type="hidden" name="accountName" id="accountName" value="${accountName}" />
 	<input type="hidden" name="ccflowip" id="ccflowip" value="${ccflowip}" />
   	<div class="top_body" id="header">
-
   	</div>
   </body>
 </html>

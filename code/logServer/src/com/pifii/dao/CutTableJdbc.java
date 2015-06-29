@@ -85,6 +85,32 @@ public class CutTableJdbc {
 	}
 	/**
 	 * 
+	 * @param newtab 插入数据的表
+	 * @param outerday 取数据的表
+	 * @param outerdayday 条件 create_date eg:2015-01-01
+	 */
+	public static void insertTabLimit(String newtab,String outerday,String newtabday){
+		try {
+			stmt = conn.createStatement();
+			String sql = "insert into  "+newtab+" (device_no,type,input_mac,ip,link,create_date) select device_no,type,input_mac,ip,link,create_date from "+outerday+" where create_date  like '"+newtabday+"%' limit 1; " ; 
+			log.info("插入数据库的SQL"+sql);
+			stmt.executeUpdate(sql);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	public static void deleteTabLimit(String outerday,String newtabday){
+		try {
+			stmt = conn.createStatement();
+			String sql = "delete	 from "+outerday+" where create_date  like '"+newtabday+"%' limit 1; " ; 
+			log.info("插入数据库的SQL"+sql);
+			stmt.executeUpdate(sql);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * 
 		创建时间：   2015年1月4日
 		创建人： liting 
 	 * isHere(判断表中的数据是否存在 ：可以加where条件)    
@@ -127,6 +153,34 @@ public class CutTableJdbc {
 			e.printStackTrace();
 		}
 		return lt;
+}
+	public static List<String> getReplace(String tab){
+		List<String> lt=new ArrayList<String>();
+		try {
+			String sql = "select DATE_FORMAT(create_date,'%Y-%m-%d') as datatime from "+tab+"  group by datatime  " ; 
+			PreparedStatement 	Prestmt = conn.prepareStatement(sql);
+			ResultSet  res= Prestmt.executeQuery();
+			while(res.next()){
+				lt.add(res.getString(1));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return lt;
+}
+	public static Integer selectDateTab(String tab,String date){
+		int a=0;
+		try {
+			String sql = "select count(*) from "+tab+" where create_date like '"+date+"%' " ; 
+			PreparedStatement 	Prestmt = conn.prepareStatement(sql);
+			ResultSet  res= Prestmt.executeQuery();
+			while(res.next()){
+				a=res.getInt(1);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return a;
 }
 	/**
 	 * 

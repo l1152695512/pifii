@@ -3,10 +3,15 @@
 /*     */ import java.util.List;
 
 /*     */ import org.hibernate.LockMode;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
 /*     */ import org.slf4j.Logger;
 /*     */ import org.slf4j.LoggerFactory;
 /*     */ import org.springframework.context.ApplicationContext;
 /*     */ import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+
+import pifii.com.log.dao.hibernate.ChangeNamingStrategy;
 
 /*   import com.pifii.dao.CutTable;
   */ 
@@ -52,7 +57,12 @@
 /*     */   {
 /*  37 */     log.debug("saving BpBaseLogTbl instance");
 /*     */     try {
-				super.getHibernateTemplate().save(transientInstance);
+/*	 Configuration cfg = new Configuration().setNamingStrategy(ChangeNamingStrategy.INSTANCE);//.addFile("bpbaselogtbl");
+	 cfg.configure();
+	 SessionFactory sf=cfg.buildSessionFactory();
+	 Session se=sf.openSession();
+	 se.save(transientInstance);*/
+				super.getHibernateTemplate().save(transientInstance);//
 /*  40 */       log.debug("save successful");
 /*     */     } catch (RuntimeException re) {
 /*  42 */       log.error("save failed", re);

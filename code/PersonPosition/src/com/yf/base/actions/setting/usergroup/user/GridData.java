@@ -3,7 +3,7 @@ package com.yf.base.actions.setting.usergroup.user;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.lang.xwork.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Order;

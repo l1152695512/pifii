@@ -8,7 +8,7 @@ import java.util.List;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
-import org.apache.commons.lang.xwork.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.hibernate.criterion.Restrictions;
 
 import com.opensymphony.xwork2.ActionSupport;

@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import org.apache.commons.dbutils.DbUtils;
-import org.apache.log4j.net.SMTPAppender;
 
 import com.pifii.util.DBUtil;
 import com.pifii.util.Log;
@@ -76,13 +75,14 @@ public class CutTableJdbc {
 	public static void insertTab(String newtab,String outerday,String outerdayday){
 		try {
 			stmt = conn.createStatement();
-			String sql = "insert into  "+newtab+" (device_no,type,input_mac,ip,link,create_date) select device_no,type,input_mac,ip,link,create_date from "+outerday+" where create_date  like '"+outerdayday+"%'; " ; 
+			String sql = "insert into  "+newtab+" (device_no,type,input_mac,ip,link,create_date) select device_no,type,input_mac,ip,link,create_date from "+outerday+" where create_date  like '"+outerdayday+"%' order by create_date limit 1;" ; 
 			log.info("插入数据库的SQL"+sql);
 			stmt.executeUpdate(sql);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 	}
+	
 	/**
 	 * 
 		创建时间：   2015年1月4日
@@ -132,6 +132,29 @@ public class CutTableJdbc {
 	 * 
 		创建时间：   2015年1月4日
 		创建人： liting 
+	 * isHere(判断表中的数据是否存在 ：可以加where条件)    
+	 * @param   tab 表名称  day 日期 【规定  ：用作判断表中的日期：】    
+	 * @Exception 异常对象    
+	 * @since  CodingExample　Ver(编码范例查看) 1.1
+	 */
+	public static List<String> getReplace(String tab){
+		List<String> lt=new ArrayList<String>();
+		try {
+			String sql = "select DATE_FORMAT(create_date,'%Y-%m-%d') as datatime from "+tab+" group by create_date  " ; 
+			PreparedStatement 	Prestmt = conn.prepareStatement(sql);
+			ResultSet  res= Prestmt.executeQuery();
+			while(res.next()){
+				lt.add(res.getString(1));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return lt;
+}
+	/**
+	 * 
+		创建时间：   2015年1月4日
+		创建人： liting 
 	 * insertTab(指定要插入的表的数据（都是select出来的：） 要插入的字段  例如：device_no,type,input_mac,ip,link,create_date )  不适合批量插入 【一次执行 要么成功要么失败】  
 	 * @param   name    
 	 * @Exception 异常对象    
@@ -162,6 +185,16 @@ public class CutTableJdbc {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+	public static void createtables(String tabname){
+		try {
+			stmt=conn.createStatement();
+			String sql="REATE TABLE `"+tabname+"` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `device_no` varchar(40) DEFAULT NULL COMMENT '设备编号', `type` varchar(10) DEFAULT NULL COMMENT '手机类型',`input_mac` varchar(50) DEFAULT NULL COMMENT '接入设备mac',`ip` varchar(20) DEFAULT NULL,`link` longtext COMMENT '访问地址', `create_date` datetime DEFAULT NULL,PRIMARY KEY (`id`)) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
+			stmt.executeUpdate(sql);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	
 	}
 	
 	
