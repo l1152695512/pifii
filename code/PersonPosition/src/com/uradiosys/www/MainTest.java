@@ -8,7 +8,7 @@ import com.uradiosys.www.ServiceApiStub.GetTagStatusResult;
 
 public class MainTest {
 	public static void main(String[] args) throws RemoteException {
-		 
+		
 		 ServiceApiStub serviceApiStub= new ServiceApiStub();
 		 GetTagStatus object = new GetTagStatus();
 //		 object.setTagMac("B0:8E:1A:31:03:3C");

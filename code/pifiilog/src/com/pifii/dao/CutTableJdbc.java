@@ -169,6 +169,7 @@ public class CutTableJdbc {
 			e.printStackTrace();
 		}
 	}
+	
 	/**
 		创建时间：   2015年1月4日
 		创建人： liting 
@@ -186,6 +187,7 @@ public class CutTableJdbc {
 			e.printStackTrace();
 		}
 	}
+	
 	public static void createtables(String tabname){
 		try {
 			stmt=conn.createStatement();
@@ -194,8 +196,5 @@ public class CutTableJdbc {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-	
 	}
-	
-	
 }

@@ -63,6 +63,7 @@ public class UploadAction extends ActionSupport implements ServletRequestAware,S
 		this.msg = msg;
 	}
 
+	
 	public int getSizeThreshold() {
 		return sizeThreshold;
 	}

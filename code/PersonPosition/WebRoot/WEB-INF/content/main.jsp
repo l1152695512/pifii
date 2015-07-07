@@ -9,7 +9,7 @@
 	<meta http-equiv="expires" content="0">
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/themes/${theme}/resources/css/ext-all.css"/>" />
+	<link rel="stylesheet" type="text/css" href="<c:url value="/resources/themes/20/resources/css/ext-all.css"/>" />
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/main.css"/>" />
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>" />
 	<link rel="stylesheet" type="text/css" href="<c:url value="/hr/css/map.css"/>" />
@@ -66,7 +66,6 @@
 	<script type="text/javascript" src="<c:url value="/script/jquery/jquery.jcarousel.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/script/jquery/spryMap-2.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/script/jquery/jquery.classyslider.js"/>"></script>
-	
 	<!-- 百度地图 -->
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=XpGabbd4W3nxxzOi4WCu03yt"></script>
 	<!--加载鼠标绘制工具-->
@@ -77,7 +76,6 @@
 	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
 	<!--gps坐标转百度坐标-->
 	<script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
-	
 	<script type="text/javascript" src="http://union.mapbar.com/apis/maps/free?f=mapi&v=31.3&k=aCW9cItqL7sqT7AxaB0zdHZoZSWmbBsuT7JhMHTsMeD6ZIl9NzFsZHT=@JBL979@Iu7lJJZWWq0IDu9xZMzMxq7I9AhH7LAAA6hqzZHZZLTbZZauxlDz7C7DD9ZCFGT="></script>
 	<script type="text/javascript" src="<c:url value="/script/jquery/jquery.jplayer.min.js"/>"></script>
 	<script type="text/javascript">

@@ -22,7 +22,4 @@ public class TimerCutTab {
 		time.schedule(new Table(), DateUtil.getTimerRual(shi, fen),foreach);//每天执行
 		log.info("分表时间"+DateUtil.getTimerRual(shi, fen));
 	}
-	public static void main(String[] args) {
-		//	 new TimerCutTab();
-	}
 }

@@ -1,0 +1,1511 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib
+END
+httpcore-nio-4.0-beta1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/httpcore-nio-4.0-beta1.jar
+END
+isag-b-lcs-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-lcs-notification.jar
+END
+isap-ftpsclient.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-ftpsclient.jar
+END
+isap-template.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-template.jar
+END
+isap-sdo-ws.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-sdo-ws.jar
+END
+soapmonitor-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/soapmonitor-1.4.1.jar
+END
+geronimo-annotation_1.0_spec-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/geronimo-annotation_1.0_spec-1.1.jar
+END
+jasperreports-3.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jasperreports-3.7.6.jar
+END
+isap-schemas.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-schemas.jar
+END
+cxf-2.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/cxf-2.1.2.jar
+END
+commons-jci-eclipse-3.2.0.666.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-jci-eclipse-3.2.0.666.jar
+END
+jettison-1.0-RC2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jettison-1.0-RC2.jar
+END
+commons-dbcp-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-dbcp-1.3.jar
+END
+axis2-java2wsdl-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-java2wsdl-1.4.1.jar
+END
+unoil-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/unoil-3.0.1.jar
+END
+bme-dict.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-dict.jar
+END
+xwork-core-2.3.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xwork-core-2.3.24.jar
+END
+isagb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isagb.jar
+END
+struts2-convention-plugin-2.3.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/struts2-convention-plugin-2.3.24.jar
+END
+axis2-codegen-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-codegen-1.4.1.jar
+END
+fcexporthandler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/fcexporthandler.jar
+END
+commons-chain-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-chain-1.1.jar
+END
+hessian-3.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/hessian-3.1.3.jar
+END
+javamelody.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/javamelody.jar
+END
+prt-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/prt-core.jar
+END
+axis2-jws-api-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-jws-api-1.4.1.jar
+END
+iTextAsianCmaps.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/iTextAsianCmaps.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jxl.jar
+END
+xml-resolver-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xml-resolver-1.2.jar
+END
+juel-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/juel-impl.jar
+END
+backport-util-concurrent-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/backport-util-concurrent-3.1.jar
+END
+struts2-core-2.3.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/struts2-core-2.3.24.jar
+END
+isag-m-sms-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-sms-notification.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/log4j-1.2.15.jar
+END
+isag-b-sms.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-sms.jar
+END
+isag-m-wap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-wap.jar
+END
+bme-console.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-console.jar
+END
+jodconverter-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jodconverter-2.2.2.jar
+END
+commons-attributes-api-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-attributes-api-2.2.jar
+END
+isap-export_import.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-export_import.jar
+END
+bonecp-0.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bonecp-0.7.0.jar
+END
+jibx-bind-1.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jibx-bind-1.1.5.jar
+END
+sqljdbc4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/sqljdbc4.jar
+END
+struts2-spring-plugin-2.3.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar
+END
+data.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/data.jar
+END
+isap-metadata.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-metadata.jar
+END
+isap-timer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-timer.jar
+END
+isag-m-sms.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-sms.jar
+END
+bme-adaptors.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-adaptors.jar
+END
+asm-2.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/asm-2.2.3.jar
+END
+bme-i18n.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-i18n.jar
+END
+spring-webmvc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-webmvc.jar
+END
+isag-b-sms-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-sms-notification.jar
+END
+isag-m-wap-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-wap-notification.jar
+END
+mex-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/mex-1.4.1.jar
+END
+isap-jboss-cache-1.4.0SP1-xsd.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-jboss-cache-1.4.0SP1-xsd.jar
+END
+flex-messaging-remoting.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-messaging-remoting.jar
+END
+axis2-json-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-json-1.4.1.jar
+END
+jmx.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jmx.jar
+END
+juel-engine.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/juel-engine.jar
+END
+sqlprofiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/sqlprofiler.jar
+END
+bme-objpool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-objpool.jar
+END
+jtds-1.2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jtds-1.2.5.jar
+END
+xmlbeans-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xmlbeans-2.3.0.jar
+END
+c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/c3p0-0.9.1.2.jar
+END
+axis2-saaj-api-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-saaj-api-1.4.1.jar
+END
+jaxb-xjc-2.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxb-xjc-2.1.6.jar
+END
+iTextAsian.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/iTextAsian.jar
+END
+msbase.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/msbase.jar
+END
+isag-b-fax.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-fax.jar
+END
+commons-configuration-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-configuration-1.3.jar
+END
+axis2-mtompolicy-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-mtompolicy-1.4.1.jar
+END
+isap-sdo.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-sdo.jar
+END
+jaxb-impl-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxb-impl-2.0.1.jar
+END
+commons-io-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-io-1.4.jar
+END
+httpcore-4.0-beta1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/httpcore-4.0-beta1.jar
+END
+jsf-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jsf-impl.jar
+END
+p6spy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/p6spy.jar
+END
+bme-log.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-log.jar
+END
+commons-digester-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-digester-1.8.jar
+END
+bme-container.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-container.jar
+END
+axis2-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-1.4.1.jar
+END
+bme-remoting.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-remoting.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-httpclient-3.1.jar
+END
+isap-alarm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-alarm.jar
+END
+mssqlserver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/mssqlserver.jar
+END
+flex-rds-server.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-rds-server.jar
+END
+slf4j-jcl-1.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/slf4j-jcl-1.6.0.jar
+END
+common-lang3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/common-lang3.jar
+END
+bme-netlicense.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-netlicense.jar
+END
+commons-jci-core-1.0-406301.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-jci-core-1.0-406301.jar
+END
+see-b.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/see-b.jar
+END
+commons-validator-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-validator-1.3.1.jar
+END
+axis2-transport-http-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-transport-http-1.6.1.jar
+END
+hibernate-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/hibernate-tools.jar
+END
+flex-messaging-common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-messaging-common.jar
+END
+bme-trace.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-trace.jar
+END
+bme-protocol.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-protocol.jar
+END
+aspectjweaver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/aspectjweaver.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+struts2-jasperreports-plugin-2.3.24.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/struts2-jasperreports-plugin-2.3.24.jar
+END
+saxpath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/saxpath.jar
+END
+mex-1.41-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/mex-1.41-impl.jar
+END
+commons-dbutils-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-dbutils-1.3.jar
+END
+bme-lds.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-lds.jar
+END
+isag-m-location.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-location.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/hibernate3.jar
+END
+woden-api-1.0M8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/woden-api-1.0M8.jar
+END
+geronimo-stax-api_1.0_spec-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/geronimo-stax-api_1.0_spec-1.0.1.jar
+END
+isap-compressionutilities.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-compressionutilities.jar
+END
+ridl-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/ridl-3.0.1.jar
+END
+pass-platform.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/pass-platform.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/antlr-2.7.7.jar
+END
+asm-commons-2.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/asm-commons-2.2.3.jar
+END
+jsf-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jsf-api.jar
+END
+json-lib-2.3-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar
+END
+comm-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/comm-impl.jar
+END
+comm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/comm.jar
+END
+bme-systemmgr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-systemmgr.jar
+END
+core-renderer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/core-renderer.jar
+END
+commons-jci-janino-2.4.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-jci-janino-2.4.3.jar
+END
+commons-fileupload-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-fileupload-1.3.jar
+END
+isap-validatorparser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-validatorparser.jar
+END
+bme-alarm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-alarm.jar
+END
+flex-messaging-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-messaging-core.jar
+END
+axis2-ant-plugin-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-ant-plugin-1.4.1.jar
+END
+axis2-saaj-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-saaj-1.4.1.jar
+END
+quartz-all-1.8.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/quartz-all-1.8.3.jar
+END
+bme-patrol.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-patrol.jar
+END
+ehcache-core-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/ehcache-core-2.2.0.jar
+END
+axis2-metadata-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-metadata-1.4.1.jar
+END
+isap-basicutilities.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-basicutilities.jar
+END
+aopalliance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/aopalliance.jar
+END
+bme-das.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-das.jar
+END
+isag-b-location.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-location.jar
+END
+bme-taskmgr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-taskmgr.jar
+END
+avalon-framework-4.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/avalon-framework-4.2.0.jar
+END
+axis2-adb-codegen-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-adb-codegen-1.4.1.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-discovery-0.2.jar
+END
+msutil.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/msutil.jar
+END
+spring-security-core-2.0.6.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-security-core-2.0.6.RELEASE.jar
+END
+bmp-jboss-secure.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bmp-jboss-secure.jar
+END
+isap-dps.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-dps.jar
+END
+htmlparser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/htmlparser.jar
+END
+fcexporter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/fcexporter.jar
+END
+bme-concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-concurrent.jar
+END
+commons-pool-1.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-pool-1.5.4.jar
+END
+commons-codec-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-codec-1.3.2.jar
+END
+axis2-spring-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-spring-1.4.1.jar
+END
+jaxb-impl-2.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxb-impl-2.1.6.jar
+END
+axis2-jaxws-api-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-jaxws-api-1.4.1.jar
+END
+axiom-api-1.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axiom-api-1.2.7.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jdom.jar
+END
+poi-3.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/poi-3.6.jar
+END
+axis2-xmlbeans-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-xmlbeans-1.4.1.jar
+END
+jmock-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jmock-1.0.1.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/aspectjrt.jar
+END
+isagm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isagm.jar
+END
+axis2-jaxbri-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-jaxbri-1.4.1.jar
+END
+axis2-clustering-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-clustering-1.4.1.jar
+END
+axis2-kernel-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-kernel-1.4.1.jar
+END
+ctcuae.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/ctcuae.jar
+END
+pinyin4j-2.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/pinyin4j-2.5.0.jar
+END
+srds-jdbc-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/srds-jdbc-1.0.0.jar
+END
+isag-m-mms.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-mms.jar
+END
+jstl-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jstl-1.2.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jta-1.1.jar
+END
+xml-apis-1.3.04.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xml-apis-1.3.04.jar
+END
+annogen-0.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/annogen-0.1.0.jar
+END
+XmlSchema-1.4.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/XmlSchema-1.4.2.jar
+END
+jaxen-1.1-beta-9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxen-1.1-beta-9.jar
+END
+bme-basic.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-basic.jar
+END
+juh-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/juh-3.0.1.jar
+END
+spring-security-acl-2.0.6.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-security-acl-2.0.6.RELEASE.jar
+END
+jbpm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jbpm.jar
+END
+mysql-connector-java-5.1.7-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pifii/!svn/ver/2091/PersonPosition/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar
+END
+axiom-dom-1.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axiom-dom-1.2.7.jar
+END
+barcode4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/barcode4j.jar
+END
+freemarker-2.3.22.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/freemarker-2.3.22.jar
+END
+commons-el-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-el-1.0.jar
+END
+GCU_javalib.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/GCU_javalib.jar
+END
+commons-attributes-compiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-attributes-compiler.jar
+END
+axis2-corba-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-corba-1.4.1.jar
+END
+axis2-adb-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-adb-1.4.1.jar
+END
+wsdl4j-1.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/wsdl4j-1.6.2.jar
+END
+cfgatewayadapter.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/cfgatewayadapter.jar
+END
+utilities.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/utilities.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+isap-commonutilities.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-commonutilities.jar
+END
+jacob.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jacob.jar
+END
+axis2-jibx-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-jibx-1.4.1.jar
+END
+axis2-jaxws-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-jaxws-1.4.1.jar
+END
+axiom-impl-1.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axiom-impl-1.2.7.jar
+END
+jurt-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jurt-3.0.1.jar
+END
+xstream-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xstream-1.3.1.jar
+END
+concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/concurrent.jar
+END
+mail-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/mail-1.4.jar
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar
+END
+cas-client-core-3.1.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/cas-client-core-3.1.10.jar
+END
+bme-om-util.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-om-util.jar
+END
+jdt-compiler-3.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jdt-compiler-3.1.1.jar
+END
+flex-messaging-proxy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-messaging-proxy.jar
+END
+jcom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jcom.jar
+END
+jaxb-api-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxb-api-2.1.jar
+END
+bme-encryption.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-encryption.jar
+END
+isag-m-mms-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-m-mms-notification.jar
+END
+activation-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/activation-1.1.jar
+END
+PSUPResource.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/PSUPResource.jar
+END
+iText-2.0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/iText-2.0.8.jar
+END
+jaxen-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxen-1.1.1.jar
+END
+ognl-3.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/ognl-3.0.6.jar
+END
+bme-performance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-performance.jar
+END
+isag-b-fax-notification.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isag-b-fax-notification.jar
+END
+javassist-3.9.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/javassist-3.9.0.GA.jar
+END
+logservice.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/logservice.jar
+END
+xalan.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xalan.jar
+END
+htmllexer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/htmllexer.jar
+END
+xalan-2.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xalan-2.7.0.jar
+END
+see-m.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/see-m.jar
+END
+jalopy-1.5rc3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jalopy-1.5rc3.jar
+END
+spring-security-cas-client-2.0.6.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-security-cas-client-2.0.6.RELEASE.jar
+END
+axis2-fastinfoset-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/axis2-fastinfoset-1.4.1.jar
+END
+isap-bme-adaptors.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-bme-adaptors.jar
+END
+flex-messaging-opt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/flex-messaging-opt.jar
+END
+jmxremote.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jmxremote.jar
+END
+spring-security-taglibs-2.0.6.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-security-taglibs-2.0.6.RELEASE.jar
+END
+neethi-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/neethi-2.0.4.jar
+END
+commons-cli-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-cli-1.0.jar
+END
+jsr173_api-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jsr173_api-1.0.jar
+END
+cglib-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/cglib-2.2.jar
+END
+spring-test.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring-test.jar
+END
+xercesImpl-2.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/xercesImpl-2.8.1.jar
+END
+bme-license.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-license.jar
+END
+google-collections-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/google-collections-1.0.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar
+END
+isap-logudp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-logudp.jar
+END
+wstx-asl-3.2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/wstx-asl-3.2.4.jar
+END
+slf4j-api-1.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/slf4j-api-1.6.0.jar
+END
+woden-impl-dom-1.0M8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/woden-impl-dom-1.0M8.jar
+END
+bme-mock.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/bme-mock.jar
+END
+jrobin-1.5.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jrobin-1.5.9.1.jar
+END
+asm-util-2.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/asm-util-2.2.3.jar
+END
+isap-threadpool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/isap-threadpool.jar
+END
+commons-lang-2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-lang-2.5.jar
+END
+jibx-run-1.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jibx-run-1.1.5.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar
+END
+backport-util-concurrent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/backport-util-concurrent.jar
+END
+groovy-all-1.7.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/groovy-all-1.7.5.jar
+END
+jaxb-xjc-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/jaxb-xjc-2.0.1.jar
+END
+spring.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pifii/!svn/ver/2089/PersonPosition/WebRoot/WEB-INF/lib/spring.jar
+END
